@@ -1,0 +1,18 @@
+uuid: 0c2573d3-661a-41e4-8ae8-f620ffe7fd02
+langcode: en
+status: true
+dependencies: {  }
+id: f__hum_mad_obj__title
+name: Title
+path_array:
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/240307/P102_has_title'
+  - 'http://erlangen-crm.org/240307/E35_Title'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,16 @@
+uuid: 212358d3-f7f2-4c31-abb7-fbc2d11c48f6
+langcode: en
+status: true
+dependencies: {  }
+id: g__source
+name: Source
+path_array:
+  - 'http://wiss-ki.eu/ontology/1.2.0/Source'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

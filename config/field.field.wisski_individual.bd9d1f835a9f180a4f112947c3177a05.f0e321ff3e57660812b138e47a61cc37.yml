@@ -1,0 +1,23 @@
+uuid: ab323404-2e3c-4951-8f5d-5617cd067686
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f0e321ff3e57660812b138e47a61cc37
+    - wisski_core.wisski_bundle.bd9d1f835a9f180a4f112947c3177a05
+id: wisski_individual.bd9d1f835a9f180a4f112947c3177a05.f0e321ff3e57660812b138e47a61cc37
+field_name: f0e321ff3e57660812b138e47a61cc37
+entity_type: wisski_individual
+bundle: bd9d1f835a9f180a4f112947c3177a05
+label: Day
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

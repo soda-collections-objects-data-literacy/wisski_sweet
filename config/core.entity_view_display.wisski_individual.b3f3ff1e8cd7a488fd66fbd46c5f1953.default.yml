@@ -1,0 +1,38 @@
+uuid: b2e6e1d7-03b1-400a-9bf7-695b3d73f176
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b3f3ff1e8cd7a488fd66fbd46c5f1953.f08f9ef50c0e79915e4f7ca027546cc9
+    - field.field.wisski_individual.b3f3ff1e8cd7a488fd66fbd46c5f1953.fec4194ed3c5eb93a48be478c266e385
+    - wisski_core.wisski_bundle.b3f3ff1e8cd7a488fd66fbd46c5f1953
+  module:
+    - wisski_adapter_sparql11_pb
+id: wisski_individual.b3f3ff1e8cd7a488fd66fbd46c5f1953.default
+targetEntityType: wisski_individual
+bundle: b3f3ff1e8cd7a488fd66fbd46c5f1953
+mode: default
+content:
+  f08f9ef50c0e79915e4f7ca027546cc9:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  fec4194ed3c5eb93a48be478c266e385:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 24
+    region: content
+hidden:
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

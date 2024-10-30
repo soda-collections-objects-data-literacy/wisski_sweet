@@ -1,0 +1,18 @@
+uuid: 74304e53-8a76-4594-8249-b241854c1afd
+langcode: en
+status: true
+dependencies: {  }
+id: f__source__author_information
+name: 'Author Information'
+path_array:
+  - 'http://wiss-ki.eu/ontology/1.2.0/Source'
+  - 'http://erlangen-crm.org/240307/P12i_was_present_at'
+  - 'http://erlangen-crm.org/240307/E5_Event'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,10 @@
+name: 'WissKI Yeast'
+description: 'WissKI environment with default data model.'
+type: 'Site'
+
+recipes:
+  - wisski_grain
+
+config:
+  import:
+    wisski: "*"

@@ -1,0 +1,24 @@
+uuid: 648f79ee-6dbf-48e7-b724-f422ca58ac86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f57c799b66a573ab105a93fbd8884b16
+    - wisski_core.wisski_bundle.b3abeaeb21037a930e9d1ef438080dde
+    - wisski_core.wisski_bundle.be89c84bf729f8e135e2e7b5936f1a44
+id: wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.f57c799b66a573ab105a93fbd8884b16
+field_name: f57c799b66a573ab105a93fbd8884b16
+entity_type: wisski_individual
+bundle: be89c84bf729f8e135e2e7b5936f1a44
+label: 'Producer (Group)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b3abeaeb21037a930e9d1ef438080dde: b3abeaeb21037a930e9d1ef438080dde
+field_type: entity_reference

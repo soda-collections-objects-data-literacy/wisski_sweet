@@ -1,0 +1,22 @@
+uuid: 4d45f455-8998-4966-94f1-a08bef763665
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f749796589e0365c48a5dbe69566fee5
+    - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
+  module:
+    - text
+id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f749796589e0365c48a5dbe69566fee5
+field_name: f749796589e0365c48a5dbe69566fee5
+entity_type: wisski_individual
+bundle: b3f2003dbc2f46de7270ab8ccc06d193
+label: Comment
+description: 'An editorial comment.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,29 @@
+uuid: 611523cc-895a-48c6-8e77-811784fea54a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fc5c6012c4c52b673e20394f5cbfa04c
+    - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
+    - wisski_core.wisski_bundle.be89c84bf729f8e135e2e7b5936f1a44
+id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fc5c6012c4c52b673e20394f5cbfa04c
+field_name: fc5c6012c4c52b673e20394f5cbfa04c
+entity_type: wisski_individual
+bundle: b3f2003dbc2f46de7270ab8ccc06d193
+label: Production
+description: 'Information on the production of the object.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      be89c84bf729f8e135e2e7b5936f1a44: be89c84bf729f8e135e2e7b5936f1a44
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

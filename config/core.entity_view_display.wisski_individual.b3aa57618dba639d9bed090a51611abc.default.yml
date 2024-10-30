@@ -1,0 +1,18 @@
+uuid: 393dc24d-527a-4bb4-a149-455638c6cebf
+langcode: en
+status: true
+dependencies:
+  config:
+    - wisski_core.wisski_bundle.b3aa57618dba639d9bed090a51611abc
+id: wisski_individual.b3aa57618dba639d9bed090a51611abc.default
+targetEntityType: wisski_individual
+bundle: b3aa57618dba639d9bed090a51611abc
+mode: default
+content: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

@@ -1,0 +1,18 @@
+uuid: f592fe69-0045-489f-a507-b54dcd6bbe17
+langcode: en
+status: true
+dependencies: {  }
+id: f__source__citation
+name: Citation
+path_array:
+  - 'http://wiss-ki.eu/ontology/1.2.0/Source'
+  - 'http://erlangen-crm.org/240307/P67i_is_referred_to_by'
+  - 'http://wiss-ki.eu/ontology/1.2.0/Citation'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

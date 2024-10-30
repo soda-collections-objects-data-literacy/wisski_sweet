@@ -1,0 +1,18 @@
+uuid: 918f52ac-79ba-421c-92fd-38395f1da031
+langcode: en
+status: true
+dependencies: {  }
+id: f__hum_mad_obj__image
+name: Image
+path_array:
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/240307/P138i_has_representation'
+  - 'http://erlangen-crm.org/240307/E36_Visual_Item'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

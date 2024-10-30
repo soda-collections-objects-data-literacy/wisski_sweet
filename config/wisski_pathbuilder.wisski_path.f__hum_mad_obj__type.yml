@@ -1,0 +1,20 @@
+uuid: 3fc29143-87da-4818-9a6c-be3666849729
+langcode: en
+status: true
+dependencies: {  }
+id: f__hum_mad_obj__type
+name: Type
+path_array:
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/240307/P2_has_type'
+  - 'http://erlangen-crm.org/240307/E55_Type'
+  - 'http://erlangen-crm.org/240307/P1_is_identified_by'
+  - 'http://erlangen-crm.org/240307/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

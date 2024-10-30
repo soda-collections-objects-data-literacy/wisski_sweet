@@ -1,0 +1,24 @@
+uuid: eba8251d-c9e0-4f30-9d48-b4024a5635fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f485d79739c36770f94c418586b99bc3
+    - wisski_core.wisski_bundle.b3abeaeb21037a930e9d1ef438080dde
+    - wisski_core.wisski_bundle.ba579dbd044f00ad5d2a7553a9918146
+id: wisski_individual.b3abeaeb21037a930e9d1ef438080dde.f485d79739c36770f94c418586b99bc3
+field_name: f485d79739c36770f94c418586b99bc3
+entity_type: wisski_individual
+bundle: b3abeaeb21037a930e9d1ef438080dde
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      ba579dbd044f00ad5d2a7553a9918146: ba579dbd044f00ad5d2a7553a9918146
+field_type: entity_reference

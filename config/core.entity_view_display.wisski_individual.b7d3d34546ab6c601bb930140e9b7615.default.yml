@@ -1,0 +1,74 @@
+uuid: 2a901b85-7490-4e67-bfa6-e6d27f613d70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b7d3d34546ab6c601bb930140e9b7615.f18a7340ec6db6c72a7268b226a57045
+    - field.field.wisski_individual.b7d3d34546ab6c601bb930140e9b7615.f24575ebb5aa5ac1d02fd933fbd2f06e
+    - field.field.wisski_individual.b7d3d34546ab6c601bb930140e9b7615.f3829fb5309f0201b08d05da1138f315
+    - field.field.wisski_individual.b7d3d34546ab6c601bb930140e9b7615.f6e08d0ac713c6d95b8f6beb8d7a2e98
+    - field.field.wisski_individual.b7d3d34546ab6c601bb930140e9b7615.f97240c4b5e52031246321adf9047e06
+    - field.field.wisski_individual.b7d3d34546ab6c601bb930140e9b7615.fed40bf31e1e2b5b3dd41976f1a98bea
+    - wisski_core.wisski_bundle.b7d3d34546ab6c601bb930140e9b7615
+  module:
+    - wisski_adapter_sparql11_pb
+id: wisski_individual.b7d3d34546ab6c601bb930140e9b7615.default
+targetEntityType: wisski_individual
+bundle: b7d3d34546ab6c601bb930140e9b7615
+mode: default
+content:
+  f18a7340ec6db6c72a7268b226a57045:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  f24575ebb5aa5ac1d02fd933fbd2f06e:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  f3829fb5309f0201b08d05da1138f315:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  f6e08d0ac713c6d95b8f6beb8d7a2e98:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  f97240c4b5e52031246321adf9047e06:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  fed40bf31e1e2b5b3dd41976f1a98bea:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

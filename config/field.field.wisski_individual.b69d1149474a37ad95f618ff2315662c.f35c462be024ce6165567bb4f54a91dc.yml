@@ -1,0 +1,23 @@
+uuid: 5e19cbe5-a7b7-4275-91d3-37cfdeb70611
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f35c462be024ce6165567bb4f54a91dc
+    - wisski_core.wisski_bundle.b69d1149474a37ad95f618ff2315662c
+id: wisski_individual.b69d1149474a37ad95f618ff2315662c.f35c462be024ce6165567bb4f54a91dc
+field_name: f35c462be024ce6165567bb4f54a91dc
+entity_type: wisski_individual
+bundle: b69d1149474a37ad95f618ff2315662c
+label: Time-Span
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b3a7ecdd8f162573ca60258dd7a8cff6: b3a7ecdd8f162573ca60258dd7a8cff6
+field_type: entity_reference

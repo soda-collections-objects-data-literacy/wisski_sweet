@@ -1,0 +1,18 @@
+uuid: ca8e8ce1-a89d-4643-9373-d62c143f71fe
+langcode: en
+status: true
+dependencies: {  }
+id: f__cur_hold__title
+name: Title
+path_array:
+  - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
+  - 'http://erlangen-crm.org/240307/P1_is_identified_by'
+  - 'http://erlangen-crm.org/240307/E35_Title'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

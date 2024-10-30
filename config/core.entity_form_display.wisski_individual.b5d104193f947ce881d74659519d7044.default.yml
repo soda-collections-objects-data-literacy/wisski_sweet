@@ -1,0 +1,65 @@
+uuid: 77bd2df1-d3f5-4f99-be2b-c77f55513bf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b5d104193f947ce881d74659519d7044.f213722da84f89ef42b631b777919fdf
+    - field.field.wisski_individual.b5d104193f947ce881d74659519d7044.f2e1555fbc617e39a63c98aee0886974
+    - field.field.wisski_individual.b5d104193f947ce881d74659519d7044.f3aa9a929a5ccd7e082db2ce2ccc3bf3
+    - field.field.wisski_individual.b5d104193f947ce881d74659519d7044.fc1bf67235d9c6251fcc1223147df4b1
+    - wisski_core.wisski_bundle.b5d104193f947ce881d74659519d7044
+  module:
+    - inline_entity_form
+    - link
+id: wisski_individual.b5d104193f947ce881d74659519d7044.default
+targetEntityType: wisski_individual
+bundle: b5d104193f947ce881d74659519d7044
+mode: default
+content:
+  f213722da84f89ef42b631b777919fdf:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  f2e1555fbc617e39a63c98aee0886974:
+    type: inline_entity_form_complex
+    weight: 1
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  f3aa9a929a5ccd7e082db2ce2ccc3bf3:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  fc1bf67235d9c6251fcc1223147df4b1:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  uid: true

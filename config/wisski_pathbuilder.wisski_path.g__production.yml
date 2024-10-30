@@ -1,0 +1,16 @@
+uuid: 8908eb97-87e7-4da2-87ca-5f182667f4fa
+langcode: en
+status: true
+dependencies: {  }
+id: g__production
+name: Production
+path_array:
+  - 'http://erlangen-crm.org/240307/E12_Production'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

@@ -1,0 +1,25 @@
+uuid: 80a02897-d267-497b-bb86-89d1c2a4af9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b393e1c3db202fbb7a8b54e65eb38227.f03c024b9bb9ed28ef84ea5835f84396
+    - wisski_core.wisski_bundle.b393e1c3db202fbb7a8b54e65eb38227
+id: wisski_individual.b393e1c3db202fbb7a8b54e65eb38227.default
+targetEntityType: wisski_individual
+bundle: b393e1c3db202fbb7a8b54e65eb38227
+mode: default
+content:
+  f03c024b9bb9ed28ef84ea5835f84396:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  uid: true

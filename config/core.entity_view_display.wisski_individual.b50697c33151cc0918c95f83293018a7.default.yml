@@ -1,0 +1,58 @@
+uuid: 82b01bb8-2398-4de2-a15b-9af2404d5d4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b50697c33151cc0918c95f83293018a7.f1576b2cb6b00cc7089d3b8fc9f89ef0
+    - field.field.wisski_individual.b50697c33151cc0918c95f83293018a7.f20d0c824596e1df6e177828523286df
+    - field.field.wisski_individual.b50697c33151cc0918c95f83293018a7.f2a12833805f7d9b35d4cf54216b6048
+    - wisski_core.wisski_bundle.b50697c33151cc0918c95f83293018a7
+  module:
+    - colorbox
+    - link
+id: wisski_individual.b50697c33151cc0918c95f83293018a7.default
+targetEntityType: wisski_individual
+bundle: b50697c33151cc0918c95f83293018a7
+mode: default
+content:
+  f1576b2cb6b00cc7089d3b8fc9f89ef0:
+    type: colorbox
+    label: above
+    settings:
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+      colorbox_node_style: ''
+      colorbox_node_style_first: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  f20d0c824596e1df6e177828523286df:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  f2a12833805f7d9b35d4cf54216b6048:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

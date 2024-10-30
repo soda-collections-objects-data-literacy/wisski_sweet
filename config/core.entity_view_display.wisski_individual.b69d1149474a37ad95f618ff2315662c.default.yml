@@ -1,0 +1,69 @@
+uuid: 888457ea-e885-45e9-a3f4-4c8f91182714
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b69d1149474a37ad95f618ff2315662c.f12812c035a89bba6d46c0572cc25d39
+    - field.field.wisski_individual.b69d1149474a37ad95f618ff2315662c.f35c462be024ce6165567bb4f54a91dc
+    - field.field.wisski_individual.b69d1149474a37ad95f618ff2315662c.fa9b6e3f182a69e514dac54e7d82b143
+    - field.field.wisski_individual.b69d1149474a37ad95f618ff2315662c.fd7c8e9a88294a2bd7ac32de5319b2c5
+    - wisski_core.wisski_bundle.b69d1149474a37ad95f618ff2315662c
+  module:
+    - options
+    - wisski_adapter_sparql11_pb
+id: wisski_individual.b69d1149474a37ad95f618ff2315662c.default
+targetEntityType: wisski_individual
+bundle: b69d1149474a37ad95f618ff2315662c
+mode: default
+content:
+  f12812c035a89bba6d46c0572cc25d39:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  f35c462be024ce6165567bb4f54a91dc:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  fa9b6e3f182a69e514dac54e7d82b143:
+    type: wisski_link_formatter
+    label: above
+    settings:
+      speed: 100
+      collapsedHeight: 75
+      heightMargin: 16
+      moreLink: '<a href="#">Read more</a>'
+      lessLink: '<a href="#">Close</a>'
+      embedCSS: 1
+      sectionCSS: 'display: block; width: 100%;'
+      startOpen: 0
+      expandedClass: readmore-js-expanded
+      collapsedClass: readmore-js-collapsed
+      imagecache_external_style: ''
+      imagecache_external_link: ''
+      use_readmore: 1
+      use_title_pattern: 1
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  fd7c8e9a88294a2bd7ac32de5319b2c5:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

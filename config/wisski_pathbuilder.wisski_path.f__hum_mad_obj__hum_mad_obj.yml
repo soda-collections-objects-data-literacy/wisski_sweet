@@ -1,0 +1,18 @@
+uuid: 44225676-a192-47f1-8a03-0b1fab6679cb
+langcode: en
+status: true
+dependencies: {  }
+id: f__hum_mad_obj__hum_mad_obj
+name: 'Contains Parts'
+path_array:
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/240307/P46_is_composed_of'
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

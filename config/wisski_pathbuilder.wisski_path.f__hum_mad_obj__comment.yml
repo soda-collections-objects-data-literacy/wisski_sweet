@@ -1,0 +1,18 @@
+uuid: 6bc563e2-6da7-47fe-8dd5-55bb1064c70d
+langcode: en
+status: true
+dependencies: {  }
+id: f__hum_mad_obj__comment
+name: Comment
+path_array:
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/240307/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/1.2.0/Comment'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

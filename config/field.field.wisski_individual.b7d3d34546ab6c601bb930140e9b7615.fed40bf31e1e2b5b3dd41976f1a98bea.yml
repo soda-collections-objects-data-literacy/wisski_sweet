@@ -1,0 +1,23 @@
+uuid: b62b1c91-27ec-4c95-b463-f56c3881e35b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fed40bf31e1e2b5b3dd41976f1a98bea
+    - wisski_core.wisski_bundle.b7d3d34546ab6c601bb930140e9b7615
+id: wisski_individual.b7d3d34546ab6c601bb930140e9b7615.fed40bf31e1e2b5b3dd41976f1a98bea
+field_name: fed40bf31e1e2b5b3dd41976f1a98bea
+entity_type: wisski_individual
+bundle: b7d3d34546ab6c601bb930140e9b7615
+label: Birth
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b3f3ff1e8cd7a488fd66fbd46c5f1953: b3f3ff1e8cd7a488fd66fbd46c5f1953
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: 07f029df-3341-48fc-8a8b-2ec9720899dc
+langcode: en
+status: true
+dependencies: {  }
+id: f__auth_doc__pref_name
+name: Name
+path_array:
+  - 'http://erlangen-crm.org/240307/E32_Authority_Document'
+  - 'http://erlangen-crm.org/240307/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
+datatype_property: 'http://erlangen-crm.org/240307/P190_has_symbolic_content'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,38 @@
+uuid: f186e039-3697-47f0-879d-2bddaf06e050
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f1576b2cb6b00cc7089d3b8fc9f89ef0
+    - wisski_core.wisski_bundle.b50697c33151cc0918c95f83293018a7
+  module:
+    - image
+id: wisski_individual.b50697c33151cc0918c95f83293018a7.f1576b2cb6b00cc7089d3b8fc9f89ef0
+field_name: f1576b2cb6b00cc7089d3b8fc9f89ef0
+entity_type: wisski_individual
+bundle: b50697c33151cc0918c95f83293018a7
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

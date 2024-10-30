@@ -1,0 +1,13 @@
+{
+    "name": "soda-collection-objects-data-literacy/wisski_yeast",
+    "description": "Installs WissKI default data model.",
+    "keywords": ["drupal recipe", "wisski"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Robert Nasarek",
+            "role": "Maintainer"
+        }
+    ]
+}

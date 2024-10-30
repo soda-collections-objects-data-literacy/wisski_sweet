@@ -1,0 +1,24 @@
+uuid: bda3a159-f319-4dd1-a3cc-49b57813c79d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f095f44211d103577eb114dc51c79dd9
+    - wisski_core.wisski_bundle.b45978f2b073ff3c73b3c7220ebb3b89
+    - wisski_core.wisski_bundle.bca4b1b906cb3a4e38ab7a0cab339a49
+id: wisski_individual.bca4b1b906cb3a4e38ab7a0cab339a49.f095f44211d103577eb114dc51c79dd9
+field_name: f095f44211d103577eb114dc51c79dd9
+entity_type: wisski_individual
+bundle: bca4b1b906cb3a4e38ab7a0cab339a49
+label: 'Used Material'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b45978f2b073ff3c73b3c7220ebb3b89: b45978f2b073ff3c73b3c7220ebb3b89
+field_type: entity_reference

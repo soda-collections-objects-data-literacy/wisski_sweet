@@ -1,0 +1,16 @@
+uuid: 1878a110-8c66-48d7-a7f7-52ad68c483f2
+langcode: en
+status: true
+dependencies: {  }
+id: g__technique
+name: Technique
+path_array:
+  - 'http://erlangen-crm.org/240307/E29_Design_or_Procedure'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

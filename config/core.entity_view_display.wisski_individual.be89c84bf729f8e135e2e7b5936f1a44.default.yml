@@ -1,0 +1,65 @@
+uuid: 84e103b6-5ca1-420f-bf53-438c01ca100e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.f3cd2320770970439ecdbf2ad9c6fc94
+    - field.field.wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.f4046e5086f22f8aacc28bcfafdd06c8
+    - field.field.wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.f4fef488613ec8a5e3a9c4d45169987b
+    - field.field.wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.f57c799b66a573ab105a93fbd8884b16
+    - field.field.wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.ff902b73a04a5cdec1188058a2c45e88
+    - wisski_core.wisski_bundle.be89c84bf729f8e135e2e7b5936f1a44
+  module:
+    - wisski_adapter_sparql11_pb
+id: wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.default
+targetEntityType: wisski_individual
+bundle: be89c84bf729f8e135e2e7b5936f1a44
+mode: default
+content:
+  f3cd2320770970439ecdbf2ad9c6fc94:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  f4046e5086f22f8aacc28bcfafdd06c8:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  f4fef488613ec8a5e3a9c4d45169987b:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  f57c799b66a573ab105a93fbd8884b16:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  ff902b73a04a5cdec1188058a2c45e88:
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

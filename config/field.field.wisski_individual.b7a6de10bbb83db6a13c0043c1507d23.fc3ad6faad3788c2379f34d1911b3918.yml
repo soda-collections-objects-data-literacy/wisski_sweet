@@ -1,0 +1,24 @@
+uuid: a3cc75da-9645-422f-89cd-0a43fe7814cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fc3ad6faad3788c2379f34d1911b3918
+    - wisski_core.wisski_bundle.b7a6de10bbb83db6a13c0043c1507d23
+    - wisski_core.wisski_bundle.ba579dbd044f00ad5d2a7553a9918146
+id: wisski_individual.b7a6de10bbb83db6a13c0043c1507d23.fc3ad6faad3788c2379f34d1911b3918
+field_name: fc3ad6faad3788c2379f34d1911b3918
+entity_type: wisski_individual
+bundle: b7a6de10bbb83db6a13c0043c1507d23
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      ba579dbd044f00ad5d2a7553a9918146: ba579dbd044f00ad5d2a7553a9918146
+field_type: entity_reference

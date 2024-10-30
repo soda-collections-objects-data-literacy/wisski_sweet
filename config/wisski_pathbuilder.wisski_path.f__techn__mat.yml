@@ -1,0 +1,18 @@
+uuid: 73e8bcb0-74fa-47c4-8890-438a89fa677a
+langcode: en
+status: true
+dependencies: {  }
+id: f__techn__mat
+name: 'Used Material'
+path_array:
+  - 'http://erlangen-crm.org/240307/E29_Design_or_Procedure'
+  - 'http://erlangen-crm.org/240307/P68_foresees_use_of'
+  - 'http://erlangen-crm.org/240307/E57_Material'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

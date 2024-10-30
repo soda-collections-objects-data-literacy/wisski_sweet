@@ -1,0 +1,19 @@
+uuid: 32de6eba-e0c9-47b5-9af5-2b7f49e418dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f16f121b934595589d59bd03488fb947
+    - wisski_core.wisski_bundle.b73258adf62f35bd1be3fa2863fab558
+id: wisski_individual.b73258adf62f35bd1be3fa2863fab558.f16f121b934595589d59bd03488fb947
+field_name: f16f121b934595589d59bd03488fb947
+entity_type: wisski_individual
+bundle: b73258adf62f35bd1be3fa2863fab558
+label: Unit
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: d69f713b-4a60-4801-be3a-68e2f9219b9d
+langcode: en
+status: true
+dependencies: {  }
+id: f__hum_mad_obj__cur_hol
+name: 'Part of Collection'
+path_array:
+  - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/240307/P46i_forms_part_of'
+  - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

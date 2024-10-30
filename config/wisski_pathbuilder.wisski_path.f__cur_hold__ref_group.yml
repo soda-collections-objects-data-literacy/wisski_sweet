@@ -1,0 +1,18 @@
+uuid: c7dc5ca1-967c-453c-99cf-ce9e5ec08cc9
+langcode: en
+status: true
+dependencies: {  }
+id: f__cur_hold__ref_group
+name: 'Owner (Group)'
+path_array:
+  - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
+  - 'http://erlangen-crm.org/240307/P50_has_current_keeper'
+  - 'http://erlangen-crm.org/240307/E74_Group'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

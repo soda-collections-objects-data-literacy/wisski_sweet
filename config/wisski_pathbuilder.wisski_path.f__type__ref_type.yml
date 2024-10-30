@@ -1,0 +1,20 @@
+uuid: 76e2fe69-4715-4b53-b33d-e4838e5e7e41
+langcode: en
+status: true
+dependencies: {  }
+id: f__type__ref_type
+name: 'broader Term'
+path_array:
+  - 'http://erlangen-crm.org/240307/E55_Type'
+  - 'http://erlangen-crm.org/240307/P127_has_broader_term'
+  - 'http://erlangen-crm.org/240307/E55_Type'
+  - 'http://erlangen-crm.org/240307/P1_is_identified_by'
+  - 'http://erlangen-crm.org/240307/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,20 @@
+uuid: 18225b84-b1e7-4cb3-a1fe-52f1166cf3d5
+langcode: en
+status: true
+dependencies: {  }
+id: f__event__within_event
+name: 'Within Event'
+path_array:
+  - 'http://erlangen-crm.org/240307/E5_Event'
+  - 'http://erlangen-crm.org/240307/P10_falls_within'
+  - 'http://erlangen-crm.org/240307/E5_Event'
+  - 'http://erlangen-crm.org/240307/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
+datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

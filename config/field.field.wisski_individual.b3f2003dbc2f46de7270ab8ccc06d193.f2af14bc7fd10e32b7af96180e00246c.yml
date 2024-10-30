@@ -1,0 +1,29 @@
+uuid: b3ed9c03-feab-4d28-8f5c-94aa84ed094e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f2af14bc7fd10e32b7af96180e00246c
+    - wisski_core.wisski_bundle.b393e1c3db202fbb7a8b54e65eb38227
+    - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
+id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f2af14bc7fd10e32b7af96180e00246c
+field_name: f2af14bc7fd10e32b7af96180e00246c
+entity_type: wisski_individual
+bundle: b3f2003dbc2f46de7270ab8ccc06d193
+label: 'Shows Feature(s)'
+description: 'Characteristics of the object. Components that are treated as separate objects are specified under ‘contain parts’.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b393e1c3db202fbb7a8b54e65eb38227: b393e1c3db202fbb7a8b54e65eb38227
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

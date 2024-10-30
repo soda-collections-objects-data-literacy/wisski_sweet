@@ -1,0 +1,36 @@
+uuid: 229b1b26-76b3-474b-8ae1-87376797d494
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - wisski_core
+id: wisski_individual.f0f948c4575671ee7e4a1d0552faf887
+field_name: f0f948c4575671ee7e4a1d0552faf887
+entity_type: wisski_individual
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: drawing
+      label: Drawing
+    -
+      value: painting
+      label: Painting
+    -
+      value: photography
+      label: Photography
+    -
+      value: print
+      label: Print
+    -
+      value: sculpture
+      label: Sculpture
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

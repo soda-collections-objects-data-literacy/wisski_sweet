@@ -1,0 +1,20 @@
+uuid: 3686c0f6-1461-4a22-9758-d427c1f5dd9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - geofield
+    - wisski_core
+id: wisski_individual.f05f7c83e76c3765ddce64d112752b02
+field_name: f05f7c83e76c3765ddce64d112752b02
+entity_type: wisski_individual
+type: geofield
+settings:
+  backend: geofield_backend_default
+module: geofield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

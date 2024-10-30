@@ -1,0 +1,23 @@
+uuid: de940eab-d655-4179-8591-a65bc37fedb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f18a7340ec6db6c72a7268b226a57045
+    - wisski_core.wisski_bundle.b7d3d34546ab6c601bb930140e9b7615
+id: wisski_individual.b7d3d34546ab6c601bb930140e9b7615.f18a7340ec6db6c72a7268b226a57045
+field_name: f18a7340ec6db6c72a7268b226a57045
+entity_type: wisski_individual
+bundle: b7d3d34546ab6c601bb930140e9b7615
+label: Death
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      bd87fdabf5cc195118992c55619fc69e: bd87fdabf5cc195118992c55619fc69e
+field_type: entity_reference
