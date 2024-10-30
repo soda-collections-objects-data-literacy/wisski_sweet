@@ -1,9 +1,9 @@
-name: 'WissKI Yeast'
+name: 'WissKI Sweet'
 description: 'WissKI environment with default data model.'
 type: 'Site'
 
 recipes:
-  - wisski_grain
+  - wisski_grain_yeast_water
 
 config:
   import:
