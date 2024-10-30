@@ -9,5 +9,8 @@
             "name": "Robert Nasarek",
             "role": "Maintainer"
         }
-    ]
+    ],
+    "require": {
+        "soda-collection-objects-data-literacy/wisski_grain_yeast_water": "dev-main"
+    }
 }
