@@ -11,6 +11,8 @@
         }
     ],
     "require": {
+        "drupal/geofield": "^1",
+        "drupal/leaflet": "^10.2",
         "soda-collection-objects-data-literacy/wisski_grain_yeast_water": "dev-main"
     }
 }

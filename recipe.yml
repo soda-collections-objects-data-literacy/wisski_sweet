@@ -5,6 +5,12 @@ type: 'Site'
 recipes:
   - wisski_grain_yeast_water
 
+install:
+  - geofield
+  - leaflet
+
 config:
   import:
     wisski: "*"
+    geofield: "*"
+    leaflet: "*"

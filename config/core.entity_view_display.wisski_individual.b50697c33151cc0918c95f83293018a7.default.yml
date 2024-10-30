@@ -8,24 +8,23 @@ dependencies:
     - field.field.wisski_individual.b50697c33151cc0918c95f83293018a7.f2a12833805f7d9b35d4cf54216b6048
     - wisski_core.wisski_bundle.b50697c33151cc0918c95f83293018a7
   module:
-    - colorbox
+    - image
     - link
+_core:
+  default_config_hash: BuHwn0mnsAWZPGnTiVv8c4LjatPzklFCvs8nEOmn1j8
 id: wisski_individual.b50697c33151cc0918c95f83293018a7.default
 targetEntityType: wisski_individual
 bundle: b50697c33151cc0918c95f83293018a7
 mode: default
 content:
   f1576b2cb6b00cc7089d3b8fc9f89ef0:
-    type: colorbox
+    type: image
     label: above
     settings:
-      colorbox_image_style: ''
-      colorbox_gallery: post
-      colorbox_gallery_custom: ''
-      colorbox_caption: auto
-      colorbox_caption_custom: ''
-      colorbox_node_style: ''
-      colorbox_node_style_first: ''
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 1
     region: content

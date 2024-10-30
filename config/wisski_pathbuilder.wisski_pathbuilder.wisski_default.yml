@@ -634,7 +634,7 @@ pbpaths:
     field: f2f78a098f30ba03fa1d6b8d9aaebb99
     fieldtype: image
     displaywidget: image_image
-    formatterwidget: colorbox
+    formatterwidget: image
     cardinality: '-1'
     field_type_informative: image
     relativepath:
@@ -1614,7 +1614,7 @@ pbpaths:
     field: f1576b2cb6b00cc7089d3b8fc9f89ef0
     fieldtype: image
     displaywidget: image_image
-    formatterwidget: colorbox
+    formatterwidget: image
     cardinality: '-1'
     field_type_informative: image
   f__right__name:
