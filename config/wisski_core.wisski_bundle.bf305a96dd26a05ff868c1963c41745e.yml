@@ -1,9 +1,6 @@
-uuid: bc73d0ce-06aa-413f-ab03-062afc94a1d8
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: xikvLVJWnqo7uYwMW49Lgi0vnqQGUHvMyhLTfcEZp-8
 id: bf305a96dd26a05ff868c1963c41745e
 label: Identifier
 title_pattern: 'a:2:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:30:"wisski_default.f__def__ide__id";s:2:"id";s:2:"p0";s:5:"label";s:2:"ID";}s:6:"max_id";i:0;}'

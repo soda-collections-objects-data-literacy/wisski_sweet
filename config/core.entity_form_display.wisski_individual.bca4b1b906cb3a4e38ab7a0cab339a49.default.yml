@@ -1,4 +1,3 @@
-uuid: 62448066-6676-4212-8c2b-4928798bd9a7
 langcode: en
 status: true
 dependencies:
@@ -10,8 +9,6 @@ dependencies:
     - wisski_core.wisski_bundle.bca4b1b906cb3a4e38ab7a0cab339a49
   module:
     - inline_entity_form
-_core:
-  default_config_hash: zfLgPJUpWYY1-gEnzNs95o5Of3jXjwaAHMyvewC_DqI
 id: wisski_individual.bca4b1b906cb3a4e38ab7a0cab339a49.default
 targetEntityType: wisski_individual
 bundle: bca4b1b906cb3a4e38ab7a0cab339a49

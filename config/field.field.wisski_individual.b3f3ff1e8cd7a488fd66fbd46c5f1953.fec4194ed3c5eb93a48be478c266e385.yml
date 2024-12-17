@@ -1,4 +1,3 @@
-uuid: 650a341a-912e-4776-bb8a-c9f9ece09fec
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - field.storage.wisski_individual.fec4194ed3c5eb93a48be478c266e385
     - wisski_core.wisski_bundle.b3a7ecdd8f162573ca60258dd7a8cff6
     - wisski_core.wisski_bundle.b3f3ff1e8cd7a488fd66fbd46c5f1953
-_core:
-  default_config_hash: NB6uDtpJpw0ad08osaEQyeOQQDOOYr7ok-3q1ASm_HA
 id: wisski_individual.b3f3ff1e8cd7a488fd66fbd46c5f1953.fec4194ed3c5eb93a48be478c266e385
 field_name: fec4194ed3c5eb93a48be478c266e385
 entity_type: wisski_individual

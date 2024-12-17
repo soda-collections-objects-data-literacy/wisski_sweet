@@ -1,11 +1,8 @@
-uuid: fd679451-def9-40ed-8970-320f45fecc58
 langcode: en
 status: true
 dependencies:
   module:
     - wisski_core
-_core:
-  default_config_hash: SKyPF8pL4frgwgxCacnjMC4fype3glcj5d9StEew5YY
 id: wisski_individual.f2a12833805f7d9b35d4cf54216b6048
 field_name: f2a12833805f7d9b35d4cf54216b6048
 entity_type: wisski_individual

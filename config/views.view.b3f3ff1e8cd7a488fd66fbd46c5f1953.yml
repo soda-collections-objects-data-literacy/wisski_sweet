@@ -1,4 +1,3 @@
-uuid: 7132206a-4d9b-4eb4-a853-13a337060d83
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
   module:
     - user
     - wisski_core
-_core:
-  default_config_hash: '-l-qibkhESBjhvkHQW8cmdsKH-szMEKR6pdRLYsVVZA'
 id: b3f3ff1e8cd7a488fd66fbd46c5f1953
 label: Birth
 module: views

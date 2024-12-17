@@ -1,4 +1,3 @@
-uuid: 3534e28f-3800-445e-a5c7-999fac046926
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
   module:
     - user
     - wisski_core
-_core:
-  default_config_hash: QNqzeP4t-nA-LM-gYfBoB1S4lLrlr4Go7hIpVbantmw
 id: b5d104193f947ce881d74659519d7044
 label: Source
 module: views

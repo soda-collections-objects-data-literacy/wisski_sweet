@@ -1,4 +1,3 @@
-uuid: fa2d1c7d-990e-4a8f-a490-dcafbbdd4a37
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
   module:
     - user
     - wisski_core
-_core:
-  default_config_hash: uUrDisrptKiBkwqxOLCg7Ue0JoJIW0W7oAyjal2opcI
 id: b73258adf62f35bd1be3fa2863fab558
 label: Dimension
 module: views

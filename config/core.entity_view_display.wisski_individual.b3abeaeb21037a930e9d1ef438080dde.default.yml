@@ -1,4 +1,3 @@
-uuid: d47bd303-8ff0-434b-8835-db5db5d38586
 langcode: en
 status: true
 dependencies:
@@ -11,8 +10,6 @@ dependencies:
   module:
     - link
     - wisski_adapter_sparql11_pb
-_core:
-  default_config_hash: 9XaBkCKZ-ee8f7fYV947WcMfMKzO3aoIRDdERM0ESZ0
 id: wisski_individual.b3abeaeb21037a930e9d1ef438080dde.default
 targetEntityType: wisski_individual
 bundle: b3abeaeb21037a930e9d1ef438080dde
