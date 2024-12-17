@@ -295,8 +295,8 @@ pathtree:
       f__def__auth_doc__pref_name:
         id: f__def__auth_doc__pref_name
         children: {  }
-      acronym:
-        id: acronym
+      f__def__auth_doc__acronym:
+        id: f__def__auth_doc__acronym
         children: {  }
       f__def__auth_doc__url:
         id: f__def__auth_doc__url
@@ -1429,8 +1429,8 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  acronym:
-    id: acronym
+  f__def__auth_doc__acronym:
+    id: f__def__auth_doc__acronym
     weight: '1'
     enabled: '1'
     parent: g__def__authority_document

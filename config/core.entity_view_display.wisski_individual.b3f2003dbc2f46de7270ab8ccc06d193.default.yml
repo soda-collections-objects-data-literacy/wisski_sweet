@@ -21,7 +21,6 @@ dependencies:
   module:
     - options
     - text
-    - viewfield
     - wisski_adapter_sparql11_pb
 _core:
   default_config_hash: 2OPwDIQ6XlgXX-fxLOBCzl4Rl_WK6LmNI4-liOpye6o

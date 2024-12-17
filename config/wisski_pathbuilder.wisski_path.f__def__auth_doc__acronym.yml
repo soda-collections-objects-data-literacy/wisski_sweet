@@ -2,7 +2,7 @@ uuid: 1bc063ad-8697-438b-ad00-a55d0a84844b
 langcode: en
 status: true
 dependencies: {  }
-id: acronym
+id: f__def__auth_doc__acronym
 name: Acronym
 path_array:
   - 'http://erlangen-crm.org/current/E32_Authority_Document'
