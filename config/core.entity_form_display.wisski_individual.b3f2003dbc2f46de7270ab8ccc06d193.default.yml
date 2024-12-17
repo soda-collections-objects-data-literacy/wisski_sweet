@@ -202,7 +202,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_mirador_viewer: true
   label: true
   name: true
   uid: true
