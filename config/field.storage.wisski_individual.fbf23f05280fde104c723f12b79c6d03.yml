@@ -12,7 +12,16 @@ field_name: fbf23f05280fde104c723f12b79c6d03
 entity_type: wisski_individual
 type: list_string
 settings:
-  allowed_values: {  }
+  allowed_values:
+    -
+      value: with_begin_of
+      label: With begin of
+    -
+      value: at_the_end_of
+      label: At the end of
+    -
+      value: exactly_at
+      label: Exactly at
   allowed_values_function: ''
 module: options
 locked: false
