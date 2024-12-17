@@ -14,3 +14,8 @@ config:
     wisski: "*"
     geofield: "*"
     leaflet: "*"
+  actions:
+    system.image:
+      simple_config_update:
+        toolkit: imagemagick
+
