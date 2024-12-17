@@ -10,7 +10,6 @@ install:
   - leaflet
 
 config:
-  strict: false
   import:
     geofield: "*"
     leaflet: "*"
