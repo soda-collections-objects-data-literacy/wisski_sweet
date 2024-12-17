@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.navigate
     - wisski_core.wisski_bundle.b3f3ff1e8cd7a488fd66fbd46c5f1953
   module:
     - user
     - wisski_core
+_core:
+  default_config_hash: '-l-qibkhESBjhvkHQW8cmdsKH-szMEKR6pdRLYsVVZA'
 id: b3f3ff1e8cd7a488fd66fbd46c5f1953
 label: Birth
 module: views

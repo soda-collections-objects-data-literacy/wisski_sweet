@@ -1,0 +1,18 @@
+uuid: 49e674ff-7c3e-483d-a78d-3d337de572df
+langcode: en
+status: true
+dependencies: {  }
+id: f__2d__ann__description
+name: Description
+path_array:
+  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/Description'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

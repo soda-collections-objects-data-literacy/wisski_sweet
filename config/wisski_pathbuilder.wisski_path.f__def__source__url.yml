@@ -1,0 +1,18 @@
+uuid: 31e02f16-41ef-4f24-9a06-aa50421bbef0
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__source__url
+name: URL
+path_array:
+  - 'http://wiss-ki.eu/ontology/Source'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/URL'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

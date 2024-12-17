@@ -13,7 +13,6 @@ dependencies:
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f749796589e0365c48a5dbe69566fee5
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f8335ad7ad526f2d29ba271bfb0fb781
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f84a521dce5ba9995b2fd94bb2a643e6
-    - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f8e1071b11b49200c6bb3b5dd528746c
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fa9ed8fdfd2e329a7128f2225e50c05e
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fb38cabd5827b4756efbdb8c5baab258
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fc21fd0a853af8117d34bacba7612950
@@ -22,7 +21,10 @@ dependencies:
   module:
     - options
     - text
+    - viewfield
     - wisski_adapter_sparql11_pb
+_core:
+  default_config_hash: 2OPwDIQ6XlgXX-fxLOBCzl4Rl_WK6LmNI4-liOpye6o
 id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default
 targetEntityType: wisski_individual
 bundle: b3f2003dbc2f46de7270ab8ccc06d193
@@ -88,14 +90,14 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 19
+    weight: 14
     region: content
   f8335ad7ad526f2d29ba271bfb0fb781:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 18
+    weight: 13
     region: content
   f84a521dce5ba9995b2fd94bb2a643e6:
     type: entity_reference_entity_view
@@ -105,15 +107,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 8
-    region: content
-  f8e1071b11b49200c6bb3b5dd528746c:
-    type: entity_reference_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    weight: 11
     region: content
   fa9ed8fdfd2e329a7128f2225e50c05e:
     type: string
@@ -138,7 +131,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 13
+    weight: 11
     region: content
   fc5c6012c4c52b673e20394f5cbfa04c:
     type: entity_reference_entity_view
@@ -147,9 +140,10 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 14
+    weight: 12
     region: content
 hidden:
+  bundle: true
   created: true
   label: true
   name: true

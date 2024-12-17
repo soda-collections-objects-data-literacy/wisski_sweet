@@ -2,9 +2,11 @@ uuid: 7478c8ed-2c33-43b9-8e01-3fcdef6f4ad2
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: mCWGIaXuzOuJa_maQYb5zf9gjFS1CGsIBAT61XRvMKw
 id: b69d1149474a37ad95f618ff2315662c
 label: Event
-title_pattern: 'a:6:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:30:"wisski_default.f__event__title";s:2:"id";s:2:"p0";s:5:"label";s:5:"Title";}s:2:"t1";a:9:{s:5:"label";s:2:", ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt1";s:2:"id";s:2:"t1";s:7:"parents";a:1:{s:2:"p2";b:1;}}s:2:"p2";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:34:"wisski_default.f__event__time_span";s:2:"id";s:2:"p2";s:5:"label";s:9:"Time-Span";}s:2:"t3";a:9:{s:5:"label";s:2:", ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt3";s:2:"id";s:2:"t3";s:7:"parents";a:1:{s:2:"p4";b:1;}}s:2:"p4";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:34:"wisski_default.f__event__ref_place";s:2:"id";s:2:"p4";s:5:"label";s:8:"Location";}s:6:"max_id";i:4;}'
+title_pattern: 'a:2:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:35:"wisski_default.f__def__event__title";s:2:"id";s:2:"p0";s:5:"label";s:5:"Title";}s:6:"max_id";i:0;}'
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10

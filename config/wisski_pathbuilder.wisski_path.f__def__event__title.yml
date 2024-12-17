@@ -1,0 +1,18 @@
+uuid: 37143832-0ee0-4ee9-a36b-fcea7eacb48e
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__event__title
+name: Title
+path_array:
+  - 'http://erlangen-crm.org/current/E5_Event'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E35_Title'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

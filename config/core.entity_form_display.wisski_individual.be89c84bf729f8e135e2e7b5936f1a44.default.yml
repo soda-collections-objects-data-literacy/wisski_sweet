@@ -11,6 +11,8 @@ dependencies:
     - wisski_core.wisski_bundle.be89c84bf729f8e135e2e7b5936f1a44
   module:
     - inline_entity_form
+_core:
+  default_config_hash: __gTwA5eCHQjAjVqCzVXFE8R16CovP5NVvVaku1zrRE
 id: wisski_individual.be89c84bf729f8e135e2e7b5936f1a44.default
 targetEntityType: wisski_individual
 bundle: be89c84bf729f8e135e2e7b5936f1a44

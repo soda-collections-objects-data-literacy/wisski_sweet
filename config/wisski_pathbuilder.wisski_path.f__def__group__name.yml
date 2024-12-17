@@ -1,0 +1,18 @@
+uuid: eea5253b-0a6e-4b13-921f-f73545770938
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__group__name
+name: Name
+path_array:
+  - 'http://erlangen-crm.org/current/E74_Group'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/PreferredName'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

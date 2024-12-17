@@ -1,0 +1,18 @@
+uuid: 19944e54-ad6f-43e0-81d2-3957a35ab7a5
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__cur_hold__ref_person
+name: 'Owner (Person)'
+path_array:
+  - 'http://erlangen-crm.org/current/E78_Curated_Holding'
+  - 'http://erlangen-crm.org/current/P50_has_current_keeper'
+  - 'http://erlangen-crm.org/current/E21_Person'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

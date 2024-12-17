@@ -11,6 +11,8 @@ dependencies:
   module:
     - inline_entity_form
     - link
+_core:
+  default_config_hash: rQ4wU3senKjtp_L6Of3iRagb-638ILlcypG6o6B7rbs
 id: wisski_individual.b3abeaeb21037a930e9d1ef438080dde.default
 targetEntityType: wisski_individual
 bundle: b3abeaeb21037a930e9d1ef438080dde

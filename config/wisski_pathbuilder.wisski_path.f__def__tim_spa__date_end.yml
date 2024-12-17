@@ -1,0 +1,18 @@
+uuid: b334f86c-18d4-4815-b377-0ea660ee62e8
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__tim_spa__date_end
+name: Ends
+path_array:
+  - 'http://erlangen-crm.org/current/E52_Time-Span'
+  - 'http://wiss-ki.eu/ontology/ends_with'
+  - 'http://wiss-ki.eu/ontology/Date'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

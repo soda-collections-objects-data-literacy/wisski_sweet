@@ -1,0 +1,18 @@
+uuid: cfdec9f0-3059-47d9-9add-cfcb18121d24
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__prod__location
+name: Location
+path_array:
+  - 'http://erlangen-crm.org/current/E12_Production'
+  - 'http://erlangen-crm.org/current/P7_took_place_at'
+  - 'http://erlangen-crm.org/current/E53_Place'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

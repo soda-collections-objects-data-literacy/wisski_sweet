@@ -1,0 +1,18 @@
+uuid: 5437e8b2-1a7b-47ef-a4a2-e136205a5f59
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__obj__ref_ident
+name: 'Link to Authority File'
+path_array:
+  - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E42_Identifier'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

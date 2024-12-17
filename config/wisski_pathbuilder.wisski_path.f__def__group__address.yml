@@ -1,0 +1,18 @@
+uuid: d85a0a08-5f76-4715-8db4-22cc620e8c0d
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__group__address
+name: Address
+path_array:
+  - 'http://erlangen-crm.org/current/E74_Group'
+  - 'http://erlangen-crm.org/current/P74_has_current_or_former_residence'
+  - 'http://erlangen-crm.org/current/E53_Place'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

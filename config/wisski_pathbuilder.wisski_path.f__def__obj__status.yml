@@ -1,0 +1,18 @@
+uuid: 419c2ee8-30f7-468f-9af4-7d51f46d0d51
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__obj__status
+name: Status
+path_array:
+  - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/current/P2_has_type'
+  - 'http://wiss-ki.eu/ontology/Status'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

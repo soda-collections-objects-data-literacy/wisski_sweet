@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.wisski_individual.b393e1c3db202fbb7a8b54e65eb38227.f03c024b9bb9ed28ef84ea5835f84396
     - wisski_core.wisski_bundle.b393e1c3db202fbb7a8b54e65eb38227
+_core:
+  default_config_hash: h59dHiILN_Src1ffV9GteEttqQMuBBfln_g4A5YI6QM
 id: wisski_individual.b393e1c3db202fbb7a8b54e65eb38227.default
 targetEntityType: wisski_individual
 bundle: b393e1c3db202fbb7a8b54e65eb38227
@@ -19,6 +21,7 @@ content:
     weight: 0
     region: content
 hidden:
+  bundle: true
   created: true
   label: true
   name: true

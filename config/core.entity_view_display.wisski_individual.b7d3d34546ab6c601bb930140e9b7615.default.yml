@@ -12,6 +12,8 @@ dependencies:
     - wisski_core.wisski_bundle.b7d3d34546ab6c601bb930140e9b7615
   module:
     - wisski_adapter_sparql11_pb
+_core:
+  default_config_hash: tTySi0ArocjZRYIl27wK-nJ34kMHNb_tTIT4VAHf_8g
 id: wisski_individual.b7d3d34546ab6c601bb930140e9b7615.default
 targetEntityType: wisski_individual
 bundle: b7d3d34546ab6c601bb930140e9b7615
@@ -66,6 +68,7 @@ content:
     weight: 3
     region: content
 hidden:
+  bundle: true
   created: true
   label: true
   name: true

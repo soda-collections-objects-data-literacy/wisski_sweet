@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.navigate
     - wisski_core.wisski_bundle.b7d3d34546ab6c601bb930140e9b7615
   module:
     - user
     - wisski_core
+_core:
+  default_config_hash: eOOeWDQfa5KomB5VugHS1BpcmbhBu2lyY9Ye9cyRbCo
 id: b7d3d34546ab6c601bb930140e9b7615
 label: Person
 module: views

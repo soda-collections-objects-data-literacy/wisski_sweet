@@ -1,0 +1,18 @@
+uuid: bec4eea0-be16-42c4-927c-86857107ee5b
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__prod__technique
+name: Technique
+path_array:
+  - 'http://erlangen-crm.org/current/E12_Production'
+  - 'http://erlangen-crm.org/current/P33_used_specific_technique'
+  - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

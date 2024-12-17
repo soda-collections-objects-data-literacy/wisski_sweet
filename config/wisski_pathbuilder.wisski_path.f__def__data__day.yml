@@ -1,0 +1,18 @@
+uuid: ea5fd1e2-30b7-4d51-92bb-8dff260ba708
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__data__day
+name: Day
+path_array:
+  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://erlangen-crm.org/current/P86i_contains'
+  - 'http://wiss-ki.eu/ontology/Day'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

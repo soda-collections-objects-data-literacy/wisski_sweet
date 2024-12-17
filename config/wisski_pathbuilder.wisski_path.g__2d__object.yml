@@ -1,0 +1,16 @@
+uuid: 27aeb320-ec68-4f91-9dd9-cf8e46a025c6
+langcode: en
+status: true
+dependencies: {  }
+id: g__2d__object
+name: Object
+path_array:
+  - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

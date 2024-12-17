@@ -1,0 +1,18 @@
+uuid: 307ff6a5-8cd9-4635-b59f-2f7b6bdb2f4f
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__material__name
+name: Name
+path_array:
+  - 'http://erlangen-crm.org/current/E57_Material'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/PreferredName'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

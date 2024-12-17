@@ -1,0 +1,18 @@
+uuid: 8d8dd94e-67e9-4e64-b30f-5c2ab1eb76be
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__event__time_span
+name: Time-Span
+path_array:
+  - 'http://erlangen-crm.org/current/E5_Event'
+  - 'http://erlangen-crm.org/current/P4_has_time-span'
+  - 'http://erlangen-crm.org/current/E52_Time-Span'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,14 +1,14 @@
-uuid: 806801a6-013f-48b0-80b9-13c5a763b551
+uuid: 1bc063ad-8697-438b-ad00-a55d0a84844b
 langcode: en
 status: true
 dependencies: {  }
 id: acronym
 name: Acronym
 path_array:
-  - 'http://erlangen-crm.org/240307/E32_Authority_Document'
-  - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-  - 'http://erlangen-crm.org/240307/E41_Appellation'
-datatype_property: 'http://erlangen-crm.org/240307/P3_has_note'
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0
 length: null

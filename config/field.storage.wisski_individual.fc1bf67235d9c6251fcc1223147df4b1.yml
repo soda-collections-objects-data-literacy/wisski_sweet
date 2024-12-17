@@ -5,6 +5,8 @@ dependencies:
   module:
     - link
     - wisski_core
+_core:
+  default_config_hash: XoiErM9Dv4OQVrh6HV7f8qGTS7YjNSnBk0iEeHPpH8A
 id: wisski_individual.fc1bf67235d9c6251fcc1223147df4b1
 field_name: fc1bf67235d9c6251fcc1223147df4b1
 entity_type: wisski_individual

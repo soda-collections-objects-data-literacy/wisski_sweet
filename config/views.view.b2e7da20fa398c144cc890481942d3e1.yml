@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.navigate
     - wisski_core.wisski_bundle.b2e7da20fa398c144cc890481942d3e1
   module:
     - user
     - wisski_core
+_core:
+  default_config_hash: Cjfns7ffGTDOCz08dR3_sqnnE5kxJRmMPAElBjs6n2I
 id: b2e7da20fa398c144cc890481942d3e1
 label: 'Authority document'
 module: views

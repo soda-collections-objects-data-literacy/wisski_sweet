@@ -1,0 +1,16 @@
+uuid: dfb63117-d996-4a0f-aa33-d8ddef6fa59b
+langcode: en
+status: true
+dependencies: {  }
+id: g__def__death
+name: Death
+path_array:
+  - 'http://erlangen-crm.org/current/E69_Death'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

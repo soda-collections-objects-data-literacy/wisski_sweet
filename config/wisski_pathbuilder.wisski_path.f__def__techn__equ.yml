@@ -1,0 +1,18 @@
+uuid: c4379139-6c2f-49e4-aa77-67be9ae42dba
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__techn__equ
+name: Equipment
+path_array:
+  - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
+  - 'http://kur.wisski.cloud/ontology/1.0/foresees_use_of_equipment'
+  - 'http://kur.wisski.cloud/ontology/1.0/Equipment'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

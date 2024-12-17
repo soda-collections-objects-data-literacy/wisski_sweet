@@ -11,6 +11,8 @@ dependencies:
   module:
     - leaflet
     - wisski_adapter_sparql11_pb
+_core:
+  default_config_hash: aUaVBfGMxPOt8K9INtelydBr6HZ64cAzbeG818URE1o
 id: wisski_individual.ba579dbd044f00ad5d2a7553a9918146.default
 targetEntityType: wisski_individual
 bundle: ba579dbd044f00ad5d2a7553a9918146
@@ -109,6 +111,7 @@ content:
           options: ''
       map_lazy_load:
         lazy_load: false
+      weight: 0
     third_party_settings: {  }
     weight: 2
     region: content
@@ -137,6 +140,7 @@ content:
     weight: 0
     region: content
 hidden:
+  bundle: true
   created: true
   label: true
   name: true

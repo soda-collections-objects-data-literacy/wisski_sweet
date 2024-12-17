@@ -1,0 +1,18 @@
+uuid: 06a21525-4ef0-43e2-957c-812af8cf7f7a
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__date__year
+name: Year
+path_array:
+  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://erlangen-crm.org/current/P86i_contains'
+  - 'http://wiss-ki.eu/ontology/Year'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

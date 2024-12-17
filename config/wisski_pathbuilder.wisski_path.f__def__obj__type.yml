@@ -1,0 +1,20 @@
+uuid: c92272c8-112c-4e8b-9c5a-a4d7c12deb81
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__obj__type
+name: Type
+path_array:
+  - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/current/P2_has_type'
+  - 'http://erlangen-crm.org/current/E55_Type'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

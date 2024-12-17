@@ -10,6 +10,8 @@ dependencies:
     - wisski_core.wisski_bundle.b5d104193f947ce881d74659519d7044
   module:
     - link
+_core:
+  default_config_hash: AjjzbKuNShJyzAzmA052HT4DCCgpeDvSmxMMzSom1qY
 id: wisski_individual.b5d104193f947ce881d74659519d7044.default
 targetEntityType: wisski_individual
 bundle: b5d104193f947ce881d74659519d7044
@@ -52,6 +54,7 @@ content:
     weight: 3
     region: content
 hidden:
+  bundle: true
   created: true
   label: true
   name: true

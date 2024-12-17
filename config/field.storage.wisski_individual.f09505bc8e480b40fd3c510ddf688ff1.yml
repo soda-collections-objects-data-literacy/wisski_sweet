@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - wisski_core
+_core:
+  default_config_hash: BahN_1_GsdASj8Kpqrw6CLsRb6m5fZoBnLNS-Q5H15o
 id: wisski_individual.f09505bc8e480b40fd3c510ddf688ff1
 field_name: f09505bc8e480b40fd3c510ddf688ff1
 entity_type: wisski_individual

@@ -1,0 +1,18 @@
+uuid: db395c23-5522-4288-89fa-59429a1278d6
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__technique__name
+name: Name
+path_array:
+  - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/PreferredName'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

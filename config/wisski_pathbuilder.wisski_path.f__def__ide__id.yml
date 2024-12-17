@@ -1,0 +1,16 @@
+uuid: e2c3bb18-9669-4ab1-8278-c12fb24281e7
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__ide__id
+name: ID
+path_array:
+  - 'http://erlangen-crm.org/current/E42_Identifier'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,16 @@
+uuid: 1498675a-4d4e-4ca0-9ab5-39fc42bbf2fb
+langcode: en
+status: true
+dependencies: {  }
+id: g__2d__image
+name: Image
+path_array:
+  - 'http://wiss-ki.eu/ontology/Image'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - wisski_core.wisski_bundle.b3aa57618dba639d9bed090a51611abc
+_core:
+  default_config_hash: bloxtaPzci21-flsRVlYd4DANVzAUJ78uZ3ApNUVwZo
 id: wisski_individual.b3aa57618dba639d9bed090a51611abc.default
 targetEntityType: wisski_individual
 bundle: b3aa57618dba639d9bed090a51611abc

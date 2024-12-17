@@ -1,0 +1,18 @@
+uuid: 9912dae3-6d3b-4be6-8b43-fef76a427676
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__person__group
+name: Group
+path_array:
+  - 'http://erlangen-crm.org/current/E21_Person'
+  - 'http://erlangen-crm.org/current/P107i_is_current_or_former_member_of'
+  - 'http://erlangen-crm.org/current/E74_Group'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

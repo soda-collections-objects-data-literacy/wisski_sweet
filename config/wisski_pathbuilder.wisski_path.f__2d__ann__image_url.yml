@@ -1,0 +1,20 @@
+uuid: 7387ac11-5e2e-413e-9665-57ec105cbefc
+langcode: en
+status: true
+dependencies: {  }
+id: f__2d__ann__image_url
+name: 'URL of the annotated image'
+path_array:
+  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://erlangen-crm.org/current/P141_assigned'
+  - 'http://wiss-ki.eu/ontology/Image'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/URL'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,20 @@
+uuid: 30f6c369-88ab-4828-82ea-586fa8a554b1
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__right__url
+name: Link
+path_array:
+  - 'http://erlangen-crm.org/current/E30_Right'
+  - 'http://erlangen-crm.org/current/P67_refers_to'
+  - 'http://erlangen-crm.org/current/E31_Document'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/URL'
+datatype_property: 'http://erlangen-crm.org/current/P190_has_symbolic_content'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

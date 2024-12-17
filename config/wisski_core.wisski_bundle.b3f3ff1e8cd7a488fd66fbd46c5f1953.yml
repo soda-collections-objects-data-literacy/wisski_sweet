@@ -2,9 +2,11 @@ uuid: cf141519-8216-4f12-81b6-c2bbe4c9c292
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: vDChcxakZnG1xGw4iy51c4h8Mqrs3V6zveKDlpBMRUQ
 id: b3f3ff1e8cd7a488fd66fbd46c5f1953
 label: Birth
-title_pattern: 'a:5:{s:2:"t0";a:9:{s:5:"label";s:1:"*";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt0";s:2:"id";s:2:"t0";}s:2:"p1";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:35:"wisski_default.f__birth__birth_date";s:2:"id";s:2:"p1";s:5:"label";s:10:"Birth Date";}s:2:"t2";a:9:{s:5:"label";s:2:", ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt2";s:2:"id";s:2:"t2";s:7:"parents";a:1:{s:2:"p3";b:1;}}s:2:"p3";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:36:"wisski_default.f__birth__birth_place";s:2:"id";s:2:"p3";s:5:"label";s:11:"Birth Place";}s:6:"max_id";i:3;}'
+title_pattern: 'a:5:{s:2:"t0";a:9:{s:5:"label";s:2:"* ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt0";s:2:"id";s:2:"t0";s:7:"parents";a:1:{s:2:"p3";b:1;}}s:2:"p1";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:41:"wisski_default.f__def__birth__birth_place";s:2:"id";s:2:"p1";s:5:"label";s:11:"Birth Place";}s:2:"t2";a:9:{s:5:"label";s:1:",";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt2";s:2:"id";s:2:"t2";s:7:"parents";a:1:{s:2:"p3";b:1;}}s:2:"p3";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:40:"wisski_default.f__def__birth__birth_date";s:2:"id";s:2:"p3";s:5:"label";s:10:"Birth Date";}s:6:"max_id";i:3;}'
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10

@@ -1,0 +1,16 @@
+uuid: cce79a53-b1c9-49c6-8409-3b8d10e52e8a
+langcode: en
+status: true
+dependencies: {  }
+id: g__def__date
+name: Date
+path_array:
+  - 'http://wiss-ki.eu/ontology/Date'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

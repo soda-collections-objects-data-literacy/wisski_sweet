@@ -1,0 +1,18 @@
+uuid: fc266d5c-71ba-4fac-8022-46cab2a6bc3a
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__right__description
+name: Description
+path_array:
+  - 'http://erlangen-crm.org/current/E30_Right'
+  - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/Description'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

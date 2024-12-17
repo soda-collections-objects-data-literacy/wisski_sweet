@@ -11,6 +11,8 @@ dependencies:
   module:
     - geofield
     - inline_entity_form
+_core:
+  default_config_hash: NPoRq-2m9FP8K5jAR_3Zz3tdGQ-_5CamIgHF2ocdz2k
 id: wisski_individual.ba579dbd044f00ad5d2a7553a9918146.default
 targetEntityType: wisski_individual
 bundle: ba579dbd044f00ad5d2a7553a9918146

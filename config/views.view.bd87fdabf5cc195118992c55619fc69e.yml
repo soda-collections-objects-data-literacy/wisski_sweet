@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.navigate
     - wisski_core.wisski_bundle.bd87fdabf5cc195118992c55619fc69e
   module:
     - user
     - wisski_core
+_core:
+  default_config_hash: dS_VQmZUnBp9bA_pj_umGTzIqq5uE1D6YI0x8E2ZpZE
 id: bd87fdabf5cc195118992c55619fc69e
 label: Death
 module: views

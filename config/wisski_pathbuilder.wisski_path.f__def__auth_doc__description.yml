@@ -1,0 +1,18 @@
+uuid: 9978da39-7c0a-4d04-b07a-265a1ccabbc1
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__auth_doc__description
+name: Description
+path_array:
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+  - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/Description'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

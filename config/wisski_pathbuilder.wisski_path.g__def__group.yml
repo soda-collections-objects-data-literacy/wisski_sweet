@@ -1,0 +1,16 @@
+uuid: c763625a-c44a-4aae-b033-5bf6cf6d3bf2
+langcode: en
+status: true
+dependencies: {  }
+id: g__def__group
+name: Group
+path_array:
+  - 'http://erlangen-crm.org/current/E74_Group'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

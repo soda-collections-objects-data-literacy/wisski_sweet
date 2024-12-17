@@ -1,0 +1,18 @@
+uuid: 2dea851e-4933-4ddd-a281-d62b495094a0
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__date__month
+name: Month
+path_array:
+  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://erlangen-crm.org/current/P86i_contains'
+  - 'http://wiss-ki.eu/ontology/Month'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

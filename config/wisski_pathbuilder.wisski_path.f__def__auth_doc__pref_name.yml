@@ -1,0 +1,18 @@
+uuid: a673c4b1-c951-4972-bdc9-1c30389aa4fa
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__auth_doc__pref_name
+name: Name
+path_array:
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/PreferredName'
+datatype_property: 'http://erlangen-crm.org/current/P190_has_symbolic_content'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

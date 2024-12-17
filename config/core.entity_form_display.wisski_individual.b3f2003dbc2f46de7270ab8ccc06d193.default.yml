@@ -13,7 +13,6 @@ dependencies:
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f749796589e0365c48a5dbe69566fee5
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f8335ad7ad526f2d29ba271bfb0fb781
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f84a521dce5ba9995b2fd94bb2a643e6
-    - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f8e1071b11b49200c6bb3b5dd528746c
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fa9ed8fdfd2e329a7128f2225e50c05e
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fb38cabd5827b4756efbdb8c5baab258
     - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fc21fd0a853af8117d34bacba7612950
@@ -22,6 +21,8 @@ dependencies:
   module:
     - inline_entity_form
     - text
+_core:
+  default_config_hash: xmLbRRSKP1a_uC-bjD09APAeL5P37kEDd0ir07p1ft0
 id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default
 targetEntityType: wisski_individual
 bundle: b3f2003dbc2f46de7270ab8ccc06d193
@@ -137,24 +138,6 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  f8e1071b11b49200c6bb3b5dd528746c:
-    type: inline_entity_form_complex
-    weight: 11
-    region: content
-    settings:
-      form_mode: default
-      override_labels: false
-      label_singular: ''
-      label_plural: ''
-      allow_new: true
-      allow_existing: true
-      match_operator: CONTAINS
-      allow_duplicate: false
-      collapsible: false
-      collapsed: false
-      revision: false
-      removed_reference: optional
-    third_party_settings: {  }
   fa9ed8fdfd2e329a7128f2225e50c05e:
     type: string_textfield
     weight: 3
@@ -219,7 +202,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  f84a521dce5ba9995b2fd94bb2a643e6: true
+  field_mirador_viewer: true
   label: true
   name: true
   uid: true

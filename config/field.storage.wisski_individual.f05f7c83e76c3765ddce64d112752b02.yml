@@ -5,6 +5,8 @@ dependencies:
   module:
     - geofield
     - wisski_core
+_core:
+  default_config_hash: 07PdsvW9TJpYEGJYl6Um4bJDXqc18HunofiSKKqOXiU
 id: wisski_individual.f05f7c83e76c3765ddce64d112752b02
 field_name: f05f7c83e76c3765ddce64d112752b02
 entity_type: wisski_individual

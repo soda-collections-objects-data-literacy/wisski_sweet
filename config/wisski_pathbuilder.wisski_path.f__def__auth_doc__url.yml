@@ -1,0 +1,18 @@
+uuid: 56118d07-6fb7-4463-9f0f-3e89a903dc31
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__auth_doc__url
+name: Web
+path_array:
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/URL'
+datatype_property: 'http://erlangen-crm.org/current/P190_has_symbolic_content'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

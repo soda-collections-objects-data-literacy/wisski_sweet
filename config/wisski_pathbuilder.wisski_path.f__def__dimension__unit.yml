@@ -1,0 +1,20 @@
+uuid: cdf7d242-bb58-4e28-a861-ab7adb567ec4
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__dimension__unit
+name: Unit
+path_array:
+  - 'http://erlangen-crm.org/current/E54_Dimension'
+  - 'http://erlangen-crm.org/current/P91_has_unit'
+  - 'http://erlangen-crm.org/current/E58_Measurement_Unit'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

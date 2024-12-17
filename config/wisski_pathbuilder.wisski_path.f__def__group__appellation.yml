@@ -1,0 +1,18 @@
+uuid: 2da6a17d-dacb-4c8c-86a1-465d106f31f8
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__group__appellation
+name: Appellation
+path_array:
+  - 'http://erlangen-crm.org/current/E74_Group'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

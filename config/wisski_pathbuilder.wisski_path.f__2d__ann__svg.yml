@@ -1,0 +1,18 @@
+uuid: 30a63ae3-bd91-4157-88ab-7308d9f8daa1
+langcode: en
+status: true
+dependencies: {  }
+id: f__2d__ann__svg
+name: 'SVG Layer'
+path_array:
+  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://erlangen-crm.org/current/P141_assigned'
+  - 'http://wiss-ki.eu/ontology/SVG'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

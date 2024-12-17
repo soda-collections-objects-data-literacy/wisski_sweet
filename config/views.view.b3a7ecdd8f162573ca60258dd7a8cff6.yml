@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.navigate
     - wisski_core.wisski_bundle.b3a7ecdd8f162573ca60258dd7a8cff6
   module:
     - user
     - wisski_core
+_core:
+  default_config_hash: yEEWtH8p5RXChLBUw-dqiSRG8KBE18N9zKiiCFkssIM
 id: b3a7ecdd8f162573ca60258dd7a8cff6
 label: Time-Span
 module: views

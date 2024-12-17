@@ -1,0 +1,18 @@
+uuid: bab4a34e-c7c5-44d4-bfc1-b89ade0d80e0
+langcode: en
+status: true
+dependencies: {  }
+id: f__2d__ann__canvas
+name: Canvas
+path_array:
+  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://erlangen-crm.org/current/P16_used_specific_object'
+  - 'http://wiss-ki.eu/ontology/Canvas'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -1,0 +1,269 @@
+uuid: 8e9665b1-85a8-45e2-9ed2-998eb9704975
+langcode: en
+status: true
+dependencies: {  }
+id: wisski_2d
+name: 'WissKI 2D'
+adapter: default
+type: null
+pathtree:
+  g__2d__image:
+    id: g__2d__image
+    children:
+      f__2d__image__file_path:
+        id: f__2d__image__file_path
+        children: {  }
+      f__2d__image__right:
+        id: f__2d__image__right
+        children: {  }
+  g__2d__object:
+    id: g__2d__object
+    children:
+      f__2d__obj__image:
+        id: f__2d__obj__image
+        children: {  }
+      f__2d__obj__image_file:
+        id: f__2d__obj__image_file
+        children: {  }
+  g__2d__annotation:
+    id: g__2d__annotation
+    children:
+      f__2d__ann__uuid:
+        id: f__2d__ann__uuid
+        children: {  }
+      f__2d__ann__id:
+        id: f__2d__ann__id
+        children: {  }
+      f__2d__ann__image_url:
+        id: f__2d__ann__image_url
+        children: {  }
+      f__2d__ann__canvas:
+        id: f__2d__ann__canvas
+        children: {  }
+      f__2d__ann__part_of_fragm:
+        id: f__2d__ann__part_of_fragm
+        children: {  }
+      f__2d__ann__text:
+        id: f__2d__ann__text
+        children: {  }
+      f__2d__ann__description:
+        id: f__2d__ann__description
+        children: {  }
+      f__2d__ann__json_file:
+        id: f__2d__ann__json_file
+        children: {  }
+      f__2d__ann__svg:
+        id: f__2d__ann__svg
+        children: {  }
+pbpaths:
+  g__2d__image:
+    id: g__2d__image
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: bb109f84adcbd455b72df104580ba04e
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__2d__object:
+    id: g__2d__object
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b3f2003dbc2f46de7270ab8ccc06d193
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__2d__annotation:
+    id: g__2d__annotation
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  f__2d__image__file_path:
+    id: f__2d__image__file_path
+    weight: '0'
+    enabled: '1'
+    parent: g__2d__image
+    bundle: bb109f84adcbd455b72df104580ba04e
+    field: fad8ec25af9afca19197fd0e38ecca34
+    fieldtype: image
+    displaywidget: image_image
+    formatterwidget: colorbox
+    cardinality: '-1'
+    field_type_informative: image
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/URL'
+  f__2d__image__right:
+    id: f__2d__image__right
+    weight: '1'
+    enabled: '1'
+    parent: g__2d__image
+    bundle: bb109f84adcbd455b72df104580ba04e
+    field: f8c788371f9b47301ea8441067a7338c
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://erlangen-crm.org/current/P104_is_subject_to'
+      - 'http://erlangen-crm.org/current/E30_Right'
+  f__2d__obj__image:
+    id: f__2d__obj__image
+    weight: '0'
+    enabled: '1'
+    parent: g__2d__object
+    bundle: b3f2003dbc2f46de7270ab8ccc06d193
+    field: fddac03d212c691d6a89a223a45638ad
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P138i_has_representation'
+      - 'http://wiss-ki.eu/ontology/Image'
+  f__2d__ann__id:
+    id: f__2d__ann__id
+    weight: '4'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: facd95034a6e89aa85c1933084fa7340
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__2d__ann__json_file:
+    id: f__2d__ann__json_file
+    weight: '11'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: f5b50d43c06bbde91f7a5b47e1f166c8
+    fieldtype: string_long
+    displaywidget: string_textarea
+    formatterwidget: basic_string
+    cardinality: '-1'
+    field_type_informative: string_long
+  f__2d__ann__uuid:
+    id: f__2d__ann__uuid
+    weight: '3'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: fdce0b686453bfbf5b7ccf1c8c372ed1
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__2d__ann__image_url:
+    id: f__2d__ann__image_url
+    weight: '5'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: f8606b00c8623c8fc2999dcdd13eb47e
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__2d__ann__canvas:
+    id: f__2d__ann__canvas
+    weight: '6'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: feeb1bc5afcb469f6f60bf0253643742
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__2d__ann__part_of_fragm:
+    id: f__2d__ann__part_of_fragm
+    weight: '7'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: f762d8e70d16d9618ed9a091cfc583f7
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__2d__ann__description:
+    id: f__2d__ann__description
+    weight: '10'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: f7cbc14e804b66d75b559026a98bd705
+    fieldtype: string_long
+    displaywidget: string_textarea
+    formatterwidget: basic_string
+    cardinality: '-1'
+    field_type_informative: string_long
+  f__2d__ann__svg:
+    id: f__2d__ann__svg
+    weight: '12'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: f255db37e8af9457af5fb2b29783bd2d
+    fieldtype: string_long
+    displaywidget: string_textarea
+    formatterwidget: basic_string
+    cardinality: '-1'
+    field_type_informative: string_long
+  f__2d__ann__text:
+    id: f__2d__ann__text
+    weight: '9'
+    enabled: '1'
+    parent: g__2d__annotation
+    bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+    field: f4e282856ac37ae122d1535490a5efc0
+    fieldtype: string_long
+    displaywidget: string_textarea
+    formatterwidget: basic_string
+    cardinality: '-1'
+    field_type_informative: string_long
+  f__2d__obj__image_file:
+    id: f__2d__obj__image_file
+    weight: '1'
+    enabled: '1'
+    parent: g__2d__object
+    bundle: b3f2003dbc2f46de7270ab8ccc06d193
+    field: f2402bfab139280c7cc8611c3b27e137
+    fieldtype: image
+    displaywidget: image_image
+    formatterwidget: colorbox
+    cardinality: '-1'
+    field_type_informative: image
+    relativepath:
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P138i_has_representation'
+      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/URL'
+with_solr: null

@@ -1,0 +1,20 @@
+uuid: 6f4e1490-4018-49d3-8a6b-f6533148b2f7
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__dimension__type
+name: Type
+path_array:
+  - 'http://erlangen-crm.org/current/E54_Dimension'
+  - 'http://erlangen-crm.org/current/P2_has_type'
+  - 'http://erlangen-crm.org/current/E55_Type'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

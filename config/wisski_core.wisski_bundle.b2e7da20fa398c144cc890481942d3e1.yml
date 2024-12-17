@@ -2,9 +2,11 @@ uuid: 9289f083-ce96-40b1-8600-f62d986f75cc
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Rt7Vh3ty4oUTjRqGkyTpgDVHMEUxUZwFM1PIBHTppVA
 id: b2e7da20fa398c144cc890481942d3e1
 label: 'Authority document'
-title_pattern: 'a:5:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:37:"wisski_default.f__auth_doc__pref_name";s:2:"id";s:2:"p0";s:5:"label";s:4:"Name";}s:2:"t1";a:9:{s:5:"label";s:2:" (";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt1";s:2:"id";s:2:"t1";s:7:"parents";a:1:{s:2:"p2";b:1;}}s:2:"p2";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:22:"wisski_default.acronym";s:2:"id";s:2:"p2";s:5:"label";s:7:"Acronym";}s:2:"t3";a:9:{s:5:"label";s:1:")";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt3";s:2:"id";s:2:"t3";s:7:"parents";a:1:{s:2:"p2";b:1;}}s:6:"max_id";i:3;}'
+title_pattern: 'a:5:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:42:"wisski_default.f__def__auth_doc__pref_name";s:2:"id";s:2:"p0";s:5:"label";s:4:"Name";}s:2:"t1";a:9:{s:5:"label";s:2:" (";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt1";s:2:"id";s:2:"t1";s:7:"parents";a:1:{s:2:"p2";b:1;}}s:2:"p2";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:22:"wisski_default.acronym";s:2:"id";s:2:"p2";s:5:"label";s:7:"Acronym";}s:2:"t3";a:9:{s:5:"label";s:1:")";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt3";s:2:"id";s:2:"t3";s:7:"parents";a:1:{s:2:"p2";b:1;}}s:6:"max_id";i:3;}'
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10

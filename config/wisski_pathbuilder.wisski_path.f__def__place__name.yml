@@ -1,0 +1,18 @@
+uuid: 837b0925-f3a2-4e93-9fc6-1e94fdac3942
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__place__name
+name: Name
+path_array:
+  - 'http://erlangen-crm.org/current/E53_Place'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/PreferredName'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

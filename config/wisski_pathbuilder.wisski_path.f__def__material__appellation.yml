@@ -1,0 +1,18 @@
+uuid: 8db7e62a-8c3e-4840-be8f-707992a344e9
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__material__appellation
+name: Appellation
+path_array:
+  - 'http://erlangen-crm.org/current/E57_Material'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

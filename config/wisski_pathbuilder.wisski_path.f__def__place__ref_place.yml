@@ -1,0 +1,18 @@
+uuid: 0c6a0db8-f756-453e-a90c-58c37baccadc
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__place__ref_place
+name: 'Located in'
+path_array:
+  - 'http://erlangen-crm.org/current/E53_Place'
+  - 'http://erlangen-crm.org/current/P89_falls_within'
+  - 'http://erlangen-crm.org/current/E53_Place'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

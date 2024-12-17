@@ -1,0 +1,21 @@
+uuid: 425daed9-6fe6-479d-9ace-a47cff146f19
+langcode: en
+status: true
+dependencies:
+  module:
+    - viewfield
+    - views
+    - wisski_core
+id: wisski_individual.field_mirador_viewer
+field_name: field_mirador_viewer
+entity_type: wisski_individual
+type: viewfield
+settings:
+  target_type: view
+module: viewfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

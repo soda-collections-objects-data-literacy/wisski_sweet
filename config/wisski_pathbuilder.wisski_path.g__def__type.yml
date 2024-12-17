@@ -1,0 +1,16 @@
+uuid: 9628d09a-84d4-40fe-96c2-35a6406952dd
+langcode: en
+status: true
+dependencies: {  }
+id: g__def__type
+name: Type
+path_array:
+  - 'http://erlangen-crm.org/current/E55_Type'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

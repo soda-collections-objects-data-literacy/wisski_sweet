@@ -1,0 +1,16 @@
+uuid: 05ddbc80-6d52-4f36-a34e-d127d5c9f70c
+langcode: en
+status: true
+dependencies: {  }
+id: g__def__feature
+name: Feature
+path_array:
+  - 'http://erlangen-crm.org/current/E25_Human-Made_Feature'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Group
+transitive: null
+irreflexive: null

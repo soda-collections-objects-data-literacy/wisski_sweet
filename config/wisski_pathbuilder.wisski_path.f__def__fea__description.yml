@@ -1,0 +1,18 @@
+uuid: 212d103c-078b-4538-8d5b-87c756ebae6e
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__fea__description
+name: Description
+path_array:
+  - 'http://erlangen-crm.org/current/E25_Human-Made_Feature'
+  - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/Description'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

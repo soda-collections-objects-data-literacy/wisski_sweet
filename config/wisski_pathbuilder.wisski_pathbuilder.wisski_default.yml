@@ -1,330 +1,318 @@
-uuid: e9f46ddd-2639-45dd-bf4d-a871f29c2e76
+uuid: 6491f35b-8634-4b52-8ef9-6fc4fdec789a
 langcode: en
 status: true
 dependencies: {  }
 id: wisski_default
-name: wisski_default
+name: 'WissKI default'
 adapter: default
 type: null
 pathtree:
-  g__hum_mad_obj:
-    id: g__hum_mad_obj
+  g__def__obj:
+    id: g__def__obj
     children:
-      f__hum_mad_obj__status:
-        id: f__hum_mad_obj__status
+      f__def__obj__status:
+        id: f__def__obj__status
         children: {  }
-      f__hum_mad_obj__title:
-        id: f__hum_mad_obj__title
+      f__def__obj__title:
+        id: f__def__obj__title
         children: {  }
-      f__hum_mad_obj__appellation:
-        id: f__hum_mad_obj__appellation
+      f__def__obj__appellation:
+        id: f__def__obj__appellation
         children: {  }
-      f__hum_mad_obj__ide:
-        id: f__hum_mad_obj__ide
+      f__def__obj__ide:
+        id: f__def__obj__ide
         children: {  }
-      f__hum_mad_obj__type:
-        id: f__hum_mad_obj__type
+      f__def__obj__type:
+        id: f__def__obj__type
         children: {  }
-      f__hum_mad_obj__ref_ident:
-        id: f__hum_mad_obj__ref_ident
+      f__def__obj__ref_ident:
+        id: f__def__obj__ref_ident
         children: {  }
-      f__hum_mad_obj__cur_hol:
-        id: f__hum_mad_obj__cur_hol
+      f__def__obj__cur_hol:
+        id: f__def__obj__cur_hol
         children: {  }
-      f__hum_mad_obj__hum_mad_obj:
-        id: f__hum_mad_obj__hum_mad_obj
+      f__def__obj__obj:
+        id: f__def__obj__obj
         children: {  }
-      f__hum_mad_obj__feature:
-        id: f__hum_mad_obj__feature
+      f__def__obj__feature:
+        id: f__def__obj__feature
         children: {  }
-      f__hum_mad_obj__part_of__hmo:
-        id: f__hum_mad_obj__part_of__hmo
+      f__def__obj__part_of__hmo:
+        id: f__def__obj__part_of__hmo
         children: {  }
-      f__hum_mad_obj__image:
-        id: f__hum_mad_obj__image
+      f__def__obj__dimension:
+        id: f__def__obj__dimension
         children: {  }
-      f__hum_mad_obj__dimension:
-        id: f__hum_mad_obj__dimension
+      f__def__obj__production:
+        id: f__def__obj__production
         children: {  }
-      f__hum_mad_obj__production:
-        id: f__hum_mad_obj__production
+      f__def__obj__description:
+        id: f__def__obj__description
         children: {  }
-      f__hum_mad_obj__description:
-        id: f__hum_mad_obj__description
+      f__def__obj__comment:
+        id: f__def__obj__comment
         children: {  }
-      f__hum_mad_obj__comment:
-        id: f__hum_mad_obj__comment
-        children: {  }
-  g__place:
-    id: g__place
+  g__def__place:
+    id: g__def__place
     children:
-      f__place__name:
-        id: f__place__name
+      f__def__place__name:
+        id: f__def__place__name
         children: {  }
-      f__place__appellation:
-        id: f__place__appellation
+      f__def__place__appellation:
+        id: f__def__place__appellation
         children: {  }
-      f__place__coordinates:
-        id: f__place__coordinates
+      f__def__place__coordinates:
+        id: f__def__place__coordinates
         children: {  }
-      f__place__ref_place:
-        id: f__place__ref_place
+      f__def__place__ref_place:
+        id: f__def__place__ref_place
         children: {  }
-  g__image:
-    id: g__image
+  g__def__source:
+    id: g__def__source
     children:
-      f__image__file_path:
-        id: f__image__file_path
+      f__def__source__title:
+        id: f__def__source__title
         children: {  }
-      f__image__right:
-        id: f__image__right
+      f__def__source__author_information:
+        id: f__def__source__author_information
         children: {  }
-  g__source:
-    id: g__source
+      f__def__source__citation:
+        id: f__def__source__citation
+        children: {  }
+      f__def__source__url:
+        id: f__def__source__url
+        children: {  }
+  g__def__person:
+    id: g__def__person
     children:
-      f__source__title:
-        id: f__source__title
+      f__def__person__name:
+        id: f__def__person__name
         children: {  }
-      f__source__author_information:
-        id: f__source__author_information
+      f__def__person__appellation:
+        id: f__def__person__appellation
         children: {  }
-      f__source__citation:
-        id: f__source__citation
+      f__def__person__identifier:
+        id: f__def__person__identifier
         children: {  }
-      f__source__url:
-        id: f__source__url
+      f__def__person__birth:
+        id: f__def__person__birth
         children: {  }
-  g__person:
-    id: g__person
+      f__def__person__death:
+        id: f__def__person__death
+        children: {  }
+      f__def__person__group:
+        id: f__def__person__group
+        children: {  }
+  g__def__birth:
+    id: g__def__birth
     children:
-      f__person__name:
-        id: f__person__name
+      f__def__birth__birth_date:
+        id: f__def__birth__birth_date
         children: {  }
-      f__person__appellation:
-        id: f__person__appellation
+      f__def__birth__birth_place:
+        id: f__def__birth__birth_place
         children: {  }
-      f__person__identifier:
-        id: f__person__identifier
-        children: {  }
-      f__person__birth:
-        id: f__person__birth
-        children: {  }
-      f__person__death:
-        id: f__person__death
-        children: {  }
-      f__person__group:
-        id: f__person__group
-        children: {  }
-  g__birth:
-    id: g__birth
+  g__def__death:
+    id: g__def__death
     children:
-      f__birth__birth_date:
-        id: f__birth__birth_date
+      f__def__death__death_date:
+        id: f__def__death__death_date
         children: {  }
-      f__birth__birth_place:
-        id: f__birth__birth_place
+      f__def__death__death_place:
+        id: f__def__death__death_place
         children: {  }
-  g__death:
-    id: g__death
+  g__def__date:
+    id: g__def__date
     children:
-      f__death__death_date:
-        id: f__death__death_date
+      f__def__dat__type:
+        id: f__def__dat__type
         children: {  }
-      f__death__death_place:
-        id: f__death__death_place
+      f__def__date__year:
+        id: f__def__date__year
         children: {  }
-  g__date:
-    id: g__date
+      f__def__date__month:
+        id: f__def__date__month
+        children: {  }
+      f__def__data__day:
+        id: f__def__data__day
+        children: {  }
+  g__def__dimension:
+    id: g__def__dimension
     children:
-      f__dat__type:
-        id: f__dat__type
+      f__def__dimension__type:
+        id: f__def__dimension__type
         children: {  }
-      f__date__year:
-        id: f__date__year
+      g__def__dimension__value:
+        id: g__def__dimension__value
         children: {  }
-      f__date__month:
-        id: f__date__month
+      f__def__dimension__unit:
+        id: f__def__dimension__unit
         children: {  }
-      f__data__day:
-        id: f__data__day
-        children: {  }
-  g__dimension:
-    id: g__dimension
+  g__def__material:
+    id: g__def__material
     children:
-      f__dimension__type:
-        id: f__dimension__type
+      f__def__material__name:
+        id: f__def__material__name
         children: {  }
-      g__dimension__value:
-        id: g__dimension__value
+      f__def__material__appellation:
+        id: f__def__material__appellation
         children: {  }
-      f__dimension__unit:
-        id: f__dimension__unit
-        children: {  }
-  g__material:
-    id: g__material
+  g__def__right:
+    id: g__def__right
     children:
-      f__material__name:
-        id: f__material__name
+      f__def__right__name:
+        id: f__def__right__name
         children: {  }
-      f__material__appellation:
-        id: f__material__appellation
+      f__def__right__image:
+        id: f__def__right__image
         children: {  }
-  g__right:
-    id: g__right
+      f__def__right__description:
+        id: f__def__right__description
+        children: {  }
+      f__def__right__url:
+        id: f__def__right__url
+        children: {  }
+  g__def__technique:
+    id: g__def__technique
     children:
-      f__right__name:
-        id: f__right__name
+      f__def__technique__name:
+        id: f__def__technique__name
         children: {  }
-      f__right__image:
-        id: f__right__image
+      f__def__technique__appellation:
+        id: f__def__technique__appellation
         children: {  }
-      f__right__description:
-        id: f__right__description
+      f__def__techn__mat:
+        id: f__def__techn__mat
         children: {  }
-      f__right__url:
-        id: f__right__url
+      f__def__techn__equ:
+        id: f__def__techn__equ
         children: {  }
-  g__technique:
-    id: g__technique
+  g__def__group:
+    id: g__def__group
     children:
-      f__technique__name:
-        id: f__technique__name
+      f__def__group__name:
+        id: f__def__group__name
         children: {  }
-      f__technique__appellation:
-        id: f__technique__appellation
+      f__def__group__appellation:
+        id: f__def__group__appellation
         children: {  }
-      f__techn__mat:
-        id: f__techn__mat
+      f__def__group__identifier:
+        id: f__def__group__identifier
         children: {  }
-      f__techn__equ:
-        id: f__techn__equ
+      f__def__group__address:
+        id: f__def__group__address
         children: {  }
-  g__group:
-    id: g__group
+  g__def__event:
+    id: g__def__event
     children:
-      f__group__name:
-        id: f__group__name
+      f__def__event__title:
+        id: f__def__event__title
         children: {  }
-      f__group__appellation:
-        id: f__group__appellation
+      f__def__event__type:
+        id: f__def__event__type
         children: {  }
-      f__group__identifier:
-        id: f__group__identifier
+      f__def__event__time_span:
+        id: f__def__event__time_span
         children: {  }
-      f__group__address:
-        id: f__group__address
+      f__def__event__ref_place:
+        id: f__def__event__ref_place
         children: {  }
-  g__event:
-    id: g__event
+      f__def__event__within_event:
+        id: f__def__event__within_event
+        children: {  }
+  g__def__time_span:
+    id: g__def__time_span
     children:
-      f__event__title:
-        id: f__event__title
+      f__def__time_span__appellation:
+        id: f__def__time_span__appellation
         children: {  }
-      f__event__type:
-        id: f__event__type
+      f__def__tim_spa__date_begin:
+        id: f__def__tim_spa__date_begin
         children: {  }
-      f__event__time_span:
-        id: f__event__time_span
+      f__def__tim_spa__date_end:
+        id: f__def__tim_spa__date_end
         children: {  }
-      f__event__ref_place:
-        id: f__event__ref_place
+      f__def__tim_spa__date_some:
+        id: f__def__tim_spa__date_some
         children: {  }
-      f__event__within_event:
-        id: f__event__within_event
-        children: {  }
-  g__time_span:
-    id: g__time_span
+  g__def__identifier:
+    id: g__def__identifier
     children:
-      f__time_span__appellation:
-        id: f__time_span__appellation
+      f__def__ide__id:
+        id: f__def__ide__id
         children: {  }
-      f__tim_spa__date_begin:
-        id: f__tim_spa__date_begin
+      f__def__identifier__url:
+        id: f__def__identifier__url
         children: {  }
-      f__tim_spa__date_end:
-        id: f__tim_spa__date_end
+      f__def__identifier__ref_auth_doc:
+        id: f__def__identifier__ref_auth_doc
         children: {  }
-      f__tim_spa__date_some:
-        id: f__tim_spa__date_some
-        children: {  }
-  g__identifier:
-    id: g__identifier
+  g__def__cur_hold:
+    id: g__def__cur_hold
     children:
-      f__ide__id:
-        id: f__ide__id
+      f__def__cur_hold__title:
+        id: f__def__cur_hold__title
         children: {  }
-      f__identifier__url:
-        id: f__identifier__url
+      f__def__cur_hold__ref_person:
+        id: f__def__cur_hold__ref_person
         children: {  }
-      f__identifier__ref_auth_doc:
-        id: f__identifier__ref_auth_doc
+      f__def__cur_hold__ref_group:
+        id: f__def__cur_hold__ref_group
         children: {  }
-  g__cur_hold:
-    id: g__cur_hold
+      f__def__cur_hol__location:
+        id: f__def__cur_hol__location
+        children: {  }
+  g__def__type:
+    id: g__def__type
     children:
-      f__cur_hold__title:
-        id: f__cur_hold__title
+      f__def__type__appellation:
+        id: f__def__type__appellation
         children: {  }
-      f__cur_hold__ref_person:
-        id: f__cur_hold__ref_person
+      f__def__type__ref_type:
+        id: f__def__type__ref_type
         children: {  }
-      f__cur_hold__ref_group:
-        id: f__cur_hold__ref_group
-        children: {  }
-      f__cur_hol__location:
-        id: f__cur_hol__location
-        children: {  }
-  g__type:
-    id: g__type
+  g__def__production:
+    id: g__def__production
     children:
-      f__type__appellation:
-        id: f__type__appellation
+      f__def__prod__producer_p:
+        id: f__def__prod__producer_p
         children: {  }
-      f__type__ref_type:
-        id: f__type__ref_type
+      f__def__prod__producer_g:
+        id: f__def__prod__producer_g
         children: {  }
-  g__production:
-    id: g__production
+      f__def__prod__technique:
+        id: f__def__prod__technique
+        children: {  }
+      f__def__prod__location:
+        id: f__def__prod__location
+        children: {  }
+      f__def__prod__time_span:
+        id: f__def__prod__time_span
+        children: {  }
+  g__def__authority_document:
+    id: g__def__authority_document
     children:
-      f__prod__producer_p:
-        id: f__prod__producer_p
-        children: {  }
-      f__prod__producer_g:
-        id: f__prod__producer_g
-        children: {  }
-      f__prod__technique:
-        id: f__prod__technique
-        children: {  }
-      f__prod__location:
-        id: f__prod__location
-        children: {  }
-      f__prod__time_span:
-        id: f__prod__time_span
-        children: {  }
-  g__authority_document:
-    id: g__authority_document
-    children:
-      f__auth_doc__pref_name:
-        id: f__auth_doc__pref_name
+      f__def__auth_doc__pref_name:
+        id: f__def__auth_doc__pref_name
         children: {  }
       acronym:
         id: acronym
         children: {  }
-      f__auth_doc__url:
-        id: f__auth_doc__url
+      f__def__auth_doc__url:
+        id: f__def__auth_doc__url
         children: {  }
-      f__auth_doc__description:
-        id: f__auth_doc__description
+      f__def__auth_doc__description:
+        id: f__def__auth_doc__description
         children: {  }
-  g__feature:
-    id: g__feature
+  g__def__feature:
+    id: g__def__feature
     children:
-      f__fea__description:
-        id: f__fea__description
+      f__def__fea__description:
+        id: f__def__fea__description
         children: {  }
 pbpaths:
-  g__hum_mad_obj:
-    id: g__hum_mad_obj
+  g__def__obj:
+    id: g__def__obj
     weight: '49'
     enabled: '1'
     parent: '0'
@@ -335,8 +323,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__place:
-    id: g__place
+  g__def__place:
+    id: g__def__place
     weight: '55'
     enabled: '1'
     parent: '0'
@@ -347,20 +335,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__image:
-    id: g__image
-    weight: '52'
-    enabled: '1'
-    parent: '0'
-    bundle: b8c6c4b478ead1c80e175ad0f98dafe3
-    field: b8c6c4b478ead1c80e175ad0f98dafe3
-    fieldtype: ''
-    displaywidget: ''
-    formatterwidget: ''
-    cardinality: '-1'
-    field_type_informative: ''
-  g__source:
-    id: g__source
+  g__def__source:
+    id: g__def__source
     weight: '57'
     enabled: '1'
     parent: '0'
@@ -371,8 +347,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__person:
-    id: g__person
+  g__def__person:
+    id: g__def__person
     weight: '54'
     enabled: '1'
     parent: '0'
@@ -383,8 +359,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__birth:
-    id: g__birth
+  g__def__birth:
+    id: g__def__birth
     weight: '43'
     enabled: '1'
     parent: '0'
@@ -395,8 +371,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__death:
-    id: g__death
+  g__def__death:
+    id: g__def__death
     weight: '45'
     enabled: '1'
     parent: '0'
@@ -407,8 +383,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__date:
-    id: g__date
+  g__def__date:
+    id: g__def__date
     weight: '44'
     enabled: '1'
     parent: '0'
@@ -419,8 +395,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__dimension:
-    id: g__dimension
+  g__def__dimension:
+    id: g__def__dimension
     weight: '46'
     enabled: '1'
     parent: '0'
@@ -431,8 +407,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__material:
-    id: g__material
+  g__def__material:
+    id: g__def__material
     weight: '53'
     enabled: '1'
     parent: '0'
@@ -443,8 +419,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__right:
-    id: g__right
+  g__def__right:
+    id: g__def__right
     weight: '56'
     enabled: '1'
     parent: '0'
@@ -455,8 +431,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__technique:
-    id: g__technique
+  g__def__technique:
+    id: g__def__technique
     weight: '58'
     enabled: '1'
     parent: '0'
@@ -467,8 +443,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__group:
-    id: g__group
+  g__def__group:
+    id: g__def__group
     weight: '48'
     enabled: '1'
     parent: '0'
@@ -479,8 +455,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__event:
-    id: g__event
+  g__def__event:
+    id: g__def__event
     weight: '47'
     enabled: '1'
     parent: '0'
@@ -491,8 +467,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__time_span:
-    id: g__time_span
+  g__def__time_span:
+    id: g__def__time_span
     weight: '59'
     enabled: '1'
     parent: '0'
@@ -503,8 +479,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__identifier:
-    id: g__identifier
+  g__def__identifier:
+    id: g__def__identifier
     weight: '51'
     enabled: '1'
     parent: '0'
@@ -515,8 +491,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__cur_hold:
-    id: g__cur_hold
+  g__def__cur_hold:
+    id: g__def__cur_hold
     weight: '42'
     enabled: '1'
     parent: '0'
@@ -527,8 +503,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__type:
-    id: g__type
+  g__def__type:
+    id: g__def__type
     weight: '60'
     enabled: '1'
     parent: '0'
@@ -539,8 +515,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__production:
-    id: g__production
+  g__def__production:
+    id: g__def__production
     weight: '61'
     enabled: '1'
     parent: '0'
@@ -551,8 +527,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__authority_document:
-    id: g__authority_document
+  g__def__authority_document:
+    id: g__def__authority_document
     weight: '0'
     enabled: '1'
     parent: '0'
@@ -563,8 +539,8 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  g__feature:
-    id: g__feature
+  g__def__feature:
+    id: g__def__feature
     weight: '0'
     enabled: '1'
     parent: '0'
@@ -575,11 +551,11 @@ pbpaths:
     formatterwidget: ''
     cardinality: '-1'
     field_type_informative: ''
-  f__hum_mad_obj__title:
-    id: f__hum_mad_obj__title
+  f__def__obj__title:
+    id: f__def__obj__title
     weight: '2'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f6e5faa0fd62451756d1f87fdc231af9
     fieldtype: string
@@ -588,14 +564,14 @@ pbpaths:
     cardinality: '1'
     field_type_informative: string
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P102_has_title'
-      - 'http://erlangen-crm.org/240307/E35_Title'
-  f__hum_mad_obj__type:
-    id: f__hum_mad_obj__type
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P102_has_title'
+      - 'http://erlangen-crm.org/current/E35_Title'
+  f__def__obj__type:
+    id: f__def__obj__type
     weight: '5'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f0f948c4575671ee7e4a1d0552faf887
     fieldtype: list_string
@@ -604,48 +580,16 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: list_string
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P2_has_type'
-      - 'http://erlangen-crm.org/240307/E55_Type'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__hum_mad_obj__image:
-    id: f__hum_mad_obj__image
-    weight: '11'
-    enabled: '1'
-    parent: g__hum_mad_obj
-    bundle: b3f2003dbc2f46de7270ab8ccc06d193
-    field: f8e1071b11b49200c6bb3b5dd528746c
-    fieldtype: entity_reference
-    displaywidget: inline_entity_form_complex
-    formatterwidget: entity_reference_entity_view
-    cardinality: '-1'
-    field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P138i_has_representation'
-      - 'http://erlangen-crm.org/240307/E36_Visual_Item'
-  f__image__file_path:
-    id: f__image__file_path
-    weight: '46'
-    enabled: '1'
-    parent: g__image
-    bundle: b8c6c4b478ead1c80e175ad0f98dafe3
-    field: f2f78a098f30ba03fa1d6b8d9aaebb99
-    fieldtype: image
-    displaywidget: image_image
-    formatterwidget: image
-    cardinality: '-1'
-    field_type_informative: image
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E36_Visual_Item'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/URL'
-  f__hum_mad_obj__description:
-    id: f__hum_mad_obj__description
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
+  f__def__obj__description:
+    id: f__def__obj__description
     weight: '18'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f8335ad7ad526f2d29ba271bfb0fb781
     fieldtype: text_with_summary
@@ -654,14 +598,14 @@ pbpaths:
     cardinality: '1'
     field_type_informative: text_with_summary
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P129i_is_subject_of'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Description'
-  f__hum_mad_obj__comment:
-    id: f__hum_mad_obj__comment
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+      - 'http://wiss-ki.eu/ontology/Description'
+  f__def__obj__comment:
+    id: f__def__obj__comment
     weight: '19'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f749796589e0365c48a5dbe69566fee5
     fieldtype: text_long
@@ -670,14 +614,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: text_long
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P129i_is_subject_of'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Comment'
-  f__source__title:
-    id: f__source__title
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+      - 'http://wiss-ki.eu/ontology/Comment'
+  f__def__source__title:
+    id: f__def__source__title
     weight: '0'
     enabled: '1'
-    parent: g__source
+    parent: g__def__source
     bundle: b5d104193f947ce881d74659519d7044
     field: f213722da84f89ef42b631b777919fdf
     fieldtype: string
@@ -685,11 +629,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  f__source__citation:
-    id: f__source__citation
+  f__def__source__citation:
+    id: f__def__source__citation
     weight: '2'
     enabled: '1'
-    parent: g__source
+    parent: g__def__source
     bundle: b5d104193f947ce881d74659519d7044
     field: f3aa9a929a5ccd7e082db2ce2ccc3bf3
     fieldtype: string_long
@@ -697,11 +641,11 @@ pbpaths:
     formatterwidget: basic_string
     cardinality: '1'
     field_type_informative: string_long
-  f__source__url:
-    id: f__source__url
+  f__def__source__url:
+    id: f__def__source__url
     weight: '3'
     enabled: '1'
-    parent: g__source
+    parent: g__def__source
     bundle: b5d104193f947ce881d74659519d7044
     field: fc1bf67235d9c6251fcc1223147df4b1
     fieldtype: link
@@ -709,11 +653,11 @@ pbpaths:
     formatterwidget: link
     cardinality: '-1'
     field_type_informative: link
-  f__birth__birth_date:
-    id: f__birth__birth_date
+  f__def__birth__birth_date:
+    id: f__def__birth__birth_date
     weight: '24'
     enabled: '1'
-    parent: g__birth
+    parent: g__def__birth
     bundle: b3f3ff1e8cd7a488fd66fbd46c5f1953
     field: fec4194ed3c5eb93a48be478c266e385
     fieldtype: entity_reference
@@ -721,15 +665,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E67_Birth'
-      - 'http://erlangen-crm.org/240307/P4_has_time-span'
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-  f__birth__birth_place:
-    id: f__birth__birth_place
+  f__def__birth__birth_place:
+    id: f__def__birth__birth_place
     weight: '25'
     enabled: '1'
-    parent: g__birth
+    parent: g__def__birth
     bundle: b3f3ff1e8cd7a488fd66fbd46c5f1953
     field: f08f9ef50c0e79915e4f7ca027546cc9
     fieldtype: entity_reference
@@ -737,15 +677,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E67_Birth'
-      - 'http://erlangen-crm.org/240307/P7_took_place_at'
-      - 'http://erlangen-crm.org/240307/E53_Place'
-  f__death__death_date:
-    id: f__death__death_date
+  f__def__death__death_date:
+    id: f__def__death__death_date
     weight: '59'
     enabled: '1'
-    parent: g__death
+    parent: g__def__death
     bundle: bd87fdabf5cc195118992c55619fc69e
     field: fe668f3c52087877c371adb4ec38be7b
     fieldtype: entity_reference
@@ -753,15 +689,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E69_Death'
-      - 'http://erlangen-crm.org/240307/P4_has_time-span'
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-  f__death__death_place:
-    id: f__death__death_place
+  f__def__death__death_place:
+    id: f__def__death__death_place
     weight: '60'
     enabled: '1'
-    parent: g__death
+    parent: g__def__death
     bundle: bd87fdabf5cc195118992c55619fc69e
     field: f73f1323326d61772974bc5ea0fc04b3
     fieldtype: entity_reference
@@ -769,15 +701,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E69_Death'
-      - 'http://erlangen-crm.org/240307/P7_took_place_at'
-      - 'http://erlangen-crm.org/240307/E53_Place'
-  f__person__birth:
-    id: f__person__birth
+  f__def__person__birth:
+    id: f__def__person__birth
     weight: '3'
     enabled: '1'
-    parent: g__person
+    parent: g__def__person
     bundle: b7d3d34546ab6c601bb930140e9b7615
     field: fed40bf31e1e2b5b3dd41976f1a98bea
     fieldtype: entity_reference
@@ -785,15 +713,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E21_Person'
-      - 'http://erlangen-crm.org/240307/P92i_was_brought_into_existence_by'
-      - 'http://erlangen-crm.org/240307/E67_Birth'
-  f__person__death:
-    id: f__person__death
+  f__def__person__death:
+    id: f__def__person__death
     weight: '4'
     enabled: '1'
-    parent: g__person
+    parent: g__def__person
     bundle: b7d3d34546ab6c601bb930140e9b7615
     field: f18a7340ec6db6c72a7268b226a57045
     fieldtype: entity_reference
@@ -801,15 +725,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E21_Person'
-      - 'http://erlangen-crm.org/240307/P93i_was_taken_out_of_existence_by'
-      - 'http://erlangen-crm.org/240307/E69_Death'
-  f__place__coordinates:
-    id: f__place__coordinates
+  f__def__place__coordinates:
+    id: f__def__place__coordinates
     weight: '2'
     enabled: '1'
-    parent: g__place
+    parent: g__def__place
     bundle: ba579dbd044f00ad5d2a7553a9918146
     field: f05f7c83e76c3765ddce64d112752b02
     fieldtype: geofield
@@ -817,15 +737,11 @@ pbpaths:
     formatterwidget: leaflet_formatter_default
     cardinality: '1'
     field_type_informative: geofield
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E53_Place'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/SpatialCoordinates'
-  f__date__year:
-    id: f__date__year
+  f__def__date__year:
+    id: f__def__date__year
     weight: '1'
     enabled: '1'
-    parent: g__date
+    parent: g__def__date
     bundle: bd9d1f835a9f180a4f112947c3177a05
     field: f5e63c5ef240f76c2c97e2774b731a06
     fieldtype: integer
@@ -833,15 +749,11 @@ pbpaths:
     formatterwidget: number_integer
     cardinality: '1'
     field_type_informative: integer
-    relativepath:
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-      - 'http://erlangen-crm.org/240307/P86i_contains'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Year'
-  f__date__month:
-    id: f__date__month
+  f__def__date__month:
+    id: f__def__date__month
     weight: '2'
     enabled: '1'
-    parent: g__date
+    parent: g__def__date
     bundle: bd9d1f835a9f180a4f112947c3177a05
     field: f74ea862cdbf0af7940799f0f3cc66f8
     fieldtype: integer
@@ -849,15 +761,11 @@ pbpaths:
     formatterwidget: number_integer
     cardinality: '1'
     field_type_informative: integer
-    relativepath:
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-      - 'http://erlangen-crm.org/240307/P86i_contains'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Month'
-  f__data__day:
-    id: f__data__day
+  f__def__data__day:
+    id: f__def__data__day
     weight: '3'
     enabled: '1'
-    parent: g__date
+    parent: g__def__date
     bundle: bd9d1f835a9f180a4f112947c3177a05
     field: f0e321ff3e57660812b138e47a61cc37
     fieldtype: integer
@@ -865,15 +773,11 @@ pbpaths:
     formatterwidget: number_integer
     cardinality: '1'
     field_type_informative: integer
-    relativepath:
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-      - 'http://erlangen-crm.org/240307/P86i_contains'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Day'
-  f__source__author_information:
-    id: f__source__author_information
+  f__def__source__author_information:
+    id: f__def__source__author_information
     weight: '1'
     enabled: '1'
-    parent: g__source
+    parent: g__def__source
     bundle: b5d104193f947ce881d74659519d7044
     field: f2e1555fbc617e39a63c98aee0886974
     fieldtype: entity_reference
@@ -881,11 +785,11 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '1'
     field_type_informative: entity_reference
-  g__dimension__value:
-    id: g__dimension__value
+  g__def__dimension__value:
+    id: g__def__dimension__value
     weight: '1'
     enabled: '1'
-    parent: g__dimension
+    parent: g__def__dimension
     bundle: b73258adf62f35bd1be3fa2863fab558
     field: fd0f49d880bf3585a65926f73025a22a
     fieldtype: string
@@ -893,11 +797,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  f__dimension__unit:
-    id: f__dimension__unit
+  f__def__dimension__unit:
+    id: f__def__dimension__unit
     weight: '2'
     enabled: '1'
-    parent: g__dimension
+    parent: g__def__dimension
     bundle: b73258adf62f35bd1be3fa2863fab558
     field: f16f121b934595589d59bd03488fb947
     fieldtype: string
@@ -905,11 +809,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  f__dimension__type:
-    id: f__dimension__type
+  f__def__dimension__type:
+    id: f__def__dimension__type
     weight: '0'
     enabled: '1'
-    parent: g__dimension
+    parent: g__def__dimension
     bundle: b73258adf62f35bd1be3fa2863fab558
     field: f31e9c7e2de5549daea1790a74615288
     fieldtype: list_string
@@ -917,11 +821,11 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
-  f__material__appellation:
-    id: f__material__appellation
+  f__def__material__appellation:
+    id: f__def__material__appellation
     weight: '1'
     enabled: '1'
-    parent: g__material
+    parent: g__def__material
     bundle: b45978f2b073ff3c73b3c7220ebb3b89
     field: f4563a13782aa34853e22b8e9888f5ed
     fieldtype: string
@@ -929,11 +833,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__material__name:
-    id: f__material__name
+  f__def__material__name:
+    id: f__def__material__name
     weight: '0'
     enabled: '1'
-    parent: g__material
+    parent: g__def__material
     bundle: b45978f2b073ff3c73b3c7220ebb3b89
     field: faf41fc53bb70de341ebbe42c174e97f
     fieldtype: string
@@ -941,15 +845,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E57_Material'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
-  f__technique__appellation:
-    id: f__technique__appellation
+  f__def__technique__appellation:
+    id: f__def__technique__appellation
     weight: '1'
     enabled: '1'
-    parent: g__technique
+    parent: g__def__technique
     bundle: bca4b1b906cb3a4e38ab7a0cab339a49
     field: f21fc634d4f2f2678fb2c0bcc6635e7b
     fieldtype: string
@@ -957,11 +857,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__technique__name:
-    id: f__technique__name
+  f__def__technique__name:
+    id: f__def__technique__name
     weight: '0'
     enabled: '1'
-    parent: g__technique
+    parent: g__def__technique
     bundle: bca4b1b906cb3a4e38ab7a0cab339a49
     field: fe68ff7e9ca9d41f1b87eec674e201c3
     fieldtype: string
@@ -969,15 +869,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E29_Design_or_Procedure'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
-  f__group__appellation:
-    id: f__group__appellation
+  f__def__group__appellation:
+    id: f__def__group__appellation
     weight: '1'
     enabled: '1'
-    parent: g__group
+    parent: g__def__group
     bundle: b3abeaeb21037a930e9d1ef438080dde
     field: f24e4147347fc7d1b18926ebdef3cc72
     fieldtype: string
@@ -985,11 +881,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__group__name:
-    id: f__group__name
+  f__def__group__name:
+    id: f__def__group__name
     weight: '0'
     enabled: '1'
-    parent: g__group
+    parent: g__def__group
     bundle: b3abeaeb21037a930e9d1ef438080dde
     field: f2607f9ef52243c245e6144d02bda887
     fieldtype: string
@@ -997,11 +893,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  f__group__address:
-    id: f__group__address
+  f__def__group__address:
+    id: f__def__group__address
     weight: '3'
     enabled: '1'
-    parent: g__group
+    parent: g__def__group
     bundle: b3abeaeb21037a930e9d1ef438080dde
     field: f485d79739c36770f94c418586b99bc3
     fieldtype: entity_reference
@@ -1009,11 +905,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-  f__event__time_span:
-    id: f__event__time_span
+  f__def__event__time_span:
+    id: f__def__event__time_span
     weight: '5'
     enabled: '1'
-    parent: g__event
+    parent: g__def__event
     bundle: b69d1149474a37ad95f618ff2315662c
     field: f35c462be024ce6165567bb4f54a91dc
     fieldtype: entity_reference
@@ -1021,11 +917,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-  f__event__type:
-    id: f__event__type
+  f__def__event__type:
+    id: f__def__event__type
     weight: '1'
     enabled: '1'
-    parent: g__event
+    parent: g__def__event
     bundle: b69d1149474a37ad95f618ff2315662c
     field: f12812c035a89bba6d46c0572cc25d39
     fieldtype: list_string
@@ -1033,11 +929,11 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
-  f__event__within_event:
-    id: f__event__within_event
+  f__def__event__within_event:
+    id: f__def__event__within_event
     weight: '7'
     enabled: '1'
-    parent: g__event
+    parent: g__def__event
     bundle: b69d1149474a37ad95f618ff2315662c
     field: fa9b6e3f182a69e514dac54e7d82b143
     fieldtype: string
@@ -1045,11 +941,11 @@ pbpaths:
     formatterwidget: wisski_link_formatter
     cardinality: '1'
     field_type_informative: string
-  f__time_span__appellation:
-    id: f__time_span__appellation
+  f__def__time_span__appellation:
+    id: f__def__time_span__appellation
     weight: '0'
     enabled: '1'
-    parent: g__time_span
+    parent: g__def__time_span
     bundle: b3a7ecdd8f162573ca60258dd7a8cff6
     field: f76b96631014bfb40115f4dc191ff050
     fieldtype: string
@@ -1057,15 +953,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__hum_mad_obj__dimension:
-    id: f__hum_mad_obj__dimension
+  f__def__obj__dimension:
+    id: f__def__obj__dimension
     weight: '13'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: fc21fd0a853af8117d34bacba7612950
     fieldtype: entity_reference
@@ -1074,14 +966,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P43_has_dimension'
-      - 'http://erlangen-crm.org/240307/E54_Dimension'
-  f__person__appellation:
-    id: f__person__appellation
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P43_has_dimension'
+      - 'http://erlangen-crm.org/current/E54_Dimension'
+  f__def__person__appellation:
+    id: f__def__person__appellation
     weight: '1'
     enabled: '1'
-    parent: g__person
+    parent: g__def__person
     bundle: b7d3d34546ab6c601bb930140e9b7615
     field: f6e08d0ac713c6d95b8f6beb8d7a2e98
     fieldtype: string
@@ -1089,15 +981,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E21_Person'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__person__name:
-    id: f__person__name
+  f__def__person__name:
+    id: f__def__person__name
     weight: '0'
     enabled: '1'
-    parent: g__person
+    parent: g__def__person
     bundle: b7d3d34546ab6c601bb930140e9b7615
     field: f97240c4b5e52031246321adf9047e06
     fieldtype: string
@@ -1105,15 +993,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E21_Person'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
-  f__place__name:
-    id: f__place__name
+  f__def__place__name:
+    id: f__def__place__name
     weight: '0'
     enabled: '1'
-    parent: g__place
+    parent: g__def__place
     bundle: ba579dbd044f00ad5d2a7553a9918146
     field: fe54b4be6da43f7b13c666fb71d4e307
     fieldtype: string
@@ -1121,15 +1005,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E53_Place'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
-  f__place__appellation:
-    id: f__place__appellation
+  f__def__place__appellation:
+    id: f__def__place__appellation
     weight: '1'
     enabled: '1'
-    parent: g__place
+    parent: g__def__place
     bundle: ba579dbd044f00ad5d2a7553a9918146
     field: f086914319bbaa2ec5392f0c341a5d2a
     fieldtype: string
@@ -1137,31 +1017,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E53_Place'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__image__right:
-    id: f__image__right
-    weight: '48'
-    enabled: '1'
-    parent: g__image
-    bundle: b8c6c4b478ead1c80e175ad0f98dafe3
-    field: ff59d0fb4c7edb906b9d06ad5132b48c
-    fieldtype: entity_reference
-    displaywidget: inline_entity_form_complex
-    formatterwidget: wisski_entity_reference_label
-    cardinality: '-1'
-    field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E36_Visual_Item'
-      - 'http://erlangen-crm.org/240307/P104_is_subject_to'
-      - 'http://erlangen-crm.org/240307/E30_Right'
-  f__event__title:
-    id: f__event__title
+  f__def__event__title:
+    id: f__def__event__title
     weight: '0'
     enabled: '1'
-    parent: g__event
+    parent: g__def__event
     bundle: b69d1149474a37ad95f618ff2315662c
     field: fd7c8e9a88294a2bd7ac32de5319b2c5
     fieldtype: string
@@ -1169,11 +1029,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  f__identifier__url:
-    id: f__identifier__url
+  f__def__identifier__url:
+    id: f__def__identifier__url
     weight: '1'
     enabled: '1'
-    parent: g__identifier
+    parent: g__def__identifier
     bundle: bf305a96dd26a05ff868c1963c41745e
     field: fdf8599a7c479ca8ffc8124a7cb4bece
     fieldtype: link
@@ -1181,15 +1041,11 @@ pbpaths:
     formatterwidget: link
     cardinality: '1'
     field_type_informative: link
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E42_Identifier'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/URL'
-  f__identifier__ref_auth_doc:
-    id: f__identifier__ref_auth_doc
+  f__def__identifier__ref_auth_doc:
+    id: f__def__identifier__ref_auth_doc
     weight: '2'
     enabled: '1'
-    parent: g__identifier
+    parent: g__def__identifier
     bundle: bf305a96dd26a05ff868c1963c41745e
     field: fd2e887aaa0f7aa1bf015b969e543e13
     fieldtype: entity_reference
@@ -1197,15 +1053,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E42_Identifier'
-      - 'http://erlangen-crm.org/240307/P71i_is_listed_in'
-      - 'http://erlangen-crm.org/240307/E32_Authority_Document'
-  f__hum_mad_obj__ref_ident:
-    id: f__hum_mad_obj__ref_ident
+  f__def__obj__ref_ident:
+    id: f__def__obj__ref_ident
     weight: '6'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f6fa82a5bab11ec9b0d83c604c3e6c02
     fieldtype: entity_reference
@@ -1214,14 +1066,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E42_Identifier'
-  f__cur_hold__ref_person:
-    id: f__cur_hold__ref_person
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E42_Identifier'
+  f__def__cur_hold__ref_person:
+    id: f__def__cur_hold__ref_person
     weight: '17'
     enabled: '1'
-    parent: g__cur_hold
+    parent: g__def__cur_hold
     bundle: b7a6de10bbb83db6a13c0043c1507d23
     field: fbbc5201a35954d2c9b5368adb45d660
     fieldtype: entity_reference
@@ -1229,15 +1081,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
-      - 'http://erlangen-crm.org/240307/P50_has_current_keeper'
-      - 'http://erlangen-crm.org/240307/E21_Person'
-  f__cur_hold__ref_group:
-    id: f__cur_hold__ref_group
+  f__def__cur_hold__ref_group:
+    id: f__def__cur_hold__ref_group
     weight: '18'
     enabled: '1'
-    parent: g__cur_hold
+    parent: g__def__cur_hold
     bundle: b7a6de10bbb83db6a13c0043c1507d23
     field: f73e154984faf01cc2d6d60f76a520b6
     fieldtype: entity_reference
@@ -1245,15 +1093,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
-      - 'http://erlangen-crm.org/240307/P50_has_current_keeper'
-      - 'http://erlangen-crm.org/240307/E74_Group'
-  f__cur_hold__title:
-    id: f__cur_hold__title
+  f__def__cur_hold__title:
+    id: f__def__cur_hold__title
     weight: '16'
     enabled: '1'
-    parent: g__cur_hold
+    parent: g__def__cur_hold
     bundle: b7a6de10bbb83db6a13c0043c1507d23
     field: f469d20f9559a5cba598b747ad6248de
     fieldtype: string
@@ -1261,15 +1105,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E35_Title'
-  f__hum_mad_obj__appellation:
-    id: f__hum_mad_obj__appellation
+  f__def__obj__appellation:
+    id: f__def__obj__appellation
     weight: '3'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: fa9ed8fdfd2e329a7128f2225e50c05e
     fieldtype: string
@@ -1278,14 +1118,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: string
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__place__ref_place:
-    id: f__place__ref_place
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
+  f__def__place__ref_place:
+    id: f__def__place__ref_place
     weight: '3'
     enabled: '1'
-    parent: g__place
+    parent: g__def__place
     bundle: ba579dbd044f00ad5d2a7553a9918146
     field: f7a5c73b0c7afda1e91c70899f1594b6
     fieldtype: entity_reference
@@ -1293,15 +1133,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E53_Place'
-      - 'http://erlangen-crm.org/240307/P89_falls_within'
-      - 'http://erlangen-crm.org/240307/E53_Place'
-  f__type__ref_type:
-    id: f__type__ref_type
+  f__def__type__ref_type:
+    id: f__def__type__ref_type
     weight: '1'
     enabled: '1'
-    parent: g__type
+    parent: g__def__type
     bundle: ''
     field: 1ae353e47a8aa3fc995220848780758a
     fieldtype: string
@@ -1309,11 +1145,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__event__ref_place:
-    id: f__event__ref_place
+  f__def__event__ref_place:
+    id: f__def__event__ref_place
     weight: '6'
     enabled: '1'
-    parent: g__event
+    parent: g__def__event
     bundle: ''
     field: 1ae353e47a8aa3fc995220848780758a
     fieldtype: string
@@ -1321,11 +1157,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__right__description:
-    id: f__right__description
+  f__def__right__description:
+    id: f__def__right__description
     weight: '2'
     enabled: '1'
-    parent: g__right
+    parent: g__def__right
     bundle: ''
     field: 1ae353e47a8aa3fc995220848780758a
     fieldtype: string
@@ -1333,11 +1169,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__type__appellation:
-    id: f__type__appellation
+  f__def__type__appellation:
+    id: f__def__type__appellation
     weight: '0'
     enabled: '1'
-    parent: g__type
+    parent: g__def__type
     bundle: ''
     field: 1ae353e47a8aa3fc995220848780758a
     fieldtype: string
@@ -1345,11 +1181,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-  f__person__identifier:
-    id: f__person__identifier
+  f__def__person__identifier:
+    id: f__def__person__identifier
     weight: '2'
     enabled: '1'
-    parent: g__person
+    parent: g__def__person
     bundle: b7d3d34546ab6c601bb930140e9b7615
     field: f3829fb5309f0201b08d05da1138f315
     fieldtype: entity_reference
@@ -1357,15 +1193,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E21_Person'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E42_Identifier'
-  f__group__identifier:
-    id: f__group__identifier
+  f__def__group__identifier:
+    id: f__def__group__identifier
     weight: '2'
     enabled: '1'
-    parent: g__group
+    parent: g__def__group
     bundle: b3abeaeb21037a930e9d1ef438080dde
     field: f888f0f06b1178008e7583491daf08df
     fieldtype: link
@@ -1373,11 +1205,11 @@ pbpaths:
     formatterwidget: link
     cardinality: '-1'
     field_type_informative: link
-  f__hum_mad_obj__status:
-    id: f__hum_mad_obj__status
+  f__def__obj__status:
+    id: f__def__obj__status
     weight: '1'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f375e8850db4bb629823575bcb711376
     fieldtype: list_string
@@ -1386,14 +1218,14 @@ pbpaths:
     cardinality: '1'
     field_type_informative: list_string
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P2_has_type'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Status'
-  f__hum_mad_obj__production:
-    id: f__hum_mad_obj__production
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://wiss-ki.eu/ontology/Status'
+  f__def__obj__production:
+    id: f__def__obj__production
     weight: '14'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: fc5c6012c4c52b673e20394f5cbfa04c
     fieldtype: entity_reference
@@ -1402,14 +1234,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P108i_was_produced_by'
-      - 'http://erlangen-crm.org/240307/E12_Production'
-  f__prod__producer_p:
-    id: f__prod__producer_p
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P108i_was_produced_by'
+      - 'http://erlangen-crm.org/current/E12_Production'
+  f__def__prod__producer_p:
+    id: f__def__prod__producer_p
     weight: '0'
     enabled: '1'
-    parent: g__production
+    parent: g__def__production
     bundle: be89c84bf729f8e135e2e7b5936f1a44
     field: ff902b73a04a5cdec1188058a2c45e88
     fieldtype: entity_reference
@@ -1417,15 +1249,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E12_Production'
-      - 'http://erlangen-crm.org/240307/P14_carried_out_by'
-      - 'http://erlangen-crm.org/240307/E21_Person'
-  f__prod__producer_g:
-    id: f__prod__producer_g
+  f__def__prod__producer_g:
+    id: f__def__prod__producer_g
     weight: '1'
     enabled: '1'
-    parent: g__production
+    parent: g__def__production
     bundle: be89c84bf729f8e135e2e7b5936f1a44
     field: f57c799b66a573ab105a93fbd8884b16
     fieldtype: entity_reference
@@ -1433,15 +1261,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E12_Production'
-      - 'http://erlangen-crm.org/240307/P14_carried_out_by'
-      - 'http://erlangen-crm.org/240307/E74_Group'
-  f__prod__location:
-    id: f__prod__location
+  f__def__prod__location:
+    id: f__def__prod__location
     weight: '3'
     enabled: '1'
-    parent: g__production
+    parent: g__def__production
     bundle: be89c84bf729f8e135e2e7b5936f1a44
     field: f4fef488613ec8a5e3a9c4d45169987b
     fieldtype: entity_reference
@@ -1449,15 +1273,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E12_Production'
-      - 'http://erlangen-crm.org/240307/P7_took_place_at'
-      - 'http://erlangen-crm.org/240307/E53_Place'
-  f__prod__time_span:
-    id: f__prod__time_span
+  f__def__prod__time_span:
+    id: f__def__prod__time_span
     weight: '4'
     enabled: '1'
-    parent: g__production
+    parent: g__def__production
     bundle: be89c84bf729f8e135e2e7b5936f1a44
     field: f4046e5086f22f8aacc28bcfafdd06c8
     fieldtype: entity_reference
@@ -1465,15 +1285,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E12_Production'
-      - 'http://erlangen-crm.org/240307/P4_has_time-span'
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-  f__prod__technique:
-    id: f__prod__technique
+  f__def__prod__technique:
+    id: f__def__prod__technique
     weight: '2'
     enabled: '1'
-    parent: g__production
+    parent: g__def__production
     bundle: be89c84bf729f8e135e2e7b5936f1a44
     field: f3cd2320770970439ecdbf2ad9c6fc94
     fieldtype: entity_reference
@@ -1481,15 +1297,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E12_Production'
-      - 'http://erlangen-crm.org/240307/P33_used_specific_technique'
-      - 'http://erlangen-crm.org/240307/E29_Design_or_Procedure'
-  f__hum_mad_obj__cur_hol:
-    id: f__hum_mad_obj__cur_hol
+  f__def__obj__cur_hol:
+    id: f__def__obj__cur_hol
     weight: '7'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f1d31b01925bc6bfd5bd447496fa3093
     fieldtype: entity_reference
@@ -1498,14 +1310,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P46i_forms_part_of'
-      - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
-  f__hum_mad_obj__hum_mad_obj:
-    id: f__hum_mad_obj__hum_mad_obj
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P46i_forms_part_of'
+      - 'http://erlangen-crm.org/current/E78_Curated_Holding'
+  f__def__obj__obj:
+    id: f__def__obj__obj
     weight: '8'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f84a521dce5ba9995b2fd94bb2a643e6
     fieldtype: entity_reference
@@ -1514,14 +1326,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P46_is_composed_of'
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-  f__hum_mad_obj__part_of__hmo:
-    id: f__hum_mad_obj__part_of__hmo
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P46_is_composed_of'
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+  f__def__obj__part_of__hmo:
+    id: f__def__obj__part_of__hmo
     weight: '10'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: fb38cabd5827b4756efbdb8c5baab258
     fieldtype: entity_reference
@@ -1530,14 +1342,14 @@ pbpaths:
     cardinality: '1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P46i_forms_part_of'
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-  f__right__url:
-    id: f__right__url
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P46i_forms_part_of'
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+  f__def__right__url:
+    id: f__def__right__url
     weight: '3'
     enabled: '1'
-    parent: g__right
+    parent: g__def__right
     bundle: b50697c33151cc0918c95f83293018a7
     field: f20d0c824596e1df6e177828523286df
     fieldtype: link
@@ -1545,11 +1357,11 @@ pbpaths:
     formatterwidget: link
     cardinality: '-1'
     field_type_informative: link
-  f__techn__mat:
-    id: f__techn__mat
+  f__def__techn__mat:
+    id: f__def__techn__mat
     weight: '2'
     enabled: '1'
-    parent: g__technique
+    parent: g__def__technique
     bundle: bca4b1b906cb3a4e38ab7a0cab339a49
     field: f095f44211d103577eb114dc51c79dd9
     fieldtype: entity_reference
@@ -1557,15 +1369,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E29_Design_or_Procedure'
-      - 'http://erlangen-crm.org/240307/P68_foresees_use_of'
-      - 'http://erlangen-crm.org/240307/E57_Material'
-  f__auth_doc__url:
-    id: f__auth_doc__url
+  f__def__auth_doc__url:
+    id: f__def__auth_doc__url
     weight: '2'
     enabled: '1'
-    parent: g__authority_document
+    parent: g__def__authority_document
     bundle: b2e7da20fa398c144cc890481942d3e1
     field: f3fc3d470c57ae761d9d149a9d09e120
     fieldtype: link
@@ -1573,15 +1381,11 @@ pbpaths:
     formatterwidget: link
     cardinality: '1'
     field_type_informative: link
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E32_Authority_Document'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/URL'
-  f__auth_doc__pref_name:
-    id: f__auth_doc__pref_name
+  f__def__auth_doc__pref_name:
+    id: f__def__auth_doc__pref_name
     weight: '0'
     enabled: '1'
-    parent: g__authority_document
+    parent: g__def__authority_document
     bundle: b2e7da20fa398c144cc890481942d3e1
     field: f09505bc8e480b40fd3c510ddf688ff1
     fieldtype: string
@@ -1589,15 +1393,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E32_Authority_Document'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/1.2.0/PreferredName'
-  f__auth_doc__description:
-    id: f__auth_doc__description
+  f__def__auth_doc__description:
+    id: f__def__auth_doc__description
     weight: '3'
     enabled: '1'
-    parent: g__authority_document
+    parent: g__def__authority_document
     bundle: b2e7da20fa398c144cc890481942d3e1
     field: f5ece9f6bc910fc34b5acd3c9b5e4a70
     fieldtype: string
@@ -1605,11 +1405,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-  f__right__image:
-    id: f__right__image
+  f__def__right__image:
+    id: f__def__right__image
     weight: '1'
     enabled: '1'
-    parent: g__right
+    parent: g__def__right
     bundle: b50697c33151cc0918c95f83293018a7
     field: f1576b2cb6b00cc7089d3b8fc9f89ef0
     fieldtype: image
@@ -1617,11 +1417,11 @@ pbpaths:
     formatterwidget: image
     cardinality: '-1'
     field_type_informative: image
-  f__right__name:
-    id: f__right__name
+  f__def__right__name:
+    id: f__def__right__name
     weight: '0'
     enabled: '1'
-    parent: g__right
+    parent: g__def__right
     bundle: b50697c33151cc0918c95f83293018a7
     field: f2a12833805f7d9b35d4cf54216b6048
     fieldtype: string
@@ -1629,15 +1429,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E30_Right'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
   acronym:
     id: acronym
     weight: '1'
     enabled: '1'
-    parent: g__authority_document
+    parent: g__def__authority_document
     bundle: b2e7da20fa398c144cc890481942d3e1
     field: f852d526ff5c5d84116f04b8d721c803
     fieldtype: string
@@ -1645,15 +1441,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E32_Authority_Document'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__tim_spa__date_begin:
-    id: f__tim_spa__date_begin
+  f__def__tim_spa__date_begin:
+    id: f__def__tim_spa__date_begin
     weight: '1'
     enabled: '1'
-    parent: g__time_span
+    parent: g__def__time_span
     bundle: b3a7ecdd8f162573ca60258dd7a8cff6
     field: fde78afa90200f024c67674ff883c3b2
     fieldtype: entity_reference
@@ -1661,15 +1453,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-      - 'http://wiss-ki.eu/ontology/1.2.0/begins_with'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-  f__tim_spa__date_end:
-    id: f__tim_spa__date_end
+  f__def__tim_spa__date_end:
+    id: f__def__tim_spa__date_end
     weight: '2'
     enabled: '1'
-    parent: g__time_span
+    parent: g__def__time_span
     bundle: b3a7ecdd8f162573ca60258dd7a8cff6
     field: f356ae8371372889413227092e06474d
     fieldtype: entity_reference
@@ -1677,15 +1465,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-      - 'http://wiss-ki.eu/ontology/1.2.0/ends_with'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-  f__tim_spa__date_some:
-    id: f__tim_spa__date_some
+  f__def__tim_spa__date_some:
+    id: f__def__tim_spa__date_some
     weight: '3'
     enabled: '1'
-    parent: g__time_span
+    parent: g__def__time_span
     bundle: b3a7ecdd8f162573ca60258dd7a8cff6
     field: ff91cc457fef7eb8e2894034fcd8f275
     fieldtype: entity_reference
@@ -1693,15 +1477,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E52_Time-Span'
-      - 'http://wiss-ki.eu/ontology/1.2.0/has_some_date_within'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-  f__dat__type:
-    id: f__dat__type
+  f__def__dat__type:
+    id: f__def__dat__type
     weight: '0'
     enabled: '1'
-    parent: g__date
+    parent: g__def__date
     bundle: bd9d1f835a9f180a4f112947c3177a05
     field: fbf23f05280fde104c723f12b79c6d03
     fieldtype: list_string
@@ -1709,17 +1489,11 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
-    relativepath:
-      - 'http://wiss-ki.eu/ontology/1.2.0/Date'
-      - 'http://erlangen-crm.org/240307/P2_has_type'
-      - 'http://erlangen-crm.org/240307/E55_Type'
-      - 'http://erlangen-crm.org/240307/P1_is_identified_by'
-      - 'http://erlangen-crm.org/240307/E41_Appellation'
-  f__techn__equ:
-    id: f__techn__equ
+  f__def__techn__equ:
+    id: f__def__techn__equ
     weight: '3'
     enabled: '1'
-    parent: g__technique
+    parent: g__def__technique
     bundle: bca4b1b906cb3a4e38ab7a0cab339a49
     field: f289911875ac4d714a83ea32b2302e7a
     fieldtype: string
@@ -1727,15 +1501,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E29_Design_or_Procedure'
-      - 'http://kur.wisski.cloud/ontology/1.0/foresees_use_of_equipment'
-      - 'http://kur.wisski.cloud/ontology/1.0/Equipment'
-  f__hum_mad_obj__feature:
-    id: f__hum_mad_obj__feature
+  f__def__obj__feature:
+    id: f__def__obj__feature
     weight: '9'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f2af14bc7fd10e32b7af96180e00246c
     fieldtype: entity_reference
@@ -1744,14 +1514,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P46_is_composed_of'
-      - 'http://erlangen-crm.org/240307/E26_Physical_Feature'
-  f__fea__description:
-    id: f__fea__description
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P46_is_composed_of'
+      - 'http://erlangen-crm.org/current/E26_Physical_Feature'
+  f__def__fea__description:
+    id: f__def__fea__description
     weight: '0'
     enabled: '1'
-    parent: g__feature
+    parent: g__def__feature
     bundle: b393e1c3db202fbb7a8b54e65eb38227
     field: f03c024b9bb9ed28ef84ea5835f84396
     fieldtype: string
@@ -1759,15 +1529,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E25_Human-Made_Feature'
-      - 'http://erlangen-crm.org/240307/P129i_is_subject_of'
-      - 'http://wiss-ki.eu/ontology/1.2.0/Description'
-  f__ide__id:
-    id: f__ide__id
+  f__def__ide__id:
+    id: f__def__ide__id
     weight: '0'
     enabled: '1'
-    parent: g__identifier
+    parent: g__def__identifier
     bundle: bf305a96dd26a05ff868c1963c41745e
     field: f05e8620eb733561673296b148e264b4
     fieldtype: string
@@ -1775,13 +1541,11 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E42_Identifier'
-  f__hum_mad_obj__ide:
-    id: f__hum_mad_obj__ide
+  f__def__obj__ide:
+    id: f__def__obj__ide
     weight: '4'
     enabled: '1'
-    parent: g__hum_mad_obj
+    parent: g__def__obj
     bundle: b3f2003dbc2f46de7270ab8ccc06d193
     field: f6bcc7480ca6cf11bd0aaeb6e604f906
     fieldtype: entity_reference
@@ -1790,14 +1554,14 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://erlangen-crm.org/240307/E22_Human-Made_Object'
-      - 'http://erlangen-crm.org/240307/P48_has_preferred_identifier'
-      - 'http://erlangen-crm.org/240307/E42_Identifier'
-  f__cur_hol__location:
-    id: f__cur_hol__location
+      - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+      - 'http://erlangen-crm.org/current/P48_has_preferred_identifier'
+      - 'http://erlangen-crm.org/current/E42_Identifier'
+  f__def__cur_hol__location:
+    id: f__def__cur_hol__location
     weight: '19'
     enabled: '1'
-    parent: g__cur_hold
+    parent: g__def__cur_hold
     bundle: b7a6de10bbb83db6a13c0043c1507d23
     field: fc3ad6faad3788c2379f34d1911b3918
     fieldtype: entity_reference
@@ -1805,15 +1569,11 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E78_Curated_Holding'
-      - 'http://erlangen-crm.org/240307/P53_has_former_or_current_location'
-      - 'http://erlangen-crm.org/240307/E53_Place'
-  f__person__group:
-    id: f__person__group
+  f__def__person__group:
+    id: f__def__person__group
     weight: '5'
     enabled: '1'
-    parent: g__person
+    parent: g__def__person
     bundle: b7d3d34546ab6c601bb930140e9b7615
     field: f24575ebb5aa5ac1d02fd933fbd2f06e
     fieldtype: entity_reference
@@ -1821,8 +1581,4 @@ pbpaths:
     formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
     field_type_informative: entity_reference
-    relativepath:
-      - 'http://erlangen-crm.org/240307/E21_Person'
-      - 'http://erlangen-crm.org/240307/P107i_is_current_or_former_member_of'
-      - 'http://erlangen-crm.org/240307/E74_Group'
 with_solr: null

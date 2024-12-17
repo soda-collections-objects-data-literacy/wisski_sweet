@@ -1,0 +1,18 @@
+uuid: 5bd40ade-783c-4309-8c49-08ee228060da
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__birth__birth_place
+name: 'Birth Place'
+path_array:
+  - 'http://erlangen-crm.org/current/E67_Birth'
+  - 'http://erlangen-crm.org/current/P7_took_place_at'
+  - 'http://erlangen-crm.org/current/E53_Place'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

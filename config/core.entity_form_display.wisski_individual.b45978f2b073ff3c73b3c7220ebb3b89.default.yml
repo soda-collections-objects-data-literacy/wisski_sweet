@@ -6,6 +6,8 @@ dependencies:
     - field.field.wisski_individual.b45978f2b073ff3c73b3c7220ebb3b89.f4563a13782aa34853e22b8e9888f5ed
     - field.field.wisski_individual.b45978f2b073ff3c73b3c7220ebb3b89.faf41fc53bb70de341ebbe42c174e97f
     - wisski_core.wisski_bundle.b45978f2b073ff3c73b3c7220ebb3b89
+_core:
+  default_config_hash: jpOQ_bByFVWyh0d6h5sHNcF5I06mzL-95VbzFkVxhFY
 id: wisski_individual.b45978f2b073ff3c73b3c7220ebb3b89.default
 targetEntityType: wisski_individual
 bundle: b45978f2b073ff3c73b3c7220ebb3b89

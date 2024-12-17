@@ -7,6 +7,8 @@ dependencies:
     - wisski_core.wisski_bundle.b3abeaeb21037a930e9d1ef438080dde
   module:
     - link
+_core:
+  default_config_hash: UG8wEG7u-H5vDAkfzAfMicNQzrLb075VAu1hfqRD_Jw
 id: wisski_individual.b3abeaeb21037a930e9d1ef438080dde.f888f0f06b1178008e7583491daf08df
 field_name: f888f0f06b1178008e7583491daf08df
 entity_type: wisski_individual

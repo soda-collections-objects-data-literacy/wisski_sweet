@@ -1,0 +1,18 @@
+uuid: 4233eed8-ae02-4a9f-a127-d817db148f6d
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__place__coordinates
+name: 'Spatial Coordinates'
+path_array:
+  - 'http://erlangen-crm.org/current/E53_Place'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/SpatialCoordinates'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

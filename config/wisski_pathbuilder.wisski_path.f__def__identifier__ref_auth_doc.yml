@@ -1,0 +1,18 @@
+uuid: 77db78f9-07a4-42d7-a6d0-67414c74eff4
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__identifier__ref_auth_doc
+name: 'Listed in'
+path_array:
+  - 'http://erlangen-crm.org/current/E42_Identifier'
+  - 'http://erlangen-crm.org/current/P71i_is_listed_in'
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null

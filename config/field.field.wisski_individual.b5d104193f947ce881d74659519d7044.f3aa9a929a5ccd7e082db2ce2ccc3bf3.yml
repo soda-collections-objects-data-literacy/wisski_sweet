@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.wisski_individual.f3aa9a929a5ccd7e082db2ce2ccc3bf3
     - wisski_core.wisski_bundle.b5d104193f947ce881d74659519d7044
+_core:
+  default_config_hash: LvZDZcv4lBftGdSrcdWEHSvD4iYqUGCwWfrrNEhG7Ho
 id: wisski_individual.b5d104193f947ce881d74659519d7044.f3aa9a929a5ccd7e082db2ce2ccc3bf3
 field_name: f3aa9a929a5ccd7e082db2ce2ccc3bf3
 entity_type: wisski_individual

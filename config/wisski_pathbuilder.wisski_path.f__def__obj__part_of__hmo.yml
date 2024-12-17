@@ -1,0 +1,18 @@
+uuid: 59d854ea-25b6-4b1a-8178-ebffe58b69a2
+langcode: en
+status: true
+dependencies: {  }
+id: f__def__obj__part_of__hmo
+name: 'Part of Object'
+path_array:
+  - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+  - 'http://erlangen-crm.org/current/P46i_forms_part_of'
+  - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: null
+description: ''
+type: Path
+transitive: null
+irreflexive: null
