@@ -13,4 +13,3 @@ config:
   import:
     geofield: "*"
     leaflet: "*"
-
