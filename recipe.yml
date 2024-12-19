@@ -10,7 +10,7 @@ install:
   - leaflet
 
 config:
-  #strict: false # this is not implemented in D11 right now
+  strict: false
   import:
     geofield: "*"
     leaflet: "*"
