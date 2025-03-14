@@ -4,7 +4,7 @@ dependencies: {  }
 id: g__def__source
 name: Source
 path_array:
-  - 'http://wiss-ki.eu/ontology/Source'
+  - 'http://wiss-ki.eu/ontology/current/Source'
 datatype_property: empty
 short_name: ''
 disamb: 0

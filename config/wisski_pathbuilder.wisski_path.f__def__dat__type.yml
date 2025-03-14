@@ -4,7 +4,7 @@ dependencies: {  }
 id: f__def__dat__type
 name: Type
 path_array:
-  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://wiss-ki.eu/ontology/current/Date'
   - 'http://erlangen-crm.org/current/P2_has_type'
   - 'http://erlangen-crm.org/current/E55_Type'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'

@@ -4,7 +4,7 @@ dependencies: {  }
 id: g__def__date
 name: Date
 path_array:
-  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://wiss-ki.eu/ontology/current/Date'
 datatype_property: empty
 short_name: ''
 disamb: 0

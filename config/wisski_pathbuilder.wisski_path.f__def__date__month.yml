@@ -4,9 +4,9 @@ dependencies: {  }
 id: f__def__date__month
 name: Month
 path_array:
-  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://wiss-ki.eu/ontology/current/Date'
   - 'http://erlangen-crm.org/current/P86i_contains'
-  - 'http://wiss-ki.eu/ontology/Month'
+  - 'http://wiss-ki.eu/ontology/current/Month'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0

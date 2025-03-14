@@ -599,7 +599,7 @@ pbpaths:
     relativepath:
       - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
       - 'http://erlangen-crm.org/current/P129i_is_subject_of'
-      - 'http://wiss-ki.eu/ontology/Description'
+      - 'http://wiss-ki.eu/ontology/current/Description'
   f__def__obj__comment:
     id: f__def__obj__comment
     weight: '19'
@@ -615,7 +615,7 @@ pbpaths:
     relativepath:
       - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
       - 'http://erlangen-crm.org/current/P129i_is_subject_of'
-      - 'http://wiss-ki.eu/ontology/Comment'
+      - 'http://wiss-ki.eu/ontology/current/Comment'
   f__def__source__title:
     id: f__def__source__title
     weight: '0'
@@ -1219,7 +1219,7 @@ pbpaths:
     relativepath:
       - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
       - 'http://erlangen-crm.org/current/P2_has_type'
-      - 'http://wiss-ki.eu/ontology/Status'
+      - 'http://wiss-ki.eu/ontology/current/Status'
   f__def__obj__production:
     id: f__def__obj__production
     weight: '14'

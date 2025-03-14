@@ -6,7 +6,7 @@ name: Description
 path_array:
   - 'http://erlangen-crm.org/current/E25_Human-Made_Feature'
   - 'http://erlangen-crm.org/current/P129i_is_subject_of'
-  - 'http://wiss-ki.eu/ontology/Description'
+  - 'http://wiss-ki.eu/ontology/current/Description'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0

@@ -5,8 +5,8 @@ id: f__def__tim_spa__date_some
 name: 'Has some date within'
 path_array:
   - 'http://erlangen-crm.org/current/E52_Time-Span'
-  - 'http://wiss-ki.eu/ontology/has_some_date_within'
-  - 'http://wiss-ki.eu/ontology/Date'
+  - 'http://wiss-ki.eu/ontology/current/has_some_date_within'
+  - 'http://wiss-ki.eu/ontology/current/Date'
 datatype_property: empty
 short_name: ''
 disamb: 2

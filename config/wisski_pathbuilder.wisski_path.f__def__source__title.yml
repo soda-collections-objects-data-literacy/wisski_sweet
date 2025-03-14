@@ -4,7 +4,7 @@ dependencies: {  }
 id: f__def__source__title
 name: Title
 path_array:
-  - 'http://wiss-ki.eu/ontology/Source'
+  - 'http://wiss-ki.eu/ontology/current/Source'
   - 'http://erlangen-crm.org/current/P102_has_title'
   - 'http://erlangen-crm.org/current/E35_Title'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'

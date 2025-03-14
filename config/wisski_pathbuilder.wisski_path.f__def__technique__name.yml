@@ -6,7 +6,7 @@ name: Name
 path_array:
   - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://wiss-ki.eu/ontology/PreferredName'
+  - 'http://wiss-ki.eu/ontology/current/PreferredName'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0

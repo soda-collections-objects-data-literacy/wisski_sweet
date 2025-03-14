@@ -6,7 +6,7 @@ name: 'Spatial Coordinates'
 path_array:
   - 'http://erlangen-crm.org/current/E53_Place'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://wiss-ki.eu/ontology/SpatialCoordinates'
+  - 'http://wiss-ki.eu/ontology/current/SpatialCoordinates'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0
