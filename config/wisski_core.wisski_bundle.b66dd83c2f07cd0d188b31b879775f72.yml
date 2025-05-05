@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: b66dd83c2f07cd0d188b31b879775f72
+label: Datum
+description: ''
+title_pattern: ''
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items: {  }

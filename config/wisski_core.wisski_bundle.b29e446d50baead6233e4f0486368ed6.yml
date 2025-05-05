@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: b29e446d50baead6233e4f0486368ed6
+label: 'Zeitraum '
+description: ''
+title_pattern: ''
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items: {  }

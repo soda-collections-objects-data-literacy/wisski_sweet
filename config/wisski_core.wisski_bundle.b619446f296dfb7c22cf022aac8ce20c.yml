@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: b619446f296dfb7c22cf022aac8ce20c
+label: Mediendatei
+description: null
+title_pattern: ''
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items: {  }

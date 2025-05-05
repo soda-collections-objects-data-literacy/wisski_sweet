@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bb79e2aca604c4feee0889e8979f00a6
+label: 'Entstehung Datensatz'
+description: null
+title_pattern: ''
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items: {  }

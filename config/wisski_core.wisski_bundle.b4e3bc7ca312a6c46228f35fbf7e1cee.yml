@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: b4e3bc7ca312a6c46228f35fbf7e1cee
+label: 'Tod/ Auflösung'
+description: ''
+title_pattern: ''
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items: {  }

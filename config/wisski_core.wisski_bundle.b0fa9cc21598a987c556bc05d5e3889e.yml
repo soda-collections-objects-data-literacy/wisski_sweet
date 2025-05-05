@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: b0fa9cc21598a987c556bc05d5e3889e
+label: Akteur
+description: ''
+title_pattern: ''
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items:
+  navigate: 3
+  create: 3
