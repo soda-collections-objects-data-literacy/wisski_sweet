@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - wisski_core
+id: wisski_individual.fbd761428160e6e71e34a89c8947436b
+field_name: fbd761428160e6e71e34a89c8947436b
+entity_type: wisski_individual
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: period_text
+      label: 'Zeitraum (Text)'
+    -
+      value: period_span
+      label: 'Zeitraum (Spanne)'
+    -
+      value: date_text
+      label: 'Zeitpunkt (Text)'
+    -
+      value: date_detail
+      label: 'Zeitpunkt (detailiert)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

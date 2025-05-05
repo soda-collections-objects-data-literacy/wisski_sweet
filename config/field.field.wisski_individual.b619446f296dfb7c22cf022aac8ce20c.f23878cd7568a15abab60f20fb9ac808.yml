@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f23878cd7568a15abab60f20fb9ac808
+    - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
+  module:
+    - image
+id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f23878cd7568a15abab60f20fb9ac808
+field_name: f23878cd7568a15abab60f20fb9ac808
+entity_type: wisski_individual
+bundle: b619446f296dfb7c22cf022aac8ce20c
+label: 'Link zur Mediendatei'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - wisski_core
+id: wisski_individual.fcbad61edd92acfbf7014e118c757c7c
+field_name: fcbad61edd92acfbf7014e118c757c7c
+entity_type: wisski_individual
+type: entity_reference
+settings:
+  target_type: wisski_individual
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

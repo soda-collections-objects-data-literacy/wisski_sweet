@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__actor__begin_of_exist
+name: 'Geburt/ Gründung'
+path_array:
+  - 'http://erlangen-crm.org/current/E39_Actor'
+  - 'http://erlangen-crm.org/current/P92i_was_brought_into_existence_by'
+  - 'http://erlangen-crm.org/current/E63_Beginning_of_Existence'
+datatype_property: empty
+short_name: null
+disamb: 2
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

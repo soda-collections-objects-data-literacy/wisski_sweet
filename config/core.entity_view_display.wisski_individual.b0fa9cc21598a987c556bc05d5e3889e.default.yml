@@ -1,0 +1,92 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f02460c4dea0c764d17fe66be8f02508
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f04ed8c79450669ddd5e93467f2a1a51
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f239c64d0bd4b9138bb8fb9e79942110
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f295382ce36e43723aefe2fdcbb0d825
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f81d5c928f704125c6859e38f6b20499
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.fae0f9922ce4953c25f6b6d7643459ac
+    - field.field.wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.ffa950f2daa5ea8b4a36265e8afc3fd9
+    - wisski_core.wisski_bundle.b0fa9cc21598a987c556bc05d5e3889e
+  module:
+    - options
+    - text
+id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.default
+targetEntityType: wisski_individual
+bundle: b0fa9cc21598a987c556bc05d5e3889e
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  f02460c4dea0c764d17fe66be8f02508:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  f04ed8c79450669ddd5e93467f2a1a51:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  f239c64d0bd4b9138bb8fb9e79942110:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  f295382ce36e43723aefe2fdcbb0d825:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  f81d5c928f704125c6859e38f6b20499:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  fae0f9922ce4953c25f6b6d7643459ac:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  ffa950f2daa5ea8b4a36265e8afc3fd9:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  bundle: true
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

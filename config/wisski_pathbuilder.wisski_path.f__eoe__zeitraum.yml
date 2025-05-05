@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__eoe__zeitraum
+name: Zeitraum
+path_array:
+  - 'http://erlangen-crm.org/current/E64_End_of_Existence'
+  - 'http://erlangen-crm.org/current/P10_falls_within'
+  - 'http://erlangen-crm.org/current/E4_Period'
+datatype_property: empty
+short_name: null
+disamb: 2
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.wisski_individual.reference_text
+    - field.field.wisski_individual.b66dd83c2f07cd0d188b31b879775f72.f07178031ead71efc4add43c67d498bf
+    - field.field.wisski_individual.b66dd83c2f07cd0d188b31b879775f72.f6fdf07c98933aa4f6f7e6c28cb3fa33
+    - field.field.wisski_individual.b66dd83c2f07cd0d188b31b879775f72.faa0cb687be0c5af723fbab86edfffd1
+    - field.field.wisski_individual.b66dd83c2f07cd0d188b31b879775f72.fc26b447ad175ecae3d6eeb5f463a0e9
+    - field.field.wisski_individual.b66dd83c2f07cd0d188b31b879775f72.fe6c9de47066f3468c6aa80e2fc81acd
+    - wisski_core.wisski_bundle.b66dd83c2f07cd0d188b31b879775f72
+id: wisski_individual.b66dd83c2f07cd0d188b31b879775f72.reference_text
+targetEntityType: wisski_individual
+bundle: b66dd83c2f07cd0d188b31b879775f72
+mode: reference_text
+content:
+  f6fdf07c98933aa4f6f7e6c28cb3fa33:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  f07178031ead71efc4add43c67d498bf: true
+  faa0cb687be0c5af723fbab86edfffd1: true
+  fc26b447ad175ecae3d6eeb5f463a0e9: true
+  fe6c9de47066f3468c6aa80e2fc81acd: true
+  label: true
+  name: true
+  uid: true

@@ -1,0 +1,73 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.bb6bf561b183a2b1733ca97f262ab930.f44970b58e7b700acf846fbac6d527c3
+    - field.field.wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fbc6fd9d737b5047b949baa68c1c543a
+    - field.field.wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fc8e3f1ccd8987fbb8567b52ced21d25
+    - field.field.wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fdbb81d6d2bb33a8e75567aaff54bbd8
+    - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+  module:
+    - inline_entity_form
+id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.default
+targetEntityType: wisski_individual
+bundle: bb6bf561b183a2b1733ca97f262ab930
+mode: default
+content:
+  f44970b58e7b700acf846fbac6d527c3:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  fbc6fd9d737b5047b949baa68c1c543a:
+    type: inline_entity_form_complex
+    weight: 1
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  fc8e3f1ccd8987fbb8567b52ced21d25:
+    type: inline_entity_form_complex
+    weight: 0
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  fdbb81d6d2bb33a8e75567aaff54bbd8:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  uid: true

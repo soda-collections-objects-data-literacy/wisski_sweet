@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f02460c4dea0c764d17fe66be8f02508
+    - wisski_core.wisski_bundle.b0fa9cc21598a987c556bc05d5e3889e
+    - wisski_core.wisski_bundle.bf3b15207bd74301804eb30c87e0fe00
+id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f02460c4dea0c764d17fe66be8f02508
+field_name: f02460c4dea0c764d17fe66be8f02508
+entity_type: wisski_individual
+bundle: b0fa9cc21598a987c556bc05d5e3889e
+label: 'Geburt/ Gründung'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      bf3b15207bd74301804eb30c87e0fe00: bf3b15207bd74301804eb30c87e0fe00
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

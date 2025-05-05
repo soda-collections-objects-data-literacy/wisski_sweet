@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__date__month
+name: Monat
+path_array:
+  - 'http://wiss-ki.eu/ontology/current/Date'
+  - 'http://erlangen-crm.org/current/P86_falls_within'
+  - 'http://wiss-ki.eu/ontology/current/Month'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

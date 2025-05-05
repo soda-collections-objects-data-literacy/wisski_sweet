@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b0bb97d703b09623b04167df1b5f3f49.f1ff3b967723f445933b8a9d7035aad2
+    - field.field.wisski_individual.b0bb97d703b09623b04167df1b5f3f49.fd26906e13c587b8451a6b2af4c08eb4
+    - wisski_core.wisski_bundle.b0bb97d703b09623b04167df1b5f3f49
+  module:
+    - text
+id: wisski_individual.b0bb97d703b09623b04167df1b5f3f49.default
+targetEntityType: wisski_individual
+bundle: b0bb97d703b09623b04167df1b5f3f49
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  f1ff3b967723f445933b8a9d7035aad2:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  fd26906e13c587b8451a6b2af4c08eb4:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  bundle: true
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

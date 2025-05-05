@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f44970b58e7b700acf846fbac6d527c3
+    - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.f44970b58e7b700acf846fbac6d527c3
+field_name: f44970b58e7b700acf846fbac6d527c3
+entity_type: wisski_individual
+bundle: bb6bf561b183a2b1733ca97f262ab930
+label: Ort
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

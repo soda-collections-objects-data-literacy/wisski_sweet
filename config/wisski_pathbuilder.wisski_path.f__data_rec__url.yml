@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__data_rec__url
+name: 'Link zum veröffentlichten Datensatz'
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E42_Identifier'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: 3
+description: ''
+type: Path
+transitive: null
+irreflexive: null

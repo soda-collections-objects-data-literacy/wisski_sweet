@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f9188639e85ca8d8b8703232f59f1e97
+    - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
+id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f9188639e85ca8d8b8703232f59f1e97
+field_name: f9188639e85ca8d8b8703232f59f1e97
+entity_type: wisski_individual
+bundle: bb48a22d36f1c15cd16b143d23466812
+label: Technik
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

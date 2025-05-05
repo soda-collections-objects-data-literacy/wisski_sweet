@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.ff261d2c17cf334dd083acf2f917c0d2
+    - wisski_core.wisski_bundle.b29e446d50baead6233e4f0486368ed6
+    - wisski_core.wisski_bundle.b66dd83c2f07cd0d188b31b879775f72
+id: wisski_individual.b29e446d50baead6233e4f0486368ed6.ff261d2c17cf334dd083acf2f917c0d2
+field_name: ff261d2c17cf334dd083acf2f917c0d2
+entity_type: wisski_individual
+bundle: b29e446d50baead6233e4f0486368ed6
+label: 'Beginn (detailliert)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b66dd83c2f07cd0d188b31b879775f72: b66dd83c2f07cd0d188b31b879775f72
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

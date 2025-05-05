@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__data_record
+name: Datensatz
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: 1
+description: ''
+type: Group
+transitive: null
+irreflexive: null

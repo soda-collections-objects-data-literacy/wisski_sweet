@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__actor
+name: Akteur
+path_array:
+  - 'http://erlangen-crm.org/current/E39_Actor'
+datatype_property: empty
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Group
+transitive: 0
+irreflexive: 0

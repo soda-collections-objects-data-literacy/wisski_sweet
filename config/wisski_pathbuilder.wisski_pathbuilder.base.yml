@@ -1,0 +1,1100 @@
+langcode: en
+status: true
+dependencies: {  }
+id: base
+name: base
+adapter: default
+type: null
+pathtree:
+  g__culture_heritage_item:
+    id: g__culture_heritage_item
+    children:
+      f__cult_her_item__title:
+        id: f__cult_her_item__title
+        children: {  }
+      f__cult_her_item__type:
+        id: f__cult_her_item__type
+        children: {  }
+      f__cult_her_item__category:
+        id: f__cult_her_item__category
+        children: {  }
+      f__cult_her_item__identifier:
+        id: f__cult_her_item__identifier
+        children: {  }
+      f__cult_her_item__discription:
+        id: f__cult_her_item__discription
+        children: {  }
+      f__cult_her_item__dimension:
+        id: f__cult_her_item__dimension
+        children: {  }
+      f__cult_her_item__material:
+        id: f__cult_her_item__material
+        children: {  }
+      f__cult_her_item__technique:
+        id: f__cult_her_item__technique
+        children: {  }
+      f__cult_her_item__keyword:
+        id: f__cult_her_item__keyword
+        children: {  }
+      f__cult_her_item__item_history_activity:
+        id: f__cult_her_item__item_history_activity
+        children: {  }
+      f__cult_her_item__media_file:
+        id: f__cult_her_item__media_file
+        children: {  }
+      f__cult_her_item__data_record:
+        id: f__cult_her_item__data_record
+        children: {  }
+  g__dimensions:
+    id: g__dimensions
+    children:
+      f__dim__type:
+        id: f__dim__type
+        children: {  }
+      f__dim__value:
+        id: f__dim__value
+        children: {  }
+      f__dim__unit:
+        id: f__dim__unit
+        children: {  }
+  g__item_history_activity:
+    id: g__item_history_activity
+    children:
+      f__item_history_activity__actor:
+        id: f__item_history_activity__actor
+        children: {  }
+      f__item_history_activity__date:
+        id: f__item_history_activity__date
+        children: {  }
+      f__item_history_activity__place:
+        id: f__item_history_activity__place
+        children: {  }
+      f__item_history_activity__type:
+        id: f__item_history_activity__type
+        children: {  }
+  g__media_file:
+    id: g__media_file
+    children:
+      f__media_file__type:
+        id: f__media_file__type
+        children: {  }
+      f__media_file__url:
+        id: f__media_file__url
+        children: {  }
+      f__med_file__rights:
+        id: f__med_file__rights
+        children: {  }
+      f__med_file__description:
+        id: f__med_file__description
+        children: {  }
+  g__data_record:
+    id: g__data_record
+    children:
+      f__data_record__id:
+        id: f__data_record__id
+        children: {  }
+      f__data_rec__rights:
+        id: f__data_rec__rights
+        children: {  }
+      f__data_record__language:
+        id: f__data_record__language
+        children: {  }
+      f__data_record__type:
+        id: f__data_record__type
+        children: {  }
+      f__data_record__actor:
+        id: f__data_record__actor
+        children: {  }
+      f__data_rec__url:
+        id: f__data_rec__url
+        children: {  }
+      f__data_record__dig_proc:
+        id: f__data_record__dig_proc
+        children: {  }
+  g__digitization_process:
+    id: g__digitization_process
+    children:
+      f__dig_proc__creator:
+        id: f__dig_proc__creator
+        children: {  }
+  g__right:
+    id: g__right
+    children:
+      f__rights__usage:
+        id: f__rights__usage
+        children: {  }
+      f__right__actor:
+        id: f__right__actor
+        children: {  }
+  g__titel_assignment:
+    id: g__titel_assignment
+    children:
+      f__tit_ass__titel:
+        id: f__tit_ass__titel
+        children: {  }
+      f__tit_ass__status:
+        id: f__tit_ass__status
+        children: {  }
+  g__period:
+    id: g__period
+    children:
+      f__per__precision:
+        id: f__per__precision
+        children: {  }
+      f__per__begin_text:
+        id: f__per__begin_text
+        children: {  }
+      f__period__begin:
+        id: f__period__begin
+        children: {  }
+      f__per__end_text:
+        id: f__per__end_text
+        children: {  }
+      f__period__end:
+        id: f__period__end
+        children: {  }
+  g__date:
+    id: g__date
+    children:
+      f__date__appellation:
+        id: f__date__appellation
+        children: {  }
+      f__date__operator:
+        id: f__date__operator
+        children: {  }
+      f__date__year:
+        id: f__date__year
+        children: {  }
+      f__date__month:
+        id: f__date__month
+        children: {  }
+      f__date__day:
+        id: f__date__day
+        children: {  }
+  g__actor:
+    id: g__actor
+    children:
+      f__actor__type:
+        id: f__actor__type
+        children: {  }
+      f__actor__name:
+        id: f__actor__name
+        children: {  }
+      f__actor__alter_names:
+        id: f__actor__alter_names
+        children: {  }
+      f__actor__occupation:
+        id: f__actor__occupation
+        children: {  }
+      f__actor__organisation_type:
+        id: f__actor__organisation_type
+        children: {  }
+      f__actor__begin_of_exist:
+        id: f__actor__begin_of_exist
+        children: {  }
+      f__actor__end_of_exist:
+        id: f__actor__end_of_exist
+        children: {  }
+  g__begin_of_existence:
+    id: g__begin_of_existence
+    children:
+      f__boe__place:
+        id: f__boe__place
+        children: {  }
+      f__boe__period:
+        id: f__boe__period
+        children: {  }
+      f__boe__participants:
+        id: f__boe__participants
+        children: {  }
+  g__end_of_existence:
+    id: g__end_of_existence
+    children:
+      f__eoe__place:
+        id: f__eoe__place
+        children: {  }
+      f__eoe__zeitraum:
+        id: f__eoe__zeitraum
+        children: {  }
+      f__eoe__participants:
+        id: f__eoe__participants
+        children: {  }
+pbpaths:
+  g__culture_heritage_item:
+    id: g__culture_heritage_item
+    weight: '9'
+    enabled: '1'
+    parent: '0'
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: bb48a22d36f1c15cd16b143d23466812
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__dimensions:
+    id: g__dimensions
+    weight: '14'
+    enabled: '1'
+    parent: '0'
+    bundle: b8a35d61f1bd2672835d376015222d21
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__item_history_activity:
+    id: g__item_history_activity
+    weight: '13'
+    enabled: '1'
+    parent: '0'
+    bundle: bb6bf561b183a2b1733ca97f262ab930
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  g__media_file:
+    id: g__media_file
+    weight: '12'
+    enabled: '1'
+    parent: '0'
+    bundle: b619446f296dfb7c22cf022aac8ce20c
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__data_record:
+    id: g__data_record
+    weight: '10'
+    enabled: '1'
+    parent: '0'
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__digitization_process:
+    id: g__digitization_process
+    weight: '11'
+    enabled: '1'
+    parent: '0'
+    bundle: bb79e2aca604c4feee0889e8979f00a6
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  g__right:
+    id: g__right
+    weight: '15'
+    enabled: '1'
+    parent: '0'
+    bundle: b0bb97d703b09623b04167df1b5f3f49
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    cardinality: '-1'
+    field_type_informative: ''
+  f__cult_her_item__title:
+    id: f__cult_her_item__title
+    weight: '2'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: fcbad61edd92acfbf7014e118c757c7c
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__dim__type:
+    id: f__dim__type
+    weight: '0'
+    enabled: '1'
+    parent: g__dimensions
+    bundle: b8a35d61f1bd2672835d376015222d21
+    field: f71837c561d00ed05d853339747a44bc
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__cult_her_item__type:
+    id: f__cult_her_item__type
+    weight: '3'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: ff95e2be93a5fa409f76e3d6fc338bf1
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__dim__unit:
+    id: f__dim__unit
+    weight: '2'
+    enabled: '1'
+    parent: g__dimensions
+    bundle: b8a35d61f1bd2672835d376015222d21
+    field: f5f4cf8c6abf0ea929305a98956a4380
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__dim__value:
+    id: f__dim__value
+    weight: '1'
+    enabled: '1'
+    parent: g__dimensions
+    bundle: b8a35d61f1bd2672835d376015222d21
+    field: f1aee0c3ecfa2791fe7b1271561c0e12
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__cult_her_item__identifier:
+    id: f__cult_her_item__identifier
+    weight: '5'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f3a37ff34347b001f327ac2bac9dec86
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__cult_her_item__discription:
+    id: f__cult_her_item__discription
+    weight: '6'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f65a6586daed6cba734f174af630bdcf
+    fieldtype: string_long
+    displaywidget: string_textarea
+    formatterwidget: basic_string
+    cardinality: '-1'
+    field_type_informative: string_long
+  f__item_history_activity__date:
+    id: f__item_history_activity__date
+    weight: '1'
+    enabled: '1'
+    parent: g__item_history_activity
+    bundle: bb6bf561b183a2b1733ca97f262ab930
+    field: fbc6fd9d737b5047b949baa68c1c543a
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    field_type_informative: entity_reference
+    cardinality: '-1'
+  f__item_history_activity__type:
+    id: f__item_history_activity__type
+    weight: '3'
+    enabled: '1'
+    parent: g__item_history_activity
+    bundle: bb6bf561b183a2b1733ca97f262ab930
+    field: fdbb81d6d2bb33a8e75567aaff54bbd8
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: '-1'
+  f__item_history_activity__actor:
+    id: f__item_history_activity__actor
+    weight: '0'
+    enabled: '1'
+    parent: g__item_history_activity
+    bundle: null
+    field: fc8e3f1ccd8987fbb8567b52ced21d25
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    field_type_informative: entity_reference
+    cardinality: '-1'
+    relativepath: null
+  f__item_history_activity__place:
+    id: f__item_history_activity__place
+    weight: '2'
+    enabled: '1'
+    parent: g__item_history_activity
+    bundle: bb6bf561b183a2b1733ca97f262ab930
+    field: f44970b58e7b700acf846fbac6d527c3
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: '-1'
+  f__cult_her_item__keyword:
+    id: f__cult_her_item__keyword
+    weight: '11'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f2de9f0b2efc868a635f5adfad12a810
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__media_file__url:
+    id: f__media_file__url
+    weight: '13'
+    enabled: '1'
+    parent: g__media_file
+    bundle: b619446f296dfb7c22cf022aac8ce20c
+    field: f23878cd7568a15abab60f20fb9ac808
+    fieldtype: image
+    displaywidget: image_image
+    formatterwidget: image_url
+    cardinality: '-1'
+    field_type_informative: image
+  f__cult_her_item__category:
+    id: f__cult_her_item__category
+    weight: '4'
+    enabled: 0
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: ff7bf179c1d92be80688ce6a2a64e232
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__data_record__id:
+    id: f__data_record__id
+    weight: '10'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: f883e31b3ad23a22cd4aa2fbd11159e2
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__data_record__language:
+    id: f__data_record__language
+    weight: '12'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: fb3e71f75bccac3e7aee7efdb2cb14d8
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__data_record__type:
+    id: f__data_record__type
+    weight: '13'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: fa7cfbe46f0dfc896c7c66fbc0a011ba
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__data_record__actor:
+    id: f__data_record__actor
+    weight: '14'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: fed7ddd55a3909def3c1a9c6f60b44ab
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__dig_proc__creator:
+    id: f__dig_proc__creator
+    weight: '5'
+    enabled: '1'
+    parent: g__digitization_process
+    bundle: bb79e2aca604c4feee0889e8979f00a6
+    field: ffed4df47440f25499f56fa7e4d74710
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__data_rec__rights:
+    id: f__data_rec__rights
+    weight: '11'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: ff967c7b141984e1d4e0982c46d02490
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__data_rec__url:
+    id: f__data_rec__url
+    weight: '15'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: fd0e2dca0a4586b65e6bfd52008535da
+    fieldtype: link
+    displaywidget: link_default
+    formatterwidget: link
+    cardinality: '-1'
+    field_type_informative: link
+  f__media_file__type:
+    id: f__media_file__type
+    weight: '12'
+    enabled: '1'
+    parent: g__media_file
+    bundle: b619446f296dfb7c22cf022aac8ce20c
+    field: f0665bd9a349ddb1f3c710369fab8716
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__right__actor:
+    id: f__right__actor
+    weight: '1'
+    enabled: '1'
+    parent: g__right
+    bundle: b0bb97d703b09623b04167df1b5f3f49
+    field: f1ff3b967723f445933b8a9d7035aad2
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__cult_her_item__dimension:
+    id: f__cult_her_item__dimension
+    weight: '7'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f2b4b472cafb7f4c46a7c822794ed9dd
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__cult_her_item__item_history_activity:
+    id: f__cult_her_item__item_history_activity
+    weight: '12'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: fbbd0fc7866781fbe7913c284ffd6427
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__cult_her_item__media_file:
+    id: f__cult_her_item__media_file
+    weight: '13'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f8e173631161acd62dba6f8cbd3592de
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__cult_her_item__data_record:
+    id: f__cult_her_item__data_record
+    weight: '14'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f8478ccaf30ed82bc2287f238406cda8
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__data_record__dig_proc:
+    id: f__data_record__dig_proc
+    weight: '16'
+    enabled: '1'
+    parent: g__data_record
+    bundle: b29098a2dbcbda0f61cba5ba9e686f20
+    field: fcce64514b22835881e127a12fa0262d
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__cult_her_item__material:
+    id: f__cult_her_item__material
+    weight: '8'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f2f58a56928267034a028100735346f1
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__cult_her_item__technique:
+    id: f__cult_her_item__technique
+    weight: '9'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f9188639e85ca8d8b8703232f59f1e97
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__med_file__description:
+    id: f__med_file__description
+    weight: '16'
+    enabled: '1'
+    parent: g__media_file
+    bundle: b619446f296dfb7c22cf022aac8ce20c
+    field: f92639d54a47119d4883a941cca24977
+    fieldtype: string_long
+    displaywidget: string_textarea
+    formatterwidget: basic_string
+    cardinality: '-1'
+    field_type_informative: string_long
+  f__rights__usage:
+    id: f__rights__usage
+    weight: '0'
+    enabled: '1'
+    parent: g__right
+    bundle: b0bb97d703b09623b04167df1b5f3f49
+    field: fd26906e13c587b8451a6b2af4c08eb4
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__med_file__rights:
+    id: f__med_file__rights
+    weight: '15'
+    enabled: '1'
+    parent: g__media_file
+    bundle: b619446f296dfb7c22cf022aac8ce20c
+    field: fcda28daa1b9a3542d4b50c42b3768d1
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  g__titel_assignment:
+    id: g__titel_assignment
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__tit_ass__titel:
+    id: f__tit_ass__titel
+    weight: '0'
+    enabled: '1'
+    parent: g__titel_assignment
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: f9ed89e6c011d4a0ed5ac9cd5561ce38
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__tit_ass__status:
+    id: f__tit_ass__status
+    weight: '2'
+    enabled: '1'
+    parent: g__titel_assignment
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: f35ec1009a594afbd49536c5fc558e04
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+  f__tit_ass__period:
+    id: f__tit_ass__period
+    weight: '3'
+    enabled: '1'
+    parent: g__titel_assignment
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: f582db0a75b6d5e1f4fe3da61f8ad968
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  g__period:
+    id: g__period
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b29e446d50baead6233e4f0486368ed6
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__tit_ass__flag:
+    id: f__tit_ass__flag
+    weight: '1'
+    enabled: '1'
+    parent: g__titel_assignment
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: ffa7c8d21fe1afb10c80ca4e1efbd8a0
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+  g__date:
+    id: g__date
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b66dd83c2f07cd0d188b31b879775f72
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__date__appellation:
+    id: f__date__appellation
+    weight: '0'
+    enabled: '1'
+    parent: g__date
+    bundle: b66dd83c2f07cd0d188b31b879775f72
+    field: f6fdf07c98933aa4f6f7e6c28cb3fa33
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__date__year:
+    id: f__date__year
+    weight: '2'
+    enabled: '1'
+    parent: g__date
+    bundle: b66dd83c2f07cd0d188b31b879775f72
+    field: f07178031ead71efc4add43c67d498bf
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__date__month:
+    id: f__date__month
+    weight: '3'
+    enabled: '1'
+    parent: g__date
+    bundle: b66dd83c2f07cd0d188b31b879775f72
+    field: fc26b447ad175ecae3d6eeb5f463a0e9
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__date__day:
+    id: f__date__day
+    weight: '4'
+    enabled: '1'
+    parent: g__date
+    bundle: b66dd83c2f07cd0d188b31b879775f72
+    field: faa0cb687be0c5af723fbab86edfffd1
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__date__operator:
+    id: f__date__operator
+    weight: '1'
+    enabled: '1'
+    parent: g__date
+    bundle: b66dd83c2f07cd0d188b31b879775f72
+    field: fe6c9de47066f3468c6aa80e2fc81acd
+    fieldtype: list_string
+    displaywidget: options_select
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+  f__period__begin:
+    id: f__period__begin
+    weight: '2'
+    enabled: '1'
+    parent: g__period
+    bundle: b29e446d50baead6233e4f0486368ed6
+    field: ff261d2c17cf334dd083acf2f917c0d2
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '1'
+    field_type_informative: entity_reference
+  f__period__end:
+    id: f__period__end
+    weight: '4'
+    enabled: '1'
+    parent: g__period
+    bundle: b29e446d50baead6233e4f0486368ed6
+    field: f92436d0dc6d2bc4d51d242302707128
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '1'
+    field_type_informative: entity_reference
+  g__actor:
+    id: g__actor
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: b0fa9cc21598a987c556bc05d5e3889e
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__actor__name:
+    id: f__actor__name
+    weight: '1'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: f04ed8c79450669ddd5e93467f2a1a51
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__actor__alter_names:
+    id: f__actor__alter_names
+    weight: '2'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: f239c64d0bd4b9138bb8fb9e79942110
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__actor__occupation:
+    id: f__actor__occupation
+    weight: '3'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: fae0f9922ce4953c25f6b6d7643459ac
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__actor__organisation_type:
+    id: f__actor__organisation_type
+    weight: '4'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: f295382ce36e43723aefe2fdcbb0d825
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__actor__begin_of_exist:
+    id: f__actor__begin_of_exist
+    weight: '5'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: f02460c4dea0c764d17fe66be8f02508
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '1'
+    field_type_informative: entity_reference
+  f__actor__end_of_exist:
+    id: f__actor__end_of_exist
+    weight: '6'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: f81d5c928f704125c6859e38f6b20499
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '1'
+    field_type_informative: entity_reference
+  g__begin_of_existence:
+    id: g__begin_of_existence
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: bf3b15207bd74301804eb30c87e0fe00
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  g__end_of_existence:
+    id: g__end_of_existence
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__boe__place:
+    id: f__boe__place
+    weight: '0'
+    enabled: '1'
+    parent: g__begin_of_existence
+    bundle: bf3b15207bd74301804eb30c87e0fe00
+    field: fa4020f71a81e0ebf7cc3ebd60c39017
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: wisski_link_formatter
+    cardinality: '-1'
+    field_type_informative: string
+  f__eoe__place:
+    id: f__eoe__place
+    weight: '0'
+    enabled: '1'
+    parent: g__end_of_existence
+    bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
+    field: f64fbe1124b1d557590cb01c7fdef63c
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: wisski_link_formatter
+    cardinality: '-1'
+    field_type_informative: string
+  f__boe__period:
+    id: f__boe__period
+    weight: '1'
+    enabled: '1'
+    parent: g__begin_of_existence
+    bundle: bf3b15207bd74301804eb30c87e0fe00
+    field: f90b172c9e7d5bf32cbd3ad8fc2eff90
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '1'
+    field_type_informative: entity_reference
+  f__boe__participants:
+    id: f__boe__participants
+    weight: '2'
+    enabled: '1'
+    parent: g__begin_of_existence
+    bundle: bf3b15207bd74301804eb30c87e0fe00
+    field: f75e5d31023925b916d99cb819c720d5
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__eoe__zeitraum:
+    id: f__eoe__zeitraum
+    weight: '1'
+    enabled: '1'
+    parent: g__end_of_existence
+    bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
+    field: f4cfb767e90ca07edc4f68299663c4de
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__eoe__participants:
+    id: f__eoe__participants
+    weight: '2'
+    enabled: '1'
+    parent: g__end_of_existence
+    bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
+    field: f15ccea9926a79f0d5a64969f2d281ff
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+  f__actor__type:
+    id: f__actor__type
+    weight: '0'
+    enabled: '1'
+    parent: g__actor
+    bundle: b0fa9cc21598a987c556bc05d5e3889e
+    field: ffa950f2daa5ea8b4a36265e8afc3fd9
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+  f__per__precision:
+    id: f__per__precision
+    weight: '0'
+    enabled: '1'
+    parent: g__period
+    bundle: b29e446d50baead6233e4f0486368ed6
+    field: fbd761428160e6e71e34a89c8947436b
+    fieldtype: list_string
+    displaywidget: options_select
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+  f__per__end_text:
+    id: f__per__end_text
+    weight: '3'
+    enabled: '1'
+    parent: g__period
+    bundle: b29e446d50baead6233e4f0486368ed6
+    field: f0d486a436c752d203c3d61be724ec0e
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__per__begin_text:
+    id: f__per__begin_text
+    weight: '1'
+    enabled: '1'
+    parent: g__period
+    bundle: b29e446d50baead6233e4f0486368ed6
+    field: f3d7e2759ca9321d8f3cb142c21b2450
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+with_solr: null

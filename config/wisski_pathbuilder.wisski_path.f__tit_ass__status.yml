@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__tit_ass__status
+name: Status
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+  - 'http://erlangen-crm.org/current/P141_assigned'
+  - 'http://wiss-ki.eu/ontology/current/Status'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 2
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

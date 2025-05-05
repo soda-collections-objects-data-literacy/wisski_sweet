@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f1aee0c3ecfa2791fe7b1271561c0e12
+    - wisski_core.wisski_bundle.b8a35d61f1bd2672835d376015222d21
+id: wisski_individual.b8a35d61f1bd2672835d376015222d21.f1aee0c3ecfa2791fe7b1271561c0e12
+field_name: f1aee0c3ecfa2791fe7b1271561c0e12
+entity_type: wisski_individual
+bundle: b8a35d61f1bd2672835d376015222d21
+label: Wert
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

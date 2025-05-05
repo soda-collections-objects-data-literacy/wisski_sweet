@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - wisski_core
+id: wisski_individual.f35ec1009a594afbd49536c5fc558e04
+field_name: f35ec1009a594afbd49536c5fc558e04
+entity_type: wisski_individual
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: preferred
+      label: '<a href="http://terminology.lido-schema.org/lido00169" target="_new">Preferred</a> http://terminology.lido-schema.org/lido00169'
+    -
+      value: former
+      label: Former
+    -
+      value: discriminatory
+      label: Discriminatory
+    -
+      value: common_name
+      label: 'Common name'
+    -
+      value: scientific_name
+      label: 'Scientific name'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

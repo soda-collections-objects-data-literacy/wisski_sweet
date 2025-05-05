@@ -6,11 +6,15 @@ recipes:
   - wisski_grain_yeast_water
 
 install:
+  - conditional_fields
+  - field_group
   - geofield
   - leaflet
 
 config:
   strict: false
   import:
+    conditional_fields: "*"
+    field_group: "*"
     geofield: "*"
     leaflet: "*"

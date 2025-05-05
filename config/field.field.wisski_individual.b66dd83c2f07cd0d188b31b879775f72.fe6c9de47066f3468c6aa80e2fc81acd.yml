@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fe6c9de47066f3468c6aa80e2fc81acd
+    - wisski_core.wisski_bundle.b66dd83c2f07cd0d188b31b879775f72
+  module:
+    - options
+id: wisski_individual.b66dd83c2f07cd0d188b31b879775f72.fe6c9de47066f3468c6aa80e2fc81acd
+field_name: fe6c9de47066f3468c6aa80e2fc81acd
+entity_type: wisski_individual
+bundle: b66dd83c2f07cd0d188b31b879775f72
+label: Operator
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

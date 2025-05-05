@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__cult_her_item__type
+name: 'Objekttyp oder -bezeichnung'
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://erlangen-crm.org/current/P2_has_type'
+  - 'http://erlangen-crm.org/current/E55_Type'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 2
+length: 5
+description: ''
+type: Path
+transitive: null
+irreflexive: null

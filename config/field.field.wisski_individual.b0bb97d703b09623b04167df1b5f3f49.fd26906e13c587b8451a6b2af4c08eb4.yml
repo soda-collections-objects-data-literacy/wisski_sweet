@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fd26906e13c587b8451a6b2af4c08eb4
+    - wisski_core.wisski_bundle.b0bb97d703b09623b04167df1b5f3f49
+id: wisski_individual.b0bb97d703b09623b04167df1b5f3f49.fd26906e13c587b8451a6b2af4c08eb4
+field_name: fd26906e13c587b8451a6b2af4c08eb4
+entity_type: wisski_individual
+bundle: b0bb97d703b09623b04167df1b5f3f49
+label: Nutzungsrechte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

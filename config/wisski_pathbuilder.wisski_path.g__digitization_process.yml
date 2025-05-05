@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__digitization_process
+name: 'Entstehung Datensatz'
+path_array:
+  - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
+datatype_property: empty
+short_name: ''
+disamb: 0
+length: 1
+description: ''
+type: Group
+transitive: null
+irreflexive: null

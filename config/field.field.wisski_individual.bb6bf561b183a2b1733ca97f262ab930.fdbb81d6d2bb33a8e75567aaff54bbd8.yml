@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fdbb81d6d2bb33a8e75567aaff54bbd8
+    - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fdbb81d6d2bb33a8e75567aaff54bbd8
+field_name: fdbb81d6d2bb33a8e75567aaff54bbd8
+entity_type: wisski_individual
+bundle: bb6bf561b183a2b1733ca97f262ab930
+label: Ereignistyp
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

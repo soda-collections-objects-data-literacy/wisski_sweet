@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fc8e3f1ccd8987fbb8567b52ced21d25
+    - wisski_core.wisski_bundle.b0fa9cc21598a987c556bc05d5e3889e
+    - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fc8e3f1ccd8987fbb8567b52ced21d25
+field_name: fc8e3f1ccd8987fbb8567b52ced21d25
+entity_type: wisski_individual
+bundle: bb6bf561b183a2b1733ca97f262ab930
+label: Akteur
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b0fa9cc21598a987c556bc05d5e3889e: b0fa9cc21598a987c556bc05d5e3889e
+field_type: entity_reference

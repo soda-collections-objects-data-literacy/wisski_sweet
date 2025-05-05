@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fbbd0fc7866781fbe7913c284ffd6427
+    - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
+    - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.fbbd0fc7866781fbe7913c284ffd6427
+field_name: fbbd0fc7866781fbe7913c284ffd6427
+entity_type: wisski_individual
+bundle: bb48a22d36f1c15cd16b143d23466812
+label: 'Ereignis in der Objektgeschichte'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      bb6bf561b183a2b1733ca97f262ab930: bb6bf561b183a2b1733ca97f262ab930
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f3a37ff34347b001f327ac2bac9dec86
+    - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
+id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f3a37ff34347b001f327ac2bac9dec86
+field_name: f3a37ff34347b001f327ac2bac9dec86
+entity_type: wisski_individual
+bundle: bb48a22d36f1c15cd16b143d23466812
+label: Inventarnummer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

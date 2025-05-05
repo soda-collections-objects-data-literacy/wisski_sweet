@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f92639d54a47119d4883a941cca24977
+    - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
+id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f92639d54a47119d4883a941cca24977
+field_name: f92639d54a47119d4883a941cca24977
+entity_type: wisski_individual
+bundle: b619446f296dfb7c22cf022aac8ce20c
+label: Beschreibung
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

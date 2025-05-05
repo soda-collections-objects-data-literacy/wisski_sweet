@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f4cfb767e90ca07edc4f68299663c4de
+    - wisski_core.wisski_bundle.b29e446d50baead6233e4f0486368ed6
+    - wisski_core.wisski_bundle.b4e3bc7ca312a6c46228f35fbf7e1cee
+id: wisski_individual.b4e3bc7ca312a6c46228f35fbf7e1cee.f4cfb767e90ca07edc4f68299663c4de
+field_name: f4cfb767e90ca07edc4f68299663c4de
+entity_type: wisski_individual
+bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
+label: Zeitraum
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b29e446d50baead6233e4f0486368ed6: b29e446d50baead6233e4f0486368ed6
+field_type: entity_reference

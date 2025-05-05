@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__item_history_activity__date
+name: Datierung
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
+  - 'http://erlangen-crm.org/current/P10_falls_within'
+  - 'http://erlangen-crm.org/current/E4_Period'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: 5
+description: ''
+type: Path
+transitive: 0
+irreflexive: 0

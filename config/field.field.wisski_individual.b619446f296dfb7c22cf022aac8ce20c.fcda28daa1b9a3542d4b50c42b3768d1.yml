@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fcda28daa1b9a3542d4b50c42b3768d1
+    - wisski_core.wisski_bundle.b0bb97d703b09623b04167df1b5f3f49
+    - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
+id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.fcda28daa1b9a3542d4b50c42b3768d1
+field_name: fcda28daa1b9a3542d4b50c42b3768d1
+entity_type: wisski_individual
+bundle: b619446f296dfb7c22cf022aac8ce20c
+label: Rechte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b0bb97d703b09623b04167df1b5f3f49: b0bb97d703b09623b04167df1b5f3f49
+field_type: entity_reference

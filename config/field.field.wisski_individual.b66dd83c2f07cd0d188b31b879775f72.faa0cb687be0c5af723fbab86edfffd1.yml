@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.faa0cb687be0c5af723fbab86edfffd1
+    - wisski_core.wisski_bundle.b66dd83c2f07cd0d188b31b879775f72
+id: wisski_individual.b66dd83c2f07cd0d188b31b879775f72.faa0cb687be0c5af723fbab86edfffd1
+field_name: faa0cb687be0c5af723fbab86edfffd1
+entity_type: wisski_individual
+bundle: b66dd83c2f07cd0d188b31b879775f72
+label: Day
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

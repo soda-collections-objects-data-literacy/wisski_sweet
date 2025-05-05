@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f295382ce36e43723aefe2fdcbb0d825
+    - wisski_core.wisski_bundle.b0fa9cc21598a987c556bc05d5e3889e
+id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f295382ce36e43723aefe2fdcbb0d825
+field_name: f295382ce36e43723aefe2fdcbb0d825
+entity_type: wisski_individual
+bundle: b0fa9cc21598a987c556bc05d5e3889e
+label: Organisationsform
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

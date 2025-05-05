@@ -1,0 +1,275 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2b4b472cafb7f4c46a7c822794ed9dd
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2de9f0b2efc868a635f5adfad12a810
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2f58a56928267034a028100735346f1
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f3a37ff34347b001f327ac2bac9dec86
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f65a6586daed6cba734f174af630bdcf
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f8478ccaf30ed82bc2287f238406cda8
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f8e173631161acd62dba6f8cbd3592de
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f9188639e85ca8d8b8703232f59f1e97
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.fbbd0fc7866781fbe7913c284ffd6427
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.fcbad61edd92acfbf7014e118c757c7c
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.ff95e2be93a5fa409f76e3d6fc338bf1
+    - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
+  module:
+    - field_group
+    - inline_entity_form
+third_party_settings:
+  field_group:
+    group_gene:
+      children:
+        - fcbad61edd92acfbf7014e118c757c7c
+        - ff95e2be93a5fa409f76e3d6fc338bf1
+        - f3a37ff34347b001f327ac2bac9dec86
+        - f65a6586daed6cba734f174af630bdcf
+        - f478e5adfc294241d1cad23b3907a03b
+        - f2de9f0b2efc868a635f5adfad12a810
+      label: Generell
+      region: content
+      parent_name: group_htabs
+      weight: 1
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_details:
+      children:
+        - f2b4b472cafb7f4c46a7c822794ed9dd
+        - f2f58a56928267034a028100735346f1
+        - f9188639e85ca8d8b8703232f59f1e97
+      label: Details
+      region: content
+      parent_name: group_htabs
+      weight: 2
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_objektgeschichte:
+      children:
+        - fbbd0fc7866781fbe7913c284ffd6427
+      label: Objektgeschichte
+      region: content
+      parent_name: group_htabs
+      weight: 3
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_medien:
+      children:
+        - f8e173631161acd62dba6f8cbd3592de
+      label: Medien
+      region: content
+      parent_name: group_htabs
+      weight: 4
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_metadaten:
+      children:
+        - f8478ccaf30ed82bc2287f238406cda8
+      label: Metadaten
+      region: content
+      parent_name: group_htabs
+      weight: 5
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_htabs:
+      children:
+        - group_gene
+        - group_details
+        - group_objektgeschichte
+        - group_medien
+        - group_metadaten
+      label: hTabs
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        direction: horizontal
+        width_breakpoint: 640
+id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.default
+targetEntityType: wisski_individual
+bundle: bb48a22d36f1c15cd16b143d23466812
+mode: default
+content:
+  f2b4b472cafb7f4c46a7c822794ed9dd:
+    type: inline_entity_form_complex
+    weight: 7
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  f2de9f0b2efc868a635f5adfad12a810:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  f2f58a56928267034a028100735346f1:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  f3a37ff34347b001f327ac2bac9dec86:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  f65a6586daed6cba734f174af630bdcf:
+    type: string_textarea
+    weight: 6
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  f8478ccaf30ed82bc2287f238406cda8:
+    type: inline_entity_form_complex
+    weight: 14
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  f8e173631161acd62dba6f8cbd3592de:
+    type: inline_entity_form_complex
+    weight: 13
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  f9188639e85ca8d8b8703232f59f1e97:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  fbbd0fc7866781fbe7913c284ffd6427:
+    type: inline_entity_form_complex
+    weight: 12
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  fcbad61edd92acfbf7014e118c757c7c:
+    type: inline_entity_form_complex
+    weight: 2
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  ff95e2be93a5fa409f76e3d6fc338bf1:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  uid: true

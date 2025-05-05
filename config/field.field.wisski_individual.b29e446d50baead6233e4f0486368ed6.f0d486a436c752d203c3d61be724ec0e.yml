@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f0d486a436c752d203c3d61be724ec0e
+    - wisski_core.wisski_bundle.b29e446d50baead6233e4f0486368ed6
+id: wisski_individual.b29e446d50baead6233e4f0486368ed6.f0d486a436c752d203c3d61be724ec0e
+field_name: f0d486a436c752d203c3d61be724ec0e
+entity_type: wisski_individual
+bundle: b29e446d50baead6233e4f0486368ed6
+label: 'Ende (Text)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

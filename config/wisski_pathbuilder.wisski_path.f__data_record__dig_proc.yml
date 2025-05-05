@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__data_record__dig_proc
+name: 'Entstehung Datensatz'
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://erlangen-crm.org/current/P94i_was_created_by'
+  - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: 3
+description: ''
+type: Path
+transitive: null
+irreflexive: null

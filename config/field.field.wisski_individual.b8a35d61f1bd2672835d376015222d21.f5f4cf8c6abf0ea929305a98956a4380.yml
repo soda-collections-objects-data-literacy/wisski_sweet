@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f5f4cf8c6abf0ea929305a98956a4380
+    - wisski_core.wisski_bundle.b8a35d61f1bd2672835d376015222d21
+id: wisski_individual.b8a35d61f1bd2672835d376015222d21.f5f4cf8c6abf0ea929305a98956a4380
+field_name: f5f4cf8c6abf0ea929305a98956a4380
+entity_type: wisski_individual
+bundle: b8a35d61f1bd2672835d376015222d21
+label: Einheit
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,70 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.bf3b15207bd74301804eb30c87e0fe00.f75e5d31023925b916d99cb819c720d5
+    - field.field.wisski_individual.bf3b15207bd74301804eb30c87e0fe00.f90b172c9e7d5bf32cbd3ad8fc2eff90
+    - field.field.wisski_individual.bf3b15207bd74301804eb30c87e0fe00.fa4020f71a81e0ebf7cc3ebd60c39017
+    - wisski_core.wisski_bundle.bf3b15207bd74301804eb30c87e0fe00
+  module:
+    - text
+    - wisski_adapter_sparql11_pb
+id: wisski_individual.bf3b15207bd74301804eb30c87e0fe00.default
+targetEntityType: wisski_individual
+bundle: bf3b15207bd74301804eb30c87e0fe00
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  f75e5d31023925b916d99cb819c720d5:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  f90b172c9e7d5bf32cbd3ad8fc2eff90:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  fa4020f71a81e0ebf7cc3ebd60c39017:
+    type: wisski_link_formatter
+    label: above
+    settings:
+      speed: 100
+      collapsedHeight: 75
+      heightMargin: 16
+      moreLink: '<a href="#">Read more</a>'
+      lessLink: '<a href="#">Close</a>'
+      embedCSS: 1
+      sectionCSS: 'display: block; width: 100%;'
+      startOpen: 0
+      expandedClass: readmore-js-expanded
+      collapsedClass: readmore-js-collapsed
+      imagecache_external_style: ''
+      imagecache_external_link: ''
+      use_readmore: 1
+      use_title_pattern: 1
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  bundle: true
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

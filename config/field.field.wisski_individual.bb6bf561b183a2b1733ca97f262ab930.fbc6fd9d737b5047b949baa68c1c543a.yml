@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fbc6fd9d737b5047b949baa68c1c543a
+    - wisski_core.wisski_bundle.b29e446d50baead6233e4f0486368ed6
+    - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fbc6fd9d737b5047b949baa68c1c543a
+field_name: fbc6fd9d737b5047b949baa68c1c543a
+entity_type: wisski_individual
+bundle: bb6bf561b183a2b1733ca97f262ab930
+label: Datierung
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b29e446d50baead6233e4f0486368ed6: b29e446d50baead6233e4f0486368ed6
+field_type: entity_reference

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__per__precision
+name: Genauigkeit
+path_array:
+  - 'http://erlangen-crm.org/current/E4_Period'
+  - 'http://erlangen-crm.org/current/P2_has_type'
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Precision'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E41_Appellation'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 2
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

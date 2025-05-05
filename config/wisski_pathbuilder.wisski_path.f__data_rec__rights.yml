@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__data_rec__rights
+name: 'Nutzungsrechte Metadaten'
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://erlangen-crm.org/current/P104_is_subject_to'
+  - 'http://erlangen-crm.org/current/E30_Right'
+datatype_property: empty
+short_name: ''
+disamb: 2
+length: 3
+description: ''
+type: Path
+transitive: null
+irreflexive: null

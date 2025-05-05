@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f71837c561d00ed05d853339747a44bc
+    - wisski_core.wisski_bundle.b8a35d61f1bd2672835d376015222d21
+id: wisski_individual.b8a35d61f1bd2672835d376015222d21.f71837c561d00ed05d853339747a44bc
+field_name: f71837c561d00ed05d853339747a44bc
+entity_type: wisski_individual
+bundle: b8a35d61f1bd2672835d376015222d21
+label: Dimension
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

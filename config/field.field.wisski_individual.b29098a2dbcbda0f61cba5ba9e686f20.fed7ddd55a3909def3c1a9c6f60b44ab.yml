@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fed7ddd55a3909def3c1a9c6f60b44ab
+    - wisski_core.wisski_bundle.b29098a2dbcbda0f61cba5ba9e686f20
+id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fed7ddd55a3909def3c1a9c6f60b44ab
+field_name: fed7ddd55a3909def3c1a9c6f60b44ab
+entity_type: wisski_individual
+bundle: b29098a2dbcbda0f61cba5ba9e686f20
+label: 'Verwahrende Einrichtung'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
