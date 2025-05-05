@@ -1,0 +1,11 @@
+uuid: b1711470-8cb0-4bd1-a4bd-e1ef43787e8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - wisski_core
+id: wisski_individual.multiple
+label: multiple
+description: ''
+targetEntityType: wisski_individual
+cache: true
