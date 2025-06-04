@@ -10,7 +10,7 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fd0e2dca0a4586b65e6bfd520
 field_name: fd0e2dca0a4586b65e6bfd52008535da
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Link to Published Record'
+label: 'Link to published record'
 description: ''
 required: false
 translatable: false

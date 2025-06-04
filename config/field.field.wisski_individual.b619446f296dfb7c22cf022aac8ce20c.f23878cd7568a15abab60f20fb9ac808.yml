@@ -10,7 +10,7 @@ id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f23878cd7568a15abab60f20f
 field_name: f23878cd7568a15abab60f20fb9ac808
 entity_type: wisski_individual
 bundle: b619446f296dfb7c22cf022aac8ce20c
-label: 'Link to Media File'
+label: 'Link to media file'
 description: ''
 required: false
 translatable: false

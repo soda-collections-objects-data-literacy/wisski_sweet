@@ -10,7 +10,7 @@ id: wisski_individual.b29e446d50baead6233e4f0486368ed6.fbd761428160e6e71e34a89c8
 field_name: fbd761428160e6e71e34a89c8947436b
 entity_type: wisski_individual
 bundle: b29e446d50baead6233e4f0486368ed6
-label: Genauigkeit
+label: Accuracy
 description: ''
 required: false
 translatable: false

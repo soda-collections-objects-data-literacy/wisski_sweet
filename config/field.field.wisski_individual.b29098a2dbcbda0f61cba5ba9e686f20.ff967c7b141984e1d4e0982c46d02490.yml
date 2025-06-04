@@ -8,7 +8,7 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.ff967c7b141984e1d4e0982c4
 field_name: ff967c7b141984e1d4e0982c46d02490
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Metadata Usage Rights'
+label: 'Data record usage rights'
 description: ''
 required: false
 translatable: false

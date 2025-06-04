@@ -8,7 +8,7 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2de9f0b2efc868a635f5adfa
 field_name: f2de9f0b2efc868a635f5adfad12a810
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: 'Content Keyword'
+label: 'Content keyword'
 description: ''
 required: false
 translatable: false

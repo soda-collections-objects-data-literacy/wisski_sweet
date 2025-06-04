@@ -12,13 +12,13 @@ settings:
   allowed_values:
     -
       value: before_or_until_the_end_of
-      label: 'vor oder bis zum Ende von'
+      label: 'Before or until the end of'
     -
       value: after_or_with_the_start_of
-      label: 'nach oder mit dem Start von'
+      label: 'After or with the start of'
     -
       value: at_some_time_of
-      label: 'zu einer Zeit des'
+      label: 'At some time of'
   allowed_values_function: ''
 module: options
 locked: false

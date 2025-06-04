@@ -9,7 +9,7 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.fbbd0fc7866781fbe7913c284
 field_name: fbbd0fc7866781fbe7913c284ffd6427
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: 'Event in Object History'
+label: 'Event in object history'
 description: ''
 required: false
 translatable: false

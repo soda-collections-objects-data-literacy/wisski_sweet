@@ -12,16 +12,16 @@ settings:
   allowed_values:
     -
       value: period_text
-      label: 'Zeitraum (Text)'
+      label: 'Period (text)'
     -
       value: period_span
-      label: 'Zeitraum (Spanne)'
+      label: 'Period (span)'
     -
       value: date_text
-      label: 'Zeitpunkt (Text)'
+      label: 'Date (text)'
     -
       value: date_detail
-      label: 'Zeitpunkt (detailiert)'
+      label: 'Date (detail)'
   allowed_values_function: ''
 module: options
 locked: false

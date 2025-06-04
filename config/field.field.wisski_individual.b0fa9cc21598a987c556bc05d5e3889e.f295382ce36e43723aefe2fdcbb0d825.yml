@@ -8,7 +8,7 @@ id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f295382ce36e43723aefe2fdc
 field_name: f295382ce36e43723aefe2fdcbb0d825
 entity_type: wisski_individual
 bundle: b0fa9cc21598a987c556bc05d5e3889e
-label: 'Organization Type'
+label: 'Organization type'
 description: ''
 required: false
 translatable: false

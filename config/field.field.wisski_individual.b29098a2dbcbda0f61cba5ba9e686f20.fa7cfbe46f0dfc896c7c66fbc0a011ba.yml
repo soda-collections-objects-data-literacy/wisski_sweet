@@ -8,7 +8,7 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fa7cfbe46f0dfc896c7c66fbc
 field_name: fa7cfbe46f0dfc896c7c66fbc0a011ba
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Record Type'
+label: 'Record type'
 description: ''
 required: false
 translatable: false

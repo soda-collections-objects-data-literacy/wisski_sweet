@@ -40,7 +40,7 @@ third_party_settings:
         - f239c64d0bd4b9138bb8fb9e79942110
         - fae0f9922ce4953c25f6b6d7643459ac
         - f295382ce36e43723aefe2fdcbb0d825
-      label: Benennung
+      label: Appellation
       region: content
       parent_name: group_actor_vtabs
       weight: 11
@@ -56,7 +56,7 @@ third_party_settings:
     group_actor_geburt_grundung:
       children:
         - f02460c4dea0c764d17fe66be8f02508
-      label: 'Geburt/ Gründung'
+      label: 'Birth/ Foundation'
       region: hidden
       parent_name: group_actor_vtabs
       weight: 12
@@ -72,7 +72,7 @@ third_party_settings:
     group_actor_tod_auflosung:
       children:
         - f81d5c928f704125c6859e38f6b20499
-      label: 'Tod/ Auflösung'
+      label: 'Death/ Dissolution'
       region: hidden
       parent_name: group_actor_vtabs
       weight: 13
