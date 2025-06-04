@@ -27,7 +27,7 @@ third_party_settings:
         - f65a6586daed6cba734f174af630bdcf
         - f478e5adfc294241d1cad23b3907a03b
         - f2de9f0b2efc868a635f5adfad12a810
-      label: Generell
+      label: General
       region: content
       parent_name: group_htabs
       weight: 1
@@ -45,7 +45,7 @@ third_party_settings:
         - f2b4b472cafb7f4c46a7c822794ed9dd
         - f2f58a56928267034a028100735346f1
         - f9188639e85ca8d8b8703232f59f1e97
-      label: Details
+      label: Details (optional)
       region: content
       parent_name: group_htabs
       weight: 2

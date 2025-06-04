@@ -20,11 +20,11 @@ third_party_settings:
   field_group:
     group_vtabs:
       children:
-        - group_generell_rendered
+        - group_general_rendered
         - group_details_rendered
-        - group_objektgeschichte_rendered
-        - group_medien_rendered
-        - group_metadaten_rendered
+        - group_object_history_rendered
+        - group_media_rendered
+        - group_data_record_rendered
       label: vTabs
       parent_name: ''
       region: content
@@ -37,9 +37,9 @@ third_party_settings:
         label_as_html: false
         direction: vertical
         width_breakpoint: 640
-    group_rechte:
+    group_rights:
       children: {  }
-      label: Rechte
+      label: Rights
       parent_name: ''
       region: hidden
       weight: 16
@@ -52,14 +52,14 @@ third_party_settings:
         open: false
         description: ''
         required_fields: false
-    group_generell_rendered:
+    group_general_rendered:
       children:
         - fcbad61edd92acfbf7014e118c757c7c
         - ff95e2be93a5fa409f76e3d6fc338bf1
         - f3a37ff34347b001f327ac2bac9dec86
         - f65a6586daed6cba734f174af630bdcf
         - f2de9f0b2efc868a635f5adfad12a810
-      label: Generell
+      label: General
       parent_name: group_vtabs
       region: content
       weight: 20
@@ -76,7 +76,7 @@ third_party_settings:
         - f2f58a56928267034a028100735346f1
         - f2b4b472cafb7f4c46a7c822794ed9dd
         - f9188639e85ca8d8b8703232f59f1e97
-      label: Details
+      label: Details (optional)
       parent_name: group_vtabs
       region: content
       weight: 21
@@ -88,10 +88,10 @@ third_party_settings:
         label_as_html: false
         formatter: closed
         description: ''
-    group_objektgeschichte_rendered:
+    group_object_history_rendered:
       children:
         - fbbd0fc7866781fbe7913c284ffd6427
-      label: Objektgeschichte
+      label: Object history
       parent_name: group_vtabs
       region: content
       weight: 22
@@ -103,10 +103,10 @@ third_party_settings:
         label_as_html: false
         formatter: closed
         description: ''
-    group_medien_rendered:
+    group_media_rendered:
       children:
         - f8e173631161acd62dba6f8cbd3592de
-      label: Medien
+      label: Media
       parent_name: group_vtabs
       region: content
       weight: 23
@@ -118,10 +118,10 @@ third_party_settings:
         label_as_html: false
         formatter: closed
         description: ''
-    group_metadaten_rendered:
+    group_data_record_rendered:
       children:
         - f8478ccaf30ed82bc2287f238406cda8
-      label: Metadaten
+      label: Data record
       parent_name: group_vtabs
       region: content
       weight: 24
