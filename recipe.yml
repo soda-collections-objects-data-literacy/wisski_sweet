@@ -11,6 +11,7 @@ install:
   - geofield
   - leaflet
   - viewfield
+  - wisski_authority_document
 
 config:
   strict: false
