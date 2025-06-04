@@ -990,18 +990,6 @@ pbpaths:
       - 'http://wiss-ki.eu/ontology/current/Status'
       - 'http://erlangen-crm.org/current/P1_is_identified_by'
       - 'http://erlangen-crm.org/current/E41_Appellation'
-  f__tit_ass__period:
-    id: f__tit_ass__period
-    weight: '3'
-    enabled: '1'
-    parent: g__titel_assignment
-    bundle: b7f7eceaa540597c1440f1c470bebe07
-    field: f582db0a75b6d5e1f4fe3da61f8ad968
-    fieldtype: entity_reference
-    displaywidget: inline_entity_form_complex
-    formatterwidget: entity_reference_entity_view
-    cardinality: '-1'
-    field_type_informative: entity_reference
   g__period:
     id: g__period
     weight: '17'
