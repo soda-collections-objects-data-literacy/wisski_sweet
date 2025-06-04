@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__per__begin_text
-name: 'Beginn (Text)'
+name: 'Begin (text)'
 path_array:
   - 'http://erlangen-crm.org/current/E4_Period'
   - 'http://erlangen-crm.org/current/P175i_starts_after_or_with_the_start_of'

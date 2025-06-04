@@ -317,7 +317,6 @@ display:
         title: Right
         description: ''
         weight: 15
-        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

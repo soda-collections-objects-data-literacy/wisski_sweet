@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bf3b15207bd74301804eb30c87e0fe00
-label: Geburt/Gründung
+label: 'Birth/Foundation'
 module: views
 description: ''
 tag: ''
@@ -317,7 +317,6 @@ display:
         title: Geburt/Gründung
         description: ''
         weight: 0
-        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: b29098a2dbcbda0f61cba5ba9e686f20
-label: Datensatz
+label: Record
 description: ''
 title_pattern: ''
 on_empty: 3

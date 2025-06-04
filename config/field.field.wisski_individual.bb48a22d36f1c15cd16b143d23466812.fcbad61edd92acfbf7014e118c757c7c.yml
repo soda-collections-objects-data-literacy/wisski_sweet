@@ -9,10 +9,10 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.fcbad61edd92acfbf7014e118
 field_name: fcbad61edd92acfbf7014e118c757c7c
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: Titel
+label: Title
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

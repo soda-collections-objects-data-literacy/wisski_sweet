@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_record__id
-name: 'ID Datensatz'
+name: 'ID Data record'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
-  - 'http://erlangen-crm.org/current/P67_refers_to'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
-datatype_property: empty
+  - 'http://erlangen-crm.org/current/P48_has_preferred_identifier'
+  - 'http://erlangen-crm.org/current/E42_Identifier'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 2
 length: 3
 description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

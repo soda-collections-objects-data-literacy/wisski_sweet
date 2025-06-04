@@ -8,10 +8,10 @@ id: wisski_individual.b66dd83c2f07cd0d188b31b879775f72.fc26b447ad175ecae3d6eeb5f
 field_name: fc26b447ad175ecae3d6eeb5f463a0e9
 entity_type: wisski_individual
 bundle: b66dd83c2f07cd0d188b31b879775f72
-label: Monat
+label: Month
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

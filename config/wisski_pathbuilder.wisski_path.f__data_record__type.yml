@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_record__type
-name: Datensatzart
+name: Data record type
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
   - 'http://erlangen-crm.org/current/P2_has_type'
@@ -15,5 +15,5 @@ disamb: 2
 length: 5
 description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies: {  }
 id: b0fa9cc21598a987c556bc05d5e3889e
-label: Akteur
+label: Actor
 description: ''
-title_pattern: 'a:7:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:19:"base.f__actor__name";s:2:"id";s:2:"p0";s:5:"label";s:4:"Name";}s:2:"t1";a:9:{s:5:"label";s:2:" (";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt1";s:2:"id";s:2:"t1";}s:2:"p2";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:29:"base.f__actor__begin_of_exist";s:2:"id";s:2:"p2";s:5:"label";s:17:"Geburt/ Gründung";}s:2:"t3";a:9:{s:5:"label";s:3:" - ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt3";s:2:"id";s:2:"t3";}s:2:"p4";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:27:"base.f__actor__end_of_exist";s:2:"id";s:2:"p4";s:5:"label";s:15:"Tod/ Auflösung";}s:2:"t5";a:9:{s:5:"label";s:1:")";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt5";s:2:"id";s:2:"t5";}s:6:"max_id";i:5;}'
+title_pattern: ''
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10

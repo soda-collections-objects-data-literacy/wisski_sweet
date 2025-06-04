@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__actor
-name: Akteur
+name: Actor
 path_array:
   - 'http://erlangen-crm.org/current/E39_Actor'
 datatype_property: empty

@@ -8,13 +8,11 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fed7ddd55a3909def3c1a9c6f
 field_name: fed7ddd55a3909def3c1a9c6f60b44ab
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Verwahrende Einrichtung'
+label: 'Custodial Institution'
 description: ''
 required: false
-translatable: true
-default_value:
-  -
-    value: 'Change me'
+translatable: false
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string

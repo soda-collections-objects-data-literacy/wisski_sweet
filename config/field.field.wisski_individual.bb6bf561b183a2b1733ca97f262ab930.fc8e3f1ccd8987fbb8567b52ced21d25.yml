@@ -9,10 +9,10 @@ id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fc8e3f1ccd8987fbb8567b52c
 field_name: fc8e3f1ccd8987fbb8567b52ced21d25
 entity_type: wisski_individual
 bundle: bb6bf561b183a2b1733ca97f262ab930
-label: Akteur
+label: Actor
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__period
-name: 'Zeitraum '
+name: 'Time period'
 path_array:
   - 'http://erlangen-crm.org/current/E4_Period'
 datatype_property: empty

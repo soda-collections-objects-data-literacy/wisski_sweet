@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__media_file__type
-name: Medientyp
+name: 'Media type'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
   - 'http://erlangen-crm.org/current/P2_has_type'

@@ -9,10 +9,10 @@ id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fbc6fd9d737b5047b949baa68
 field_name: fbc6fd9d737b5047b949baa68c1c543a
 entity_type: wisski_individual
 bundle: bb6bf561b183a2b1733ca97f262ab930
-label: Datierung
+label: Dating
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

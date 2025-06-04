@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__media_file__url
-name: 'Link zur Mediendatei'
+name: 'Link to media file'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://wiss-ki.eu/ontology/current/URL'
+  - 'http://erlangen-crm.org/current/E42_Identifier'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0
 length: 3
 description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

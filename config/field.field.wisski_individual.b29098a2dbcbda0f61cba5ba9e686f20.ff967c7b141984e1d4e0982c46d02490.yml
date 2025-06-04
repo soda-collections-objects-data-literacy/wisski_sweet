@@ -8,11 +8,15 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.ff967c7b141984e1d4e0982c4
 field_name: ff967c7b141984e1d4e0982c46d02490
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Nutzungsrechte Metadaten'
+label: 'Metadata Usage Rights'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b0bb97d703b09623b04167df1b5f3f49: b0bb97d703b09623b04167df1b5f3f49
+field_type: entity_reference

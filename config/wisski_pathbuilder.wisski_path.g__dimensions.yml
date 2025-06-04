@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__dimensions
-name: Maße
+name: Dimensions
 path_array:
   - 'http://erlangen-crm.org/current/E54_Dimension'
 datatype_property: empty

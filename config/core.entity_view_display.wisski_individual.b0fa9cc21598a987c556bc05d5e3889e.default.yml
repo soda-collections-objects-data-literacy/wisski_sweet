@@ -12,11 +12,19 @@ dependencies:
     - wisski_core.wisski_bundle.b0fa9cc21598a987c556bc05d5e3889e
   module:
     - options
+    - text
 id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.default
 targetEntityType: wisski_individual
 bundle: b0fa9cc21598a987c556bc05d5e3889e
 mode: default
 content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -5
+    region: content
   f02460c4dea0c764d17fe66be8f02508:
     type: entity_reference_entity_view
     label: above
@@ -78,7 +86,6 @@ hidden:
   bundle: true
   created: true
   label: true
-  langcode: true
   name: true
   preview_image: true
   uid: true

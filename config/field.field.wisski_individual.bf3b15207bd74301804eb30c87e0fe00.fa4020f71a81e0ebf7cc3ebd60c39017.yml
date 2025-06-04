@@ -8,10 +8,10 @@ id: wisski_individual.bf3b15207bd74301804eb30c87e0fe00.fa4020f71a81e0ebf7cc3ebd6
 field_name: fa4020f71a81e0ebf7cc3ebd60c39017
 entity_type: wisski_individual
 bundle: bf3b15207bd74301804eb30c87e0fe00
-label: Ort
+label: Place
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

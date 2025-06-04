@@ -6,9 +6,11 @@ dependencies:
 id: wisski_individual.f44970b58e7b700acf846fbac6d527c3
 field_name: f44970b58e7b700acf846fbac6d527c3
 entity_type: wisski_individual
-type: entity_reference
+type: string
 settings:
-  target_type: wisski_individual
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: -1

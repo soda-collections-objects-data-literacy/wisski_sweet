@@ -2,24 +2,18 @@ langcode: en
 status: true
 dependencies:
   module:
-    - options
     - wisski_core
 id: wisski_individual.fa7cfbe46f0dfc896c7c66fbc0a011ba
 field_name: fa7cfbe46f0dfc896c7c66fbc0a011ba
 entity_type: wisski_individual
-type: list_string
+type: string
 settings:
-  allowed_values:
-    -
-      value: single
-      label: Einzelobjekt
-    -
-      value: group
-      label: Objektgruppe
-  allowed_values_function: ''
-module: options
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

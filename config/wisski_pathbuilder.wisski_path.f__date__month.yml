@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__date__month
-name: Monat
+name: Month
 path_array:
   - 'http://wiss-ki.eu/ontology/current/Date'
   - 'http://erlangen-crm.org/current/P86_falls_within'

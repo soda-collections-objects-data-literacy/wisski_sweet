@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__eoe__place
-name: Ort
+name: Place
 path_array:
   - 'http://erlangen-crm.org/current/E64_End_of_Existence'
   - 'http://erlangen-crm.org/current/P7_took_place_at'

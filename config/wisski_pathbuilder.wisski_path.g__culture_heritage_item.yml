@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__culture_heritage_item
-name: Objekt
+name: Cultural heritage item
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
 datatype_property: empty

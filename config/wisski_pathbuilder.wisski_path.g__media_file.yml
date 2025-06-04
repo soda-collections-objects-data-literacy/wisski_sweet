@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__media_file
-name: Mediendatei
+name: 'Media file'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
 datatype_property: empty

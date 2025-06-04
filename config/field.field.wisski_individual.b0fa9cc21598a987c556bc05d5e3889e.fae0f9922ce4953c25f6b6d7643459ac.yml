@@ -8,10 +8,10 @@ id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.fae0f9922ce4953c25f6b6d76
 field_name: fae0f9922ce4953c25f6b6d7643459ac
 entity_type: wisski_individual
 bundle: b0fa9cc21598a987c556bc05d5e3889e
-label: Tätigkeit
+label: Activity
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

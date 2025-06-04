@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__dim__type
-name: Dimension
+name: Dimensions
 path_array:
   - 'http://erlangen-crm.org/current/E54_Dimension'
   - 'http://erlangen-crm.org/current/P2_has_type'

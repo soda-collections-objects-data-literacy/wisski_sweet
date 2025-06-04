@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__per__precision
-name: Genauigkeit
+name: Precision
 path_array:
   - 'http://erlangen-crm.org/current/E4_Period'
   - 'http://erlangen-crm.org/current/P2_has_type'

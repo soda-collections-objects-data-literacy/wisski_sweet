@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__per__end_text
-name: 'Ende (Text)'
+name: 'End (text)'
 path_array:
   - 'http://erlangen-crm.org/current/E4_Period'
   - 'http://erlangen-crm.org/current/P173_starts_before_or_with_the_end_of'

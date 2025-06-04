@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__right
-name: Rechte
+name: Right
 path_array:
   - 'http://erlangen-crm.org/current/E30_Right'
 datatype_property: empty
@@ -11,5 +11,5 @@ disamb: 0
 length: 1
 description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

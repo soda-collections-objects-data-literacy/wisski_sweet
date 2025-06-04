@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__med_file__rights
-name: Rechte
+name: Rights
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
   - 'http://erlangen-crm.org/current/P129i_is_subject_of'

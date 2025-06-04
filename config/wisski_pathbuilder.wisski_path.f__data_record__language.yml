@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_record__language
-name: 'Sprache des Datensatzes'
+name: 'Language of the data record'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
   - 'http://erlangen-crm.org/current/P2_has_type'

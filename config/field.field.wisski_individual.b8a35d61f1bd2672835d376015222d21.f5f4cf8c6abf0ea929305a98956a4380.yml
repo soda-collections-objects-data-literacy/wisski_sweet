@@ -8,10 +8,10 @@ id: wisski_individual.b8a35d61f1bd2672835d376015222d21.f5f4cf8c6abf0ea929305a989
 field_name: f5f4cf8c6abf0ea929305a98956a4380
 entity_type: wisski_individual
 bundle: b8a35d61f1bd2672835d376015222d21
-label: Einheit
+label: Unit
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

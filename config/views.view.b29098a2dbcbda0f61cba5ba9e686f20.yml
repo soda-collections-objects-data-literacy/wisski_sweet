@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b29098a2dbcbda0f61cba5ba9e686f20
-label: Datensatz
+label: Record
 module: views
 description: ''
 tag: ''
@@ -317,7 +317,6 @@ display:
         title: Datensatz
         description: ''
         weight: 10
-        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

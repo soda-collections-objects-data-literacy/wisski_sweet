@@ -8,18 +8,24 @@ dependencies:
     - field.field.wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fdbb81d6d2bb33a8e75567aaff54bbd8
     - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
   module:
-    - options
-    - wisski_adapter_sparql11_pb
+    - text
 id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.default
 targetEntityType: wisski_individual
 bundle: bb6bf561b183a2b1733ca97f262ab930
 mode: default
 content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -5
+    region: content
   f44970b58e7b700acf846fbac6d527c3:
-    type: wisski_entity_reference_label
+    type: string
     label: above
     settings:
-      link: true
+      link_to_entity: false
     third_party_settings: {  }
     weight: 2
     region: content
@@ -30,7 +36,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   fc8e3f1ccd8987fbb8567b52ced21d25:
     type: entity_reference_entity_view
@@ -39,12 +45,13 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   fdbb81d6d2bb33a8e75567aaff54bbd8:
-    type: list_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
     weight: 3
     region: content
@@ -52,7 +59,6 @@ hidden:
   bundle: true
   created: true
   label: true
-  langcode: true
   name: true
   preview_image: true
   uid: true

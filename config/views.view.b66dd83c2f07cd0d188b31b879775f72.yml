@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b66dd83c2f07cd0d188b31b879775f72
-label: Datum
+label: Date
 module: views
 description: ''
 tag: ''
@@ -317,7 +317,6 @@ display:
         title: Datum
         description: ''
         weight: 0
-        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

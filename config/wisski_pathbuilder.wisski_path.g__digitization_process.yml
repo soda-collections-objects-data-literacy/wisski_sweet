@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__digitization_process
-name: 'Entstehung Datensatz'
+name: 'Creation record'
 path_array:
   - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
 datatype_property: empty

@@ -15,6 +15,7 @@
         "drupal/field_group": "^3.6",
         "drupal/geofield": "^1",
         "drupal/leaflet": "^10.2",
+        "drupal/viewfield": "^3.0@beta",
         "soda-collection-objects-data-literacy/wisski_grain_yeast_water": "dev-main"
     }
 }

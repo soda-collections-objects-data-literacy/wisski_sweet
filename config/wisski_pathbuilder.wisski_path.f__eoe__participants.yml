@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__eoe__participants
-name: Beteiligte
+name: Participants
 path_array:
   - 'http://erlangen-crm.org/current/E64_End_of_Existence'
   - 'http://erlangen-crm.org/current/P11_had_participant'

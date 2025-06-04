@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__actor__organisation_type
-name: Organisationsform
+name: Organisation type
 path_array:
   - 'http://erlangen-crm.org/current/E39_Actor'
   - 'http://erlangen-crm.org/current/P2_has_type'

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__date__appellation
-name: Benennung
+name: Naming
 path_array:
   - 'http://wiss-ki.eu/ontology/current/Date'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'

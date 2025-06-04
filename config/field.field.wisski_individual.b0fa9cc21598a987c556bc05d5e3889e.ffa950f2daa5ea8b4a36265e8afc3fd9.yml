@@ -10,10 +10,10 @@ id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.ffa950f2daa5ea8b4a36265e8
 field_name: ffa950f2daa5ea8b4a36265e8afc3fd9
 entity_type: wisski_individual
 bundle: b0fa9cc21598a987c556bc05d5e3889e
-label: Typ
+label: Type
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value:
   -
     value: person

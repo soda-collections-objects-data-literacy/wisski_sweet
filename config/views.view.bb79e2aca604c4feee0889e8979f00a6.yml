@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bb79e2aca604c4feee0889e8979f00a6
-label: 'Entstehung Datensatz'
+label: 'Record Creation'
 module: views
 description: ''
 tag: ''
@@ -317,7 +317,6 @@ display:
         title: 'Entstehung Datensatz'
         description: ''
         weight: 11
-        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

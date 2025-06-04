@@ -9,10 +9,10 @@ id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.fcda28daa1b9a3542d4b50c42
 field_name: fcda28daa1b9a3542d4b50c42b3768d1
 entity_type: wisski_individual
 bundle: b619446f296dfb7c22cf022aac8ce20c
-label: Rechte
+label: Rights
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

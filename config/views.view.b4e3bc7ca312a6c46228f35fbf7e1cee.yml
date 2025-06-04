@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b4e3bc7ca312a6c46228f35fbf7e1cee
-label: 'Tod/ Auflösung'
+label: 'Death/Dissolution'
 module: views
 description: ''
 tag: ''
@@ -317,7 +317,6 @@ display:
         title: 'Tod/ Auflösung'
         description: ''
         weight: 0
-        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

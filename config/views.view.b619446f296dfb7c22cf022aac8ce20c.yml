@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b619446f296dfb7c22cf022aac8ce20c
-label: Mediendatei
+label: 'Media File'
 module: views
 description: ''
 tag: ''

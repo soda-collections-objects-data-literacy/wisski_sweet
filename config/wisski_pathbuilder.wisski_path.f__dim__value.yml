@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__dim__value
-name: Wert
+name: Value
 path_array:
   - 'http://erlangen-crm.org/current/E54_Dimension'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'

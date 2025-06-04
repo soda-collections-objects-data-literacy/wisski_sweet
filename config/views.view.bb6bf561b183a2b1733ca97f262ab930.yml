@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bb6bf561b183a2b1733ca97f262ab930
-label: 'Ereignis in der Objektgeschichte (Feldgruppe)'
+label: 'Event in Object History (Field Group)'
 module: views
 description: ''
 tag: ''

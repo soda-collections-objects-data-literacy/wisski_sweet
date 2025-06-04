@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__actor__type
-name: Typ
+name: Type
 path_array:
   - 'http://erlangen-crm.org/current/E39_Actor'
   - 'http://erlangen-crm.org/current/P2_has_type'

@@ -8,10 +8,10 @@ id: wisski_individual.bb79e2aca604c4feee0889e8979f00a6.ffed4df47440f25499f56fa7e
 field_name: ffed4df47440f25499f56fa7e4d74710
 entity_type: wisski_individual
 bundle: bb79e2aca604c4feee0889e8979f00a6
-label: 'Ersteller des Datensatzes'
+label: 'Record Creator'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

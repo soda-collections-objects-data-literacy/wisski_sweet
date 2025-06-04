@@ -9,10 +9,10 @@ id: wisski_individual.bf3b15207bd74301804eb30c87e0fe00.f75e5d31023925b916d99cb81
 field_name: f75e5d31023925b916d99cb819c720d5
 entity_type: wisski_individual
 bundle: bf3b15207bd74301804eb30c87e0fe00
-label: Beteiligte
+label: Participants
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

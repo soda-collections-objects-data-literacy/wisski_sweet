@@ -9,10 +9,10 @@ id: wisski_individual.b29e446d50baead6233e4f0486368ed6.f92436d0dc6d2bc4d51d24230
 field_name: f92436d0dc6d2bc4d51d242302707128
 entity_type: wisski_individual
 bundle: b29e446d50baead6233e4f0486368ed6
-label: 'Ende (detailliert)'
+label: 'End (detailed)'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

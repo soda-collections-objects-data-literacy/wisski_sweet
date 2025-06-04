@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__titel_assignment
-name: 'Objekttitel oder benennungszuweisung'
+name: 'Object title or naming assignment'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
 datatype_property: empty

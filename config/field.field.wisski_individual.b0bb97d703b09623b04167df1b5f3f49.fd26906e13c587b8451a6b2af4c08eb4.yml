@@ -8,10 +8,10 @@ id: wisski_individual.b0bb97d703b09623b04167df1b5f3f49.fd26906e13c587b8451a6b2af
 field_name: fd26906e13c587b8451a6b2af4c08eb4
 entity_type: wisski_individual
 bundle: b0bb97d703b09623b04167df1b5f3f49
-label: Nutzungsrechte
+label: 'Usage Rights'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

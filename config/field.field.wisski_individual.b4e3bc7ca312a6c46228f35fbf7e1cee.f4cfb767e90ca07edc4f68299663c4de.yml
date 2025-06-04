@@ -9,10 +9,10 @@ id: wisski_individual.b4e3bc7ca312a6c46228f35fbf7e1cee.f4cfb767e90ca07edc4f68299
 field_name: f4cfb767e90ca07edc4f68299663c4de
 entity_type: wisski_individual
 bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
-label: Zeitraum
+label: Period
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

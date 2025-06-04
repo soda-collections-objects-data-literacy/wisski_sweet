@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__data_record
-name: Datensatz
+name: Data record
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
 datatype_property: empty

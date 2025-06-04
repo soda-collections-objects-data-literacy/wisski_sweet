@@ -10,6 +10,7 @@ install:
   - field_group
   - geofield
   - leaflet
+  - viewfield
 
 config:
   strict: false
@@ -18,3 +19,4 @@ config:
     field_group: "*"
     geofield: "*"
     leaflet: "*"
+    viewfield: "*"

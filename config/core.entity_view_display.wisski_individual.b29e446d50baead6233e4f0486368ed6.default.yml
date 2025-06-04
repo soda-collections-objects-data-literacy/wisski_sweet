@@ -8,6 +8,8 @@ dependencies:
     - field.field.wisski_individual.b29e446d50baead6233e4f0486368ed6.fbd761428160e6e71e34a89c8947436b
     - field.field.wisski_individual.b29e446d50baead6233e4f0486368ed6.ff261d2c17cf334dd083acf2f917c0d2
     - wisski_core.wisski_bundle.b29e446d50baead6233e4f0486368ed6
+  module:
+    - options
 id: wisski_individual.b29e446d50baead6233e4f0486368ed6.default
 targetEntityType: wisski_individual
 bundle: b29e446d50baead6233e4f0486368ed6
@@ -19,7 +21,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   f3d7e2759ca9321d8f3cb142c21b2450:
     type: string
@@ -27,7 +29,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   f92436d0dc6d2bc4d51d242302707128:
     type: entity_reference_entity_view
@@ -36,7 +38,14 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 3
+    weight: 4
+    region: content
+  fbd761428160e6e71e34a89c8947436b:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
     region: content
   ff261d2c17cf334dd083acf2f917c0d2:
     type: entity_reference_entity_view
@@ -45,14 +54,13 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
 hidden:
   bundle: true
   created: true
-  fbd761428160e6e71e34a89c8947436b: true
+  description: true
   label: true
-  langcode: true
   name: true
   preview_image: true
   uid: true

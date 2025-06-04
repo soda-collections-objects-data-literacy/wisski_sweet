@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.f0eee74eab34dac2e3f3042eb332d703
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.f883e31b3ad23a22cd4aa2fbd11159e2
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fa7cfbe46f0dfc896c7c66fbc0a011ba
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fb3e71f75bccac3e7aee7efdb2cb14d8
@@ -12,65 +11,64 @@ dependencies:
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.ff967c7b141984e1d4e0982c46d02490
     - wisski_core.wisski_bundle.b29098a2dbcbda0f61cba5ba9e686f20
   module:
-    - options
-    - wisski_adapter_sparql11_pb
+    - link
+    - text
 id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.default
 targetEntityType: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
 mode: default
 content:
-  created:
-    type: timestamp
-    label: above
-    settings:
-      date_format: medium
-      custom_date_format: ''
-      timezone: ''
-      tooltip:
-        date_format: long
-        custom_date_format: ''
-      time_diff:
-        enabled: false
-        future_format: '@interval hence'
-        past_format: '@interval ago'
-        granularity: 2
-        refresh: 60
-    third_party_settings: {  }
-    weight: 6
-    region: content
-  f0eee74eab34dac2e3f3042eb332d703:
-    type: entity_reference_entity_view
-    label: above
-    settings:
-      view_mode: in_datensatz
-      link: false
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  f883e31b3ad23a22cd4aa2fbd11159e2:
-    type: wisski_entity_reference_eid
-    label: above
-    settings:
-      hidden: 0
-      link: true
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  fa7cfbe46f0dfc896c7c66fbc0a011ba:
-    type: list_default
-    label: above
+  description:
+    type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: -5
+    region: content
+  f883e31b3ad23a22cd4aa2fbd11159e2:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  fa7cfbe46f0dfc896c7c66fbc0a011ba:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  fb3e71f75bccac3e7aee7efdb2cb14d8:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 12
     region: content
   fcce64514b22835881e127a12fa0262d:
     type: entity_reference_entity_view
-    label: hidden
+    label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 3
+    weight: 16
+    region: content
+  fd0e2dca0a4586b65e6bfd52008535da:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 15
     region: content
   fed7ddd55a3909def3c1a9c6f60b44ab:
     type: string
@@ -78,35 +76,21 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 14
     region: content
   ff967c7b141984e1d4e0982c46d02490:
-    type: wisski_link_formatter
+    type: entity_reference_entity_view
     label: above
     settings:
-      imagecache_external_link: ''
-      use_readmore: '1'
-      speed: '100'
-      collapsedHeight: '75'
-      heightMargin: '16'
-      moreLink: '<a href="#">Read more</a>'
-      lessLink: '<a href="#">Close</a>'
-      embedCSS: '1'
-      sectionCSS: 'display: block; width: 100%;'
-      expandedClass: readmore-js-expanded
-      collapsedClass: readmore-js-collapsed
-      use_title_pattern: '1'
-      startOpen: 0
-      imagecache_external_style: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 11
     region: content
 hidden:
   bundle: true
-  fb3e71f75bccac3e7aee7efdb2cb14d8: true
-  fd0e2dca0a4586b65e6bfd52008535da: true
+  created: true
   label: true
-  langcode: true
   name: true
   preview_image: true
   uid: true

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__item_history_activity
-name: 'Ereignis in der Objektgeschichte'
+name: 'Event in the object history'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
 datatype_property: empty
