@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - geofield
+    - wisski_core
+id: wisski_individual.f2b62e51766b434f435e6accb85ced1b
+field_name: f2b62e51766b434f435e6accb85ced1b
+entity_type: wisski_individual
+type: geofield
+settings:
+  backend: geofield_backend_default
+module: geofield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

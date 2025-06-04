@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.wisski_individual.f9188639e85ca8d8b8703232f59f1e97
+    - wisski_core.wisski_bundle.bad1642b861feb14ecad423091d4495b
     - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
 id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f9188639e85ca8d8b8703232f59f1e97
 field_name: f9188639e85ca8d8b8703232f59f1e97
@@ -11,8 +12,17 @@ bundle: bb48a22d36f1c15cd16b143d23466812
 label: Technik
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      bad1642b861feb14ecad423091d4495b: bad1642b861feb14ecad423091d4495b
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

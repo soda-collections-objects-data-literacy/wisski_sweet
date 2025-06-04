@@ -11,7 +11,7 @@ bundle: bb48a22d36f1c15cd16b143d23466812
 label: Inventarnummer
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

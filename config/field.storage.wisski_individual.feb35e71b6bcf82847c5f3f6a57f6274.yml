@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - wisski_core
+id: wisski_individual.feb35e71b6bcf82847c5f3f6a57f6274
+field_name: feb35e71b6bcf82847c5f3f6a57f6274
+entity_type: wisski_individual
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'yes'
+      label: 'yes'
+    -
+      value: 'no'
+      label: 'no'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

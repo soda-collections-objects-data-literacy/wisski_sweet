@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f01c7d46b9913b99909f50c098a1920a
+    - wisski_core.wisski_bundle.be9be1c504c5df35dca1836f16d0ee73
+id: wisski_individual.be9be1c504c5df35dca1836f16d0ee73.f01c7d46b9913b99909f50c098a1920a
+field_name: f01c7d46b9913b99909f50c098a1920a
+entity_type: wisski_individual
+bundle: be9be1c504c5df35dca1836f16d0ee73
+label: Appellation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

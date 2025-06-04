@@ -11,7 +11,7 @@ bundle: b29e446d50baead6233e4f0486368ed6
 label: 'Beginn (Text)'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

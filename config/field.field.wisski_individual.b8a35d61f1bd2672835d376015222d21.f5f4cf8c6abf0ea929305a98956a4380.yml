@@ -11,7 +11,7 @@ bundle: b8a35d61f1bd2672835d376015222d21
 label: Einheit
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

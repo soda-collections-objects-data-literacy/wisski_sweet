@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__place__alternative_name
+name: 'Alternative name'
+path_array:
+  - 'http://erlangen-crm.org/current/E53_Place'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Alternative_Name'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

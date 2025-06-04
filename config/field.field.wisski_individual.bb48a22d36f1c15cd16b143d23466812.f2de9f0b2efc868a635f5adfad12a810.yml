@@ -3,16 +3,21 @@ status: true
 dependencies:
   config:
     - field.storage.wisski_individual.f2de9f0b2efc868a635f5adfad12a810
+    - wisski_core.wisski_bundle.b6fdcccc1c6a08cb48abffecc5a31cfc
     - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
 id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2de9f0b2efc868a635f5adfad12a810
 field_name: f2de9f0b2efc868a635f5adfad12a810
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: Inhaltsschlagwort
+label: Schlagwort
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b6fdcccc1c6a08cb48abffecc5a31cfc: b6fdcccc1c6a08cb48abffecc5a31cfc
+field_type: entity_reference

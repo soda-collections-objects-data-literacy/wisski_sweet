@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.wisski_individual.f2f58a56928267034a028100735346f1
     - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
+    - wisski_core.wisski_bundle.bd649063d3131a245922f7718d962ec6
 id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2f58a56928267034a028100735346f1
 field_name: f2f58a56928267034a028100735346f1
 entity_type: wisski_individual
@@ -11,8 +12,17 @@ bundle: bb48a22d36f1c15cd16b143d23466812
 label: Material
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      bd649063d3131a245922f7718d962ec6: bd649063d3131a245922f7718d962ec6
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -3,24 +3,17 @@ status: true
 dependencies:
   module:
     - file
-    - image
     - wisski_core
-id: wisski_individual.f23878cd7568a15abab60f20fb9ac808
-field_name: f23878cd7568a15abab60f20fb9ac808
+id: wisski_individual.f8cada4d5f594d0b03f9a39c77492828
+field_name: f8cada4d5f594d0b03f9a39c77492828
 entity_type: wisski_individual
-type: image
+type: file
 settings:
   target_type: file
   display_field: false
   display_default: false
   uri_scheme: public
-  default_image:
-    uuid: null
-    alt: ''
-    title: ''
-    width: null
-    height: null
-module: image
+module: file
 locked: false
 cardinality: -1
 translatable: true

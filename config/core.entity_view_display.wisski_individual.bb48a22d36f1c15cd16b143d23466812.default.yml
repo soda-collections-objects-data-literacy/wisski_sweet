@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f0a4220f174873b3b1dff5c4f0ab038d
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2b4b472cafb7f4c46a7c822794ed9dd
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2de9f0b2efc868a635f5adfad12a810
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2f58a56928267034a028100735346f1
@@ -12,10 +13,16 @@ dependencies:
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.f9188639e85ca8d8b8703232f59f1e97
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.fbbd0fc7866781fbe7913c284ffd6427
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.fcbad61edd92acfbf7014e118c757c7c
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.ff49657fae8a4f553b233b221ba33f8e
     - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.ff95e2be93a5fa409f76e3d6fc338bf1
+    - field.field.wisski_individual.bb48a22d36f1c15cd16b143d23466812.field__vf__titel
     - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
   module:
+    - ds
     - field_group
+    - viewfield
+    - wisski_adapter_sparql11_pb
+    - wisski_permalink
 third_party_settings:
   field_group:
     group_vtabs:
@@ -25,7 +32,7 @@ third_party_settings:
         - group_objektgeschichte_rendered
         - group_medien_rendered
         - group_metadaten_rendered
-      label: vTabs
+      label: hTabs
       parent_name: ''
       region: content
       weight: 0
@@ -35,14 +42,14 @@ third_party_settings:
         show_empty_fields: false
         id: ''
         label_as_html: false
-        direction: vertical
+        direction: horizontal
         width_breakpoint: 640
     group_rechte:
       children: {  }
       label: Rechte
       parent_name: ''
       region: hidden
-      weight: 16
+      weight: 9
       format_type: details
       format_settings:
         classes: ''
@@ -54,15 +61,16 @@ third_party_settings:
         required_fields: false
     group_generell_rendered:
       children:
-        - fcbad61edd92acfbf7014e118c757c7c
+        - field__vf__titel
         - ff95e2be93a5fa409f76e3d6fc338bf1
         - f3a37ff34347b001f327ac2bac9dec86
         - f65a6586daed6cba734f174af630bdcf
+        - ff49657fae8a4f553b233b221ba33f8e
         - f2de9f0b2efc868a635f5adfad12a810
       label: Generell
       parent_name: group_vtabs
       region: content
-      weight: 20
+      weight: 1
       format_type: tab
       format_settings:
         classes: ''
@@ -73,13 +81,13 @@ third_party_settings:
         description: ''
     group_details_rendered:
       children:
-        - f2f58a56928267034a028100735346f1
         - f2b4b472cafb7f4c46a7c822794ed9dd
+        - f2f58a56928267034a028100735346f1
         - f9188639e85ca8d8b8703232f59f1e97
       label: Details
       parent_name: group_vtabs
       region: content
-      weight: 21
+      weight: 2
       format_type: tab
       format_settings:
         classes: ''
@@ -94,7 +102,7 @@ third_party_settings:
       label: Objektgeschichte
       parent_name: group_vtabs
       region: content
-      weight: 22
+      weight: 3
       format_type: tab
       format_settings:
         classes: ''
@@ -109,7 +117,7 @@ third_party_settings:
       label: Medien
       parent_name: group_vtabs
       region: content
-      weight: 23
+      weight: 4
       format_type: tab
       format_settings:
         classes: ''
@@ -120,11 +128,13 @@ third_party_settings:
         description: ''
     group_metadaten_rendered:
       children:
+        - wisski_uri
+        - langcode
         - f8478ccaf30ed82bc2287f238406cda8
-      label: Metadaten
+      label: Datensatz
       parent_name: group_vtabs
       region: content
-      weight: 24
+      weight: 15
       format_type: tab
       format_settings:
         classes: ''
@@ -133,6 +143,36 @@ third_party_settings:
         label_as_html: false
         formatter: closed
         description: ''
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - group_vtabs
+        - field__vf__titel
+        - wisski_uri
+        - group_generell_rendered
+        - langcode
+        - ff95e2be93a5fa409f76e3d6fc338bf1
+        - group_details_rendered
+        - f8478ccaf30ed82bc2287f238406cda8
+        - f3a37ff34347b001f327ac2bac9dec86
+        - group_objektgeschichte_rendered
+        - f65a6586daed6cba734f174af630bdcf
+        - group_medien_rendered
+        - ff49657fae8a4f553b233b221ba33f8e
+        - f2b4b472cafb7f4c46a7c822794ed9dd
+        - f2f58a56928267034a028100735346f1
+        - f9188639e85ca8d8b8703232f59f1e97
+        - f2de9f0b2efc868a635f5adfad12a810
+        - fbbd0fc7866781fbe7913c284ffd6427
+        - f8e173631161acd62dba6f8cbd3592de
+        - group_metadaten_rendered
 id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.default
 targetEntityType: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
@@ -145,23 +185,23 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 24
+    weight: 6
     region: content
   f2de9f0b2efc868a635f5adfad12a810:
-    type: string
+    type: wisski_entity_reference_label
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    weight: 25
+    weight: 10
     region: content
   f2f58a56928267034a028100735346f1:
-    type: string
+    type: wisski_entity_reference_label
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    weight: 23
+    weight: 7
     region: content
   f3a37ff34347b001f327ac2bac9dec86:
     type: string
@@ -169,23 +209,23 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 23
+    weight: 3
     region: content
   f65a6586daed6cba734f174af630bdcf:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 24
+    weight: 4
     region: content
   f8478ccaf30ed82bc2287f238406cda8:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 8
+    weight: 2
     region: content
   f8e173631161acd62dba6f8cbd3592de:
     type: entity_reference_entity_view
@@ -194,15 +234,15 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 24
+    weight: 14
     region: content
   f9188639e85ca8d8b8703232f59f1e97:
-    type: string
+    type: wisski_entity_reference_label
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    weight: 25
+    weight: 9
     region: content
   fbbd0fc7866781fbe7913c284ffd6427:
     type: entity_reference_entity_view
@@ -211,31 +251,62 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 12
     region: content
-  fcbad61edd92acfbf7014e118c757c7c:
+  ff49657fae8a4f553b233b221ba33f8e:
     type: entity_reference_entity_view
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 21
+    weight: 6
     region: content
   ff95e2be93a5fa409f76e3d6fc338bf1:
-    type: string
+    type: wisski_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field__vf__titel:
+    type: viewfield_default
+    label: above
+    settings:
+      view_title: hidden
+      always_build_output: false
+      empty_view_title: hidden
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  langcode:
+    type: language
     label: above
     settings:
       link_to_entity: false
+      native_language: false
     third_party_settings: {  }
-    weight: 22
+    weight: 1
+    region: content
+  wisski_uri:
+    type: wisski_uri
+    label: above
+    settings:
+      permalink: '1'
+      display: hide_sub
+      resolver: 'https://default-model.wisski.cloud/wisski/get?uri='
+      httpreplace: 0
+      resolverless: 0
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   bundle: true
   created: true
-  description: true
+  f0a4220f174873b3b1dff5c4f0ab038d: true
+  fcbad61edd92acfbf7014e118c757c7c: true
   label: true
   name: true
   preview_image: true
   uid: true
-  wisski_uri: true

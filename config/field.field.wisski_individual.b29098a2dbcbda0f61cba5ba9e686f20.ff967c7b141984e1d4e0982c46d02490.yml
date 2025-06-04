@@ -11,12 +11,8 @@ bundle: b29098a2dbcbda0f61cba5ba9e686f20
 label: 'Nutzungsrechte Metadaten'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
-settings:
-  handler: 'default:wisski_individual'
-  handler_settings:
-    target_bundles:
-      b0bb97d703b09623b04167df1b5f3f49: b0bb97d703b09623b04167df1b5f3f49
-field_type: entity_reference
+settings: {  }
+field_type: string

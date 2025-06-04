@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.bad1642b861feb14ecad423091d4495b.f7724300936afe7f841689ce8dda3519
+    - wisski_core.wisski_bundle.bad1642b861feb14ecad423091d4495b
+  module:
+    - inline_entity_form
+id: wisski_individual.bad1642b861feb14ecad423091d4495b.default
+targetEntityType: wisski_individual
+bundle: bad1642b861feb14ecad423091d4495b
+mode: default
+content:
+  f7724300936afe7f841689ce8dda3519:
+    type: inline_entity_form_complex
+    weight: 1
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  uid: true

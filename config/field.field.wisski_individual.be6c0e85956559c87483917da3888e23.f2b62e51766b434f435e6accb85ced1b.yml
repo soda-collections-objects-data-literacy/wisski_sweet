@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f2b62e51766b434f435e6accb85ced1b
+    - wisski_core.wisski_bundle.be6c0e85956559c87483917da3888e23
+  module:
+    - geofield
+id: wisski_individual.be6c0e85956559c87483917da3888e23.f2b62e51766b434f435e6accb85ced1b
+field_name: f2b62e51766b434f435e6accb85ced1b
+entity_type: wisski_individual
+bundle: be6c0e85956559c87483917da3888e23
+label: 'Spatial coordinates'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

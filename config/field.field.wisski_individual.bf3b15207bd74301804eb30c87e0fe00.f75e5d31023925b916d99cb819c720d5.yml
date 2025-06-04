@@ -12,7 +12,7 @@ bundle: bf3b15207bd74301804eb30c87e0fe00
 label: Beteiligte
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

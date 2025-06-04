@@ -11,8 +11,10 @@ bundle: b29098a2dbcbda0f61cba5ba9e686f20
 label: 'Verwahrende Einrichtung'
 description: ''
 required: false
-translatable: false
-default_value: {  }
+translatable: true
+default_value:
+  -
+    value: 'Change me'
 default_value_callback: ''
 settings: {  }
 field_type: string

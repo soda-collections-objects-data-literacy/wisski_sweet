@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: be9be1c504c5df35dca1836f16d0ee73
+label: Ressourcen
+description: null
+title_pattern: 'a:4:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:18:"base.f__ress__type";s:2:"id";s:2:"p0";s:5:"label";s:4:"Type";}s:2:"t1";a:9:{s:5:"label";s:2:": ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt1";s:2:"id";s:2:"t1";s:7:"parents";a:1:{s:2:"p0";b:1;}}s:2:"p2";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:25:"base.f__info__appellation";s:2:"id";s:2:"p2";s:5:"label";s:11:"Appellation";}s:6:"max_id";i:2;}'
+on_empty: 3
+fallback_title: 'WissKI Entity'
+pager_limit: 10
+menu_items: {  }

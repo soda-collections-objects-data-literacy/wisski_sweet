@@ -12,7 +12,7 @@ bundle: b619446f296dfb7c22cf022aac8ce20c
 label: Rechte
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

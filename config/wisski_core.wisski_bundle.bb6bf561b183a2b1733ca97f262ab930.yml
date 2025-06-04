@@ -2,10 +2,12 @@ langcode: en
 status: true
 dependencies: {  }
 id: bb6bf561b183a2b1733ca97f262ab930
-label: 'Ereignis in der Objektgeschichte (Feldgruppe)'
+label: 'Ereignis in der Objektgeschichte'
 description: ''
-title_pattern: ''
+title_pattern: 'a:8:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:35:"base.f__item_history_activity__type";s:2:"id";s:2:"p0";s:5:"label";s:11:"Ereignistyp";}s:2:"t1";a:9:{s:5:"label";s:2:": ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt1";s:2:"id";s:2:"t1";s:7:"parents";a:1:{s:2:"p0";b:1;}}s:2:"p2";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:35:"base.f__item_history_activity__date";s:2:"id";s:2:"p2";s:5:"label";s:9:"Datierung";}s:2:"t3";a:9:{s:5:"label";s:2:", ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt3";s:2:"id";s:2:"t3";s:7:"parents";a:1:{s:2:"p4";b:1;}}s:2:"p4";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:36:"base.f__item_history_activity__place";s:2:"id";s:2:"p4";s:5:"label";s:3:"Ort";}s:2:"t5";a:9:{s:5:"label";s:2:", ";s:8:"optional";s:0:"";s:11:"cardinality";s:0:"";s:9:"delimiter";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"text";s:4:"name";s:6:"textt5";s:2:"id";s:2:"t5";s:7:"parents";a:1:{s:2:"p6";b:1;}}s:2:"p6";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:36:"base.f__item_history_activity__actor";s:2:"id";s:2:"p6";s:5:"label";s:6:"Akteur";}s:6:"max_id";i:6;}'
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10
-menu_items: {  }
+menu_items:
+  navigate: 3
+  create: 3

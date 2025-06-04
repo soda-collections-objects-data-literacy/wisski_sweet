@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fb7c4c986649cff59847eaa6ba5f3c52
+    - wisski_core.wisski_bundle.be6c0e85956559c87483917da3888e23
+id: wisski_individual.be6c0e85956559c87483917da3888e23.fb7c4c986649cff59847eaa6ba5f3c52
+field_name: fb7c4c986649cff59847eaa6ba5f3c52
+entity_type: wisski_individual
+bundle: be6c0e85956559c87483917da3888e23
+label: 'Preferred name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

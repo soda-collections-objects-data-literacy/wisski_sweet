@@ -28,12 +28,15 @@ content:
       placeholder: ''
     third_party_settings: {  }
   f71837c561d00ed05d853339747a44bc:
-    type: string_textfield
+    type: options_select
     weight: 0
     region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true

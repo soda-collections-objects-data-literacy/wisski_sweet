@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__auth_doc__acronym
+name: Acronym
+path_array:
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://erlangen-crm.org/current/E35_Title'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

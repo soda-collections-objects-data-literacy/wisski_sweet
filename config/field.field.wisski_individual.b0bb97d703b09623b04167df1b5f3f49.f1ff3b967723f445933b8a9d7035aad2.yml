@@ -11,8 +11,10 @@ bundle: b0bb97d703b09623b04167df1b5f3f49
 label: Rechteinhaber
 description: ''
 required: false
-translatable: false
-default_value: {  }
+translatable: true
+default_value:
+  -
+    value: 'CC BY-NC-SA'
 default_value_callback: ''
 settings: {  }
 field_type: string

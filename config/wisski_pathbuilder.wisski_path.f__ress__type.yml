@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__ress__type
+name: Type
+path_array:
+  - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+  - 'http://erlangen-crm.org/current/P2_has_type'
+  - 'http://erlangen-crm.org/current/E99_Product_Type'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

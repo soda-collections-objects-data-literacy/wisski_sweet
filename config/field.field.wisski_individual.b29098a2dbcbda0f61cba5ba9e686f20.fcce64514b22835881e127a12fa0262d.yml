@@ -12,7 +12,7 @@ bundle: b29098a2dbcbda0f61cba5ba9e686f20
 label: 'Entstehung Datensatz'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

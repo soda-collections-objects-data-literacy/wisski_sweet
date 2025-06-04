@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.wisski_individual.f44970b58e7b700acf846fbac6d527c3
     - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
+    - wisski_core.wisski_bundle.be6c0e85956559c87483917da3888e23
 id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.f44970b58e7b700acf846fbac6d527c3
 field_name: f44970b58e7b700acf846fbac6d527c3
 entity_type: wisski_individual
@@ -11,8 +12,17 @@ bundle: bb6bf561b183a2b1733ca97f262ab930
 label: Ort
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      be6c0e85956559c87483917da3888e23: be6c0e85956559c87483917da3888e23
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

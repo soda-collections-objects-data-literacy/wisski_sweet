@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__keyword__used_by_object
+name: Verschlagwortet
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Keyword'
+  - 'http://erlangen-crm.org/current/P2i_is_type_of'
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+datatype_property: empty
+short_name: null
+disamb: 2
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

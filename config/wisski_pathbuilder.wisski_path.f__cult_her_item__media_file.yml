@@ -5,13 +5,15 @@ id: f__cult_her_item__media_file
 name: Mediendatei
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
-  - 'http://erlangen-crm.org/current/P138i_has_representation'
+  - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Media_Assignment'
+  - 'http://erlangen-crm.org/current/P141_assigned'
   - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
 datatype_property: empty
 short_name: ''
-disamb: 2
+disamb: 3
 length: 3
 description: ''
 type: Path
-transitive: null
-irreflexive: null
+transitive: 0
+irreflexive: 0

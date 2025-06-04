@@ -317,6 +317,7 @@ display:
         title: 'Zeitraum '
         description: ''
         weight: 0
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

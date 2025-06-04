@@ -11,7 +11,7 @@ bundle: bb79e2aca604c4feee0889e8979f00a6
 label: 'Ersteller des Datensatzes'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

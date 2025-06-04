@@ -11,7 +11,7 @@ bundle: b0bb97d703b09623b04167df1b5f3f49
 label: Nutzungsrechte
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

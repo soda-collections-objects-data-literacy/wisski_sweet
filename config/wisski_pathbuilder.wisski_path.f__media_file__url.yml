@@ -6,12 +6,12 @@ name: 'Link zur Mediendatei'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://erlangen-crm.org/current/E42_Identifier'
+  - 'http://wiss-ki.eu/ontology/current/URL'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0
 length: 3
 description: ''
 type: Path
-transitive: null
-irreflexive: null
+transitive: 0
+irreflexive: 0
