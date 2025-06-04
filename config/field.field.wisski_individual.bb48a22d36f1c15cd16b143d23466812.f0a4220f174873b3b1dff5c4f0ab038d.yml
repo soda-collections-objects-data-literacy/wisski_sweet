@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f0a4220f174873b3b1dff5c4f0ab038d
+    - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
+id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f0a4220f174873b3b1dff5c4f0ab038d
+field_name: f0a4220f174873b3b1dff5c4f0ab038d
+entity_type: wisski_individual
+bundle: bb48a22d36f1c15cd16b143d23466812
+label: Title
+description: 'We need this field as a backlink to the object, when we want to refernce it, i.e. in Keyword entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

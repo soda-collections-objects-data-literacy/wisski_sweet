@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__custom_term
+name: 'Custom term'
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Custom_Term'
+datatype_property: empty
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Group
+transitive: 0
+irreflexive: 0

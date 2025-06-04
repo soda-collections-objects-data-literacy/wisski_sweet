@@ -2,16 +2,25 @@ langcode: en
 status: true
 dependencies:
   module:
+    - options
     - wisski_core
 id: wisski_individual.f71837c561d00ed05d853339747a44bc
 field_name: f71837c561d00ed05d853339747a44bc
 entity_type: wisski_individual
-type: string
+type: list_string
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
-module: core
+  allowed_values:
+    -
+      value: height
+      label: Height
+    -
+      value: width
+      label: Width
+    -
+      value: depth
+      label: Depth
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true

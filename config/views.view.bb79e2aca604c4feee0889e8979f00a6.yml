@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bb79e2aca604c4feee0889e8979f00a6
-label: 'Record Creation'
+label: 'Data record creation'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Entstehung Datensatz'
+      title: 'Data record creation'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   bb79e2aca604c4feee0889e8979f00a6:
     id: bb79e2aca604c4feee0889e8979f00a6
-    display_title: 'Entstehung Datensatz'
+    display_title: 'Data record creation'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,10 @@ display:
       path: wisski_views/bb79e2aca604c4feee0889e8979f00a6
       menu:
         type: normal
-        title: 'Entstehung Datensatz'
+        title: 'Data record creation'
         description: ''
         weight: 11
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

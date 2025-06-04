@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b29e446d50baead6233e4f0486368ed6
-label: Period
+label: 'Period'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Zeitraum '
+      title: 'Period'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b29e446d50baead6233e4f0486368ed6:
     id: b29e446d50baead6233e4f0486368ed6
-    display_title: 'Zeitraum '
+    display_title: 'Period'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,10 @@ display:
       path: wisski_views/b29e446d50baead6233e4f0486368ed6
       menu:
         type: normal
-        title: 'Zeitraum '
+        title: 'Period'
         description: ''
         weight: 0
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

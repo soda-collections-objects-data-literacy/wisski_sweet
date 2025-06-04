@@ -80,9 +80,9 @@ content:
             reset: false
             condition: value
             grouping: OR
-            values_set: 1
+            values_set: 3
             value: ''
-            values: {  }
+            values: period_text
             value_form:
               -
                 value: period_text
@@ -160,15 +160,20 @@ content:
             reset: false
             condition: value
             grouping: OR
-            values_set: 1
+            values_set: 3
             value: ''
-            values: {  }
+            values: period_span
             value_form:
               -
                 value: period_span
             effect: show
             effect_options: {  }
             selector: ''
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   label: true

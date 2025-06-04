@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__type__url
+name: URL
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://wiss-ki.eu/ontology/current/URL'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

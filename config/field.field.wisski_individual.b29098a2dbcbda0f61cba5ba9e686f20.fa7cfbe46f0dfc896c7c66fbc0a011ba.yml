@@ -4,15 +4,19 @@ dependencies:
   config:
     - field.storage.wisski_individual.fa7cfbe46f0dfc896c7c66fbc0a011ba
     - wisski_core.wisski_bundle.b29098a2dbcbda0f61cba5ba9e686f20
+  module:
+    - options
 id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fa7cfbe46f0dfc896c7c66fbc0a011ba
 field_name: fa7cfbe46f0dfc896c7c66fbc0a011ba
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Record type'
+label: Data record type
 description: ''
-required: false
-translatable: false
-default_value: {  }
+required: true
+translatable: true
+default_value:
+  -
+    value: single
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: list_string

@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bf3b15207bd74301804eb30c87e0fe00
-label: 'Birth/Foundation'
+label: Birth/ foundation
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Geburt/Gründung
+      title: Birth/ foundation
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   bf3b15207bd74301804eb30c87e0fe00:
     id: bf3b15207bd74301804eb30c87e0fe00
-    display_title: Geburt/Gründung
+    display_title: Birth/ foundation
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,10 @@ display:
       path: wisski_views/bf3b15207bd74301804eb30c87e0fe00
       menu:
         type: normal
-        title: Geburt/Gründung
+        title: Birth/ foundation
         description: ''
         weight: 0
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

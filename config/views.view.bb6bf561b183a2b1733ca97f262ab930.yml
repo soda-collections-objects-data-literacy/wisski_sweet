@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bb6bf561b183a2b1733ca97f262ab930
-label: 'Event in Object History (Field Group)'
+label: 'Event in the object history'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Ereignis in der Objektgeschichte (Feldgruppe)'
+      title: 'Event in the object history'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   bb6bf561b183a2b1733ca97f262ab930:
     id: bb6bf561b183a2b1733ca97f262ab930
-    display_title: 'Ereignis in der Objektgeschichte (Feldgruppe)'
+    display_title: 'Event in the object history'
     display_plugin: page
     position: 1
     display_options:
@@ -314,7 +314,7 @@ display:
       path: wisski_views/bb6bf561b183a2b1733ca97f262ab930
       menu:
         type: normal
-        title: 'Ereignis in der Objektgeschichte (Feldgruppe)'
+        title: 'Event in the object history'
         description: ''
         weight: 13
         expanded: false

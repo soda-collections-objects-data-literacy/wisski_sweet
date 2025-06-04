@@ -12,7 +12,7 @@ bundle: bb6bf561b183a2b1733ca97f262ab930
 label: Dating
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

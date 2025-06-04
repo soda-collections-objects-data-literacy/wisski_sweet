@@ -3,47 +3,40 @@ status: true
 dependencies:
   config:
     - field.field.wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f0665bd9a349ddb1f3c710369fab8716
-    - field.field.wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f23878cd7568a15abab60f20fb9ac808
+    - field.field.wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f8cada4d5f594d0b03f9a39c77492828
     - field.field.wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f92639d54a47119d4883a941cca24977
     - field.field.wisski_individual.b619446f296dfb7c22cf022aac8ce20c.fcda28daa1b9a3542d4b50c42b3768d1
+    - field.field.wisski_individual.b619446f296dfb7c22cf022aac8ce20c.feed4362addfb137b333877006505ed1
     - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
   module:
-    - image
-    - text
+    - colorbox
+    - file
+    - options
 id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.default
 targetEntityType: wisski_individual
 bundle: b619446f296dfb7c22cf022aac8ce20c
 mode: default
 content:
-  description:
-    type: text_default
-    label: hidden
+  f0665bd9a349ddb1f3c710369fab8716:
+    type: list_default
+    label: above
     settings: {  }
     third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
-  f0665bd9a349ddb1f3c710369fab8716:
-    type: string
+  f8cada4d5f594d0b03f9a39c77492828:
+    type: file_url_plain
     label: above
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    weight: 12
-    region: content
-  f23878cd7568a15abab60f20fb9ac808:
-    type: image_url
-    label: above
-    settings:
-      image_style: medium
-    third_party_settings: {  }
-    weight: 13
+    weight: 2
     region: content
   f92639d54a47119d4883a941cca24977:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 16
+    weight: 4
     region: content
   fcda28daa1b9a3542d4b50c42b3768d1:
     type: entity_reference_entity_view
@@ -52,12 +45,27 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 15
+    weight: 3
+    region: content
+  feed4362addfb137b333877006505ed1:
+    type: colorbox
+    label: above
+    settings:
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+      colorbox_node_style: ''
+      colorbox_node_style_first: ''
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
   bundle: true
   created: true
   label: true
+  langcode: true
   name: true
   preview_image: true
   uid: true

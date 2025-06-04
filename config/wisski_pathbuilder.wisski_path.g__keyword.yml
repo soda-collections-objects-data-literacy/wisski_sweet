@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__keyword
+name: Keyword
+path_array:
+  - 'http://scs.sammlungen.io/ontology/base_record/current/Keyword'
+datatype_property: empty
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Group
+transitive: 0
+irreflexive: 0

@@ -13,7 +13,7 @@ bundle: b7f7eceaa540597c1440f1c470bebe07
 label: Status
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: preferred

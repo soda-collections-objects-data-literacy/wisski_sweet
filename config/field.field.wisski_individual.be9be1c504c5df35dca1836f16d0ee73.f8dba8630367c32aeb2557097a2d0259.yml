@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f8dba8630367c32aeb2557097a2d0259
+    - wisski_core.wisski_bundle.be9be1c504c5df35dca1836f16d0ee73
+  module:
+    - text
+id: wisski_individual.be9be1c504c5df35dca1836f16d0ee73.f8dba8630367c32aeb2557097a2d0259
+field_name: f8dba8630367c32aeb2557097a2d0259
+entity_type: wisski_individual
+bundle: be9be1c504c5df35dca1836f16d0ee73
+label: Comment
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

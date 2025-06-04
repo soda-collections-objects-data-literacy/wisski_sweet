@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__technique
+name: Technique
+path_array:
+  - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
+datatype_property: empty
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Group
+transitive: 0
+irreflexive: 0

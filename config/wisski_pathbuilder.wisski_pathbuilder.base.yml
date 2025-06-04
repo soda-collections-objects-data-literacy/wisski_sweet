@@ -9,14 +9,14 @@ pathtree:
   g__culture_heritage_item:
     id: g__culture_heritage_item
     children:
+      f__cult_her_item__title_ref:
+        id: f__cult_her_item__title_ref
+        children: {  }
       f__cult_her_item__title:
         id: f__cult_her_item__title
         children: {  }
       f__cult_her_item__type:
         id: f__cult_her_item__type
-        children: {  }
-      f__cult_her_item__category:
-        id: f__cult_her_item__category
         children: {  }
       f__cult_her_item__identifier:
         id: f__cult_her_item__identifier
@@ -44,6 +44,9 @@ pathtree:
         children: {  }
       f__cult_her_item__data_record:
         id: f__cult_her_item__data_record
+        children: {  }
+      f__cult_her_item__ressoucen:
+        id: f__cult_her_item__ressoucen
         children: {  }
   g__dimensions:
     id: g__dimensions
@@ -75,17 +78,20 @@ pathtree:
   g__media_file:
     id: g__media_file
     children:
-      f__media_file__type:
-        id: f__media_file__type
+      f__media_file__image:
+        id: f__media_file__image
         children: {  }
       f__media_file__url:
         id: f__media_file__url
         children: {  }
+      f__med_file__description:
+        id: f__med_file__description
+        children: {  }
       f__med_file__rights:
         id: f__med_file__rights
         children: {  }
-      f__med_file__description:
-        id: f__med_file__description
+      f__media_file__type:
+        id: f__media_file__type
         children: {  }
   g__data_record:
     id: g__data_record
@@ -102,14 +108,17 @@ pathtree:
       f__data_record__type:
         id: f__data_record__type
         children: {  }
+      f__data_record__dig_proc:
+        id: f__data_record__dig_proc
+        children: {  }
+      f__data_record__media_file:
+        id: f__data_record__media_file
+        children: {  }
       f__data_record__actor:
         id: f__data_record__actor
         children: {  }
       f__data_rec__url:
         id: f__data_rec__url
-        children: {  }
-      f__data_record__dig_proc:
-        id: f__data_record__dig_proc
         children: {  }
   g__digitization_process:
     id: g__digitization_process
@@ -120,6 +129,9 @@ pathtree:
   g__right:
     id: g__right
     children:
+      f__right__link:
+        id: f__right__link
+        children: {  }
       f__rights__usage:
         id: f__rights__usage
         children: {  }
@@ -129,6 +141,12 @@ pathtree:
   g__titel_assignment:
     id: g__titel_assignment
     children:
+      f__tit_ass__objekt_id:
+        id: f__tit_ass__objekt_id
+        children: {  }
+      f__tit_ass__visibility:
+        id: f__tit_ass__visibility
+        children: {  }
       f__tit_ass__titel:
         id: f__tit_ass__titel
         children: {  }
@@ -219,6 +237,90 @@ pathtree:
       f__eoe__participants:
         id: f__eoe__participants
         children: {  }
+  g__material:
+    id: g__material
+    children:
+      f__material__type:
+        id: f__material__type
+        children: {  }
+  g__technique:
+    id: g__technique
+    children:
+      f__technique__type:
+        id: f__technique__type
+        children: {  }
+  g__type:
+    id: g__type
+    children:
+      f__type__authority_document:
+        id: f__type__authority_document
+        children: {  }
+      f__type__entity_type:
+        id: f__type__entity_type
+        children: {  }
+      f__type__preferred_term:
+        id: f__type__preferred_term
+        children: {  }
+      f__type__url:
+        id: f__type__url
+        children: {  }
+  g__authority_document:
+    id: g__authority_document
+    children:
+      f__auth_doc__name:
+        id: f__auth_doc__name
+        children: {  }
+      f__auth_doc__acronym:
+        id: f__auth_doc__acronym
+        children: {  }
+      f__auth_doc__website:
+        id: f__auth_doc__website
+        children: {  }
+  g__keyword:
+    id: g__keyword
+    children:
+      f__keyword__appellation:
+        id: f__keyword__appellation
+        children: {  }
+      f__keyword__used_by_object:
+        id: f__keyword__used_by_object
+        children: {  }
+  g__ressources:
+    id: g__ressources
+    children:
+      f__ress__type:
+        id: f__ress__type
+        children: {  }
+      f__info__appellation:
+        id: f__info__appellation
+        children: {  }
+      f__info__link:
+        id: f__info__link
+        children: {  }
+      f__info__comment:
+        id: f__info__comment
+        children: {  }
+  g__custom_term:
+    id: g__custom_term
+    children:
+      f__custom_term__preferred_name:
+        id: f__custom_term__preferred_name
+        children: {  }
+      f__custom_term__alternative_name:
+        id: f__custom_term__alternative_name
+        children: {  }
+  g__place:
+    id: g__place
+    children:
+      f__place__preferred_name:
+        id: f__place__preferred_name
+        children: {  }
+      f__place__alternative_name:
+        id: f__place__alternative_name
+        children: {  }
+      f__place__spatial_coordinates:
+        id: f__place__spatial_coordinates
+        children: {  }
 pbpaths:
   g__culture_heritage_item:
     id: g__culture_heritage_item
@@ -234,7 +336,7 @@ pbpaths:
     field_type_informative: ''
   g__dimensions:
     id: g__dimensions
-    weight: '14'
+    weight: '10'
     enabled: '1'
     parent: '0'
     bundle: b8a35d61f1bd2672835d376015222d21
@@ -246,7 +348,7 @@ pbpaths:
     field_type_informative: ''
   g__item_history_activity:
     id: g__item_history_activity
-    weight: '13'
+    weight: '11'
     enabled: '1'
     parent: '0'
     bundle: bb6bf561b183a2b1733ca97f262ab930
@@ -270,7 +372,7 @@ pbpaths:
     field_type_informative: ''
   g__data_record:
     id: g__data_record
-    weight: '10'
+    weight: '13'
     enabled: '1'
     parent: '0'
     bundle: b29098a2dbcbda0f61cba5ba9e686f20
@@ -282,7 +384,7 @@ pbpaths:
     field_type_informative: ''
   g__digitization_process:
     id: g__digitization_process
-    weight: '11'
+    weight: '14'
     enabled: '1'
     parent: '0'
     bundle: bb79e2aca604c4feee0889e8979f00a6
@@ -298,12 +400,12 @@ pbpaths:
     enabled: '1'
     parent: '0'
     bundle: b0bb97d703b09623b04167df1b5f3f49
-    field: ''
-    fieldtype: ''
-    displaywidget: ''
-    formatterwidget: ''
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
     cardinality: '-1'
-    field_type_informative: ''
+    field_type_informative: null
   f__cult_her_item__title:
     id: f__cult_her_item__title
     weight: '2'
@@ -316,6 +418,10 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
   f__dim__type:
     id: f__dim__type
     weight: '0'
@@ -328,6 +434,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E54_Dimension'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__cult_her_item__type:
     id: f__cult_her_item__type
     weight: '3'
@@ -335,11 +447,15 @@ pbpaths:
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
     field: ff95e2be93a5fa409f76e3d6fc338bf1
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
-    field_type_informative: string
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
   f__dim__unit:
     id: f__dim__unit
     weight: '2'
@@ -352,6 +468,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E54_Dimension'
+      - 'http://erlangen-crm.org/current/P91_has_unit'
+      - 'http://erlangen-crm.org/current/E58_Measurement_Unit'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__dim__value:
     id: f__dim__value
     weight: '1'
@@ -364,6 +486,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E54_Dimension'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__cult_her_item__identifier:
     id: f__cult_her_item__identifier
     weight: '5'
@@ -376,6 +502,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P48_has_preferred_identifier'
+      - 'http://erlangen-crm.org/current/E42_Identifier'
   f__cult_her_item__discription:
     id: f__cult_her_item__discription
     weight: '6'
@@ -388,6 +518,10 @@ pbpaths:
     formatterwidget: basic_string
     cardinality: '-1'
     field_type_informative: string_long
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P70i_is_documented_in'
+      - 'http://erlangen-crm.org/current/E31_Document'
   f__item_history_activity__date:
     id: f__item_history_activity__date
     weight: '1'
@@ -400,6 +534,10 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     field_type_informative: entity_reference
     cardinality: '-1'
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
+      - 'http://erlangen-crm.org/current/P10_falls_within'
+      - 'http://erlangen-crm.org/current/E4_Period'
   f__item_history_activity__type:
     id: f__item_history_activity__type
     weight: '3'
@@ -412,19 +550,30 @@ pbpaths:
     formatterwidget: string
     field_type_informative: string
     cardinality: '-1'
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__item_history_activity__actor:
     id: f__item_history_activity__actor
     weight: '0'
     enabled: '1'
     parent: g__item_history_activity
-    bundle: null
+    bundle: bb6bf561b183a2b1733ca97f262ab930
     field: fc8e3f1ccd8987fbb8567b52ced21d25
     fieldtype: entity_reference
     displaywidget: inline_entity_form_complex
     formatterwidget: entity_reference_entity_view
     field_type_informative: entity_reference
     cardinality: '-1'
-    relativepath: null
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Actor_Assignment'
+      - 'http://erlangen-crm.org/current/P14_carried_out_by'
+      - 'http://erlangen-crm.org/current/E39_Actor'
   f__item_history_activity__place:
     id: f__item_history_activity__place
     weight: '2'
@@ -432,47 +581,47 @@ pbpaths:
     parent: g__item_history_activity
     bundle: bb6bf561b183a2b1733ca97f262ab930
     field: f44970b58e7b700acf846fbac6d527c3
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
-    field_type_informative: string
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: wisski_entity_reference_label
+    field_type_informative: entity_reference
     cardinality: '-1'
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
+      - 'http://erlangen-crm.org/current/P7_took_place_at'
+      - 'http://erlangen-crm.org/current/E53_Place'
   f__cult_her_item__keyword:
     id: f__cult_her_item__keyword
-    weight: '11'
+    weight: '10'
     enabled: '1'
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
     field: f2de9f0b2efc868a635f5adfad12a810
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
+    fieldtype: entity_reference
+    displaywidget: entity_reference_autocomplete
+    formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
-    field_type_informative: string
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Keyword'
   f__media_file__url:
     id: f__media_file__url
-    weight: '13'
+    weight: '1'
     enabled: '1'
     parent: g__media_file
     bundle: b619446f296dfb7c22cf022aac8ce20c
-    field: f23878cd7568a15abab60f20fb9ac808
-    fieldtype: image
-    displaywidget: image_image
-    formatterwidget: image_url
+    field: f8cada4d5f594d0b03f9a39c77492828
+    fieldtype: file
+    displaywidget: file_generic
+    formatterwidget: file_url_plain
+    field_type_informative: file
     cardinality: '-1'
-    field_type_informative: image
-  f__cult_her_item__category:
-    id: f__cult_her_item__category
-    weight: '4'
-    enabled: 0
-    parent: g__culture_heritage_item
-    bundle: bb48a22d36f1c15cd16b143d23466812
-    field: ff7bf179c1d92be80688ce6a2a64e232
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
-    cardinality: '-1'
-    field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/current/URL'
   f__data_record__id:
     id: f__data_record__id
     weight: '10'
@@ -485,6 +634,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P48_has_preferred_identifier'
+      - 'http://erlangen-crm.org/current/E42_Identifier'
   f__data_record__language:
     id: f__data_record__language
     weight: '12'
@@ -497,6 +650,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E56_Language'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__data_record__type:
     id: f__data_record__type
     weight: '13'
@@ -509,9 +668,15 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__data_record__actor:
     id: f__data_record__actor
-    weight: '14'
+    weight: '16'
     enabled: '1'
     parent: g__data_record
     bundle: b29098a2dbcbda0f61cba5ba9e686f20
@@ -521,6 +686,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P105_right_held_by'
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__dig_proc__creator:
     id: f__dig_proc__creator
     weight: '5'
@@ -533,6 +704,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
+      - 'http://erlangen-crm.org/current/P14_carried_out_by'
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__data_rec__rights:
     id: f__data_rec__rights
     weight: '11'
@@ -540,14 +717,20 @@ pbpaths:
     parent: g__data_record
     bundle: b29098a2dbcbda0f61cba5ba9e686f20
     field: ff967c7b141984e1d4e0982c46d02490
-    fieldtype: entity_reference
-    displaywidget: inline_entity_form_complex
-    formatterwidget: entity_reference_entity_view
-    cardinality: '-1'
-    field_type_informative: entity_reference
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: wisski_link_formatter
+    cardinality: '1'
+    field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P104_is_subject_to'
+      - 'http://erlangen-crm.org/current/E30_Right'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__data_rec__url:
     id: f__data_rec__url
-    weight: '15'
+    weight: '17'
     enabled: '1'
     parent: g__data_record
     bundle: b29098a2dbcbda0f61cba5ba9e686f20
@@ -557,21 +740,31 @@ pbpaths:
     formatterwidget: link
     cardinality: '-1'
     field_type_informative: link
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E42_Identifier'
   f__media_file__type:
     id: f__media_file__type
-    weight: '12'
+    weight: '4'
     enabled: '1'
     parent: g__media_file
     bundle: b619446f296dfb7c22cf022aac8ce20c
     field: f0665bd9a349ddb1f3c710369fab8716
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
-    cardinality: '-1'
-    field_type_informative: string
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__right__actor:
     id: f__right__actor
-    weight: '1'
+    weight: '2'
     enabled: '1'
     parent: g__right
     bundle: b0bb97d703b09623b04167df1b5f3f49
@@ -581,6 +774,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E30_Right'
+      - 'http://erlangen-crm.org/current/P75i_is_possessed_by'
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__cult_her_item__dimension:
     id: f__cult_her_item__dimension
     weight: '7'
@@ -593,9 +792,13 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P43_has_dimension'
+      - 'http://erlangen-crm.org/current/E54_Dimension'
   f__cult_her_item__item_history_activity:
     id: f__cult_her_item__item_history_activity
-    weight: '12'
+    weight: '11'
     enabled: '1'
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
@@ -605,9 +808,13 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P12i_was_present_at'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Item_History_Activity'
   f__cult_her_item__media_file:
     id: f__cult_her_item__media_file
-    weight: '13'
+    weight: '12'
     enabled: '1'
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
@@ -617,9 +824,15 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
   f__cult_her_item__data_record:
     id: f__cult_her_item__data_record
-    weight: '14'
+    weight: '13'
     enabled: '1'
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
@@ -629,9 +842,13 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P67i_is_referred_to_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
   f__data_record__dig_proc:
     id: f__data_record__dig_proc
-    weight: '16'
+    weight: '14'
     enabled: '1'
     parent: g__data_record
     bundle: b29098a2dbcbda0f61cba5ba9e686f20
@@ -641,6 +858,10 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+      - 'http://erlangen-crm.org/current/P94i_was_created_by'
+      - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
   f__cult_her_item__material:
     id: f__cult_her_item__material
     weight: '8'
@@ -648,11 +869,15 @@ pbpaths:
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
     field: f2f58a56928267034a028100735346f1
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
-    field_type_informative: string
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P45_consists_of'
+      - 'http://erlangen-crm.org/current/E57_Material'
   f__cult_her_item__technique:
     id: f__cult_her_item__technique
     weight: '9'
@@ -660,14 +885,20 @@ pbpaths:
     parent: g__culture_heritage_item
     bundle: bb48a22d36f1c15cd16b143d23466812
     field: f9188639e85ca8d8b8703232f59f1e97
-    fieldtype: string
-    displaywidget: string_textfield
-    formatterwidget: string
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: wisski_entity_reference_label
     cardinality: '-1'
-    field_type_informative: string
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P108i_was_produced_by'
+      - 'http://erlangen-crm.org/current/E12_Production'
+      - 'http://erlangen-crm.org/current/P33_used_specific_technique'
+      - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
   f__med_file__description:
     id: f__med_file__description
-    weight: '16'
+    weight: '2'
     enabled: '1'
     parent: g__media_file
     bundle: b619446f296dfb7c22cf022aac8ce20c
@@ -677,9 +908,13 @@ pbpaths:
     formatterwidget: basic_string
     cardinality: '-1'
     field_type_informative: string_long
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+      - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+      - 'http://wiss-ki.eu/ontology/current/Description'
   f__rights__usage:
     id: f__rights__usage
-    weight: '0'
+    weight: '1'
     enabled: '1'
     parent: g__right
     bundle: b0bb97d703b09623b04167df1b5f3f49
@@ -687,11 +922,15 @@ pbpaths:
     fieldtype: string
     displaywidget: string_textfield
     formatterwidget: string
-    cardinality: '-1'
+    cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E30_Right'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__med_file__rights:
     id: f__med_file__rights
-    weight: '15'
+    weight: '3'
     enabled: '1'
     parent: g__media_file
     bundle: b619446f296dfb7c22cf022aac8ce20c
@@ -701,9 +940,13 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '-1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+      - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+      - 'http://erlangen-crm.org/current/E30_Right'
   g__titel_assignment:
     id: g__titel_assignment
-    weight: '0'
+    weight: '16'
     enabled: '1'
     parent: '0'
     bundle: b7f7eceaa540597c1440f1c470bebe07
@@ -715,7 +958,7 @@ pbpaths:
     field_type_informative: null
   f__tit_ass__titel:
     id: f__tit_ass__titel
-    weight: '0'
+    weight: '2'
     enabled: '1'
     parent: g__titel_assignment
     bundle: b7f7eceaa540597c1440f1c470bebe07
@@ -725,9 +968,13 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://erlangen-crm.org/current/E35_Title'
   f__tit_ass__status:
     id: f__tit_ass__status
-    weight: '2'
+    weight: '3'
     enabled: '1'
     parent: g__titel_assignment
     bundle: b7f7eceaa540597c1440f1c470bebe07
@@ -737,6 +984,12 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://wiss-ki.eu/ontology/current/Status'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__tit_ass__period:
     id: f__tit_ass__period
     weight: '3'
@@ -751,7 +1004,7 @@ pbpaths:
     field_type_informative: entity_reference
   g__period:
     id: g__period
-    weight: '0'
+    weight: '17'
     enabled: '1'
     parent: '0'
     bundle: b29e446d50baead6233e4f0486368ed6
@@ -775,7 +1028,7 @@ pbpaths:
     field_type_informative: list_string
   g__date:
     id: g__date
-    weight: '0'
+    weight: '18'
     enabled: '1'
     parent: '0'
     bundle: b66dd83c2f07cd0d188b31b879775f72
@@ -797,6 +1050,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__date__year:
     id: f__date__year
     weight: '2'
@@ -809,6 +1066,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P86i_contains'
+      - 'http://wiss-ki.eu/ontology/current/Year'
   f__date__month:
     id: f__date__month
     weight: '3'
@@ -821,6 +1082,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P86_falls_within'
+      - 'http://wiss-ki.eu/ontology/current/Month'
   f__date__day:
     id: f__date__day
     weight: '4'
@@ -833,6 +1098,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P86i_contains'
+      - 'http://wiss-ki.eu/ontology/current/Day'
   f__date__operator:
     id: f__date__operator
     weight: '1'
@@ -845,6 +1114,10 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
   f__period__begin:
     id: f__period__begin
     weight: '2'
@@ -857,6 +1130,14 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E4_Period'
+      - 'http://erlangen-crm.org/current/P175i_starts_after_or_with_the_start_of'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Begin'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Date-Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://wiss-ki.eu/ontology/current/Date'
   f__period__end:
     id: f__period__end
     weight: '4'
@@ -869,9 +1150,17 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E4_Period'
+      - 'http://erlangen-crm.org/current/P173_starts_before_or_with_the_end_of'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/End'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Date-Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://wiss-ki.eu/ontology/current/Date'
   g__actor:
     id: g__actor
-    weight: '0'
+    weight: '19'
     enabled: '1'
     parent: '0'
     bundle: b0fa9cc21598a987c556bc05d5e3889e
@@ -893,6 +1182,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Actor_Name'
   f__actor__alter_names:
     id: f__actor__alter_names
     weight: '2'
@@ -905,6 +1198,10 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Alternative_Name'
   f__actor__occupation:
     id: f__actor__occupation
     weight: '3'
@@ -917,6 +1214,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P11i_participated_in'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Occupation'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__actor__organisation_type:
     id: f__actor__organisation_type
     weight: '4'
@@ -929,6 +1232,12 @@ pbpaths:
     formatterwidget: string
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Organisation_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__actor__begin_of_exist:
     id: f__actor__begin_of_exist
     weight: '5'
@@ -941,6 +1250,10 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P92i_was_brought_into_existence_by'
+      - 'http://erlangen-crm.org/current/E63_Beginning_of_Existence'
   f__actor__end_of_exist:
     id: f__actor__end_of_exist
     weight: '6'
@@ -953,9 +1266,13 @@ pbpaths:
     formatterwidget: entity_reference_entity_view
     cardinality: '1'
     field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P93i_was_taken_out_of_existence_by'
+      - 'http://erlangen-crm.org/current/E64_End_of_Existence'
   g__begin_of_existence:
     id: g__begin_of_existence
-    weight: '0'
+    weight: '20'
     enabled: '1'
     parent: '0'
     bundle: bf3b15207bd74301804eb30c87e0fe00
@@ -967,7 +1284,7 @@ pbpaths:
     field_type_informative: null
   g__end_of_existence:
     id: g__end_of_existence
-    weight: '0'
+    weight: '21'
     enabled: '1'
     parent: '0'
     bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
@@ -989,6 +1306,12 @@ pbpaths:
     formatterwidget: wisski_link_formatter
     cardinality: '-1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E63_Beginning_of_Existence'
+      - 'http://erlangen-crm.org/current/P7_took_place_at'
+      - 'http://erlangen-crm.org/current/E53_Place'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__eoe__place:
     id: f__eoe__place
     weight: '0'
@@ -1061,6 +1384,12 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E39_Actor'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Actor_Type'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__per__precision:
     id: f__per__precision
     weight: '0'
@@ -1073,6 +1402,12 @@ pbpaths:
     formatterwidget: list_default
     cardinality: '1'
     field_type_informative: list_string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E4_Period'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Precision'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__per__end_text:
     id: f__per__end_text
     weight: '3'
@@ -1085,6 +1420,16 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E4_Period'
+      - 'http://erlangen-crm.org/current/P173_starts_before_or_with_the_end_of'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/End'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Date-Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
   f__per__begin_text:
     id: f__per__begin_text
     weight: '1'
@@ -1097,4 +1442,545 @@ pbpaths:
     formatterwidget: string
     cardinality: '1'
     field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E4_Period'
+      - 'http://erlangen-crm.org/current/P175i_starts_after_or_with_the_start_of'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Begin'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Date-Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://wiss-ki.eu/ontology/current/Date'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
+  g__material:
+    id: g__material
+    weight: '22'
+    enabled: '1'
+    parent: '0'
+    bundle: bd649063d3131a245922f7718d962ec6
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  g__material__appellation:
+    id: g__material__appellation
+    weight: '0'
+    enabled: '1'
+    parent: g__material
+    bundle: bd649063d3131a245922f7718d962ec6
+    field: f19320576e2318a97855cd6c6b786f1e
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__material__type:
+    id: f__material__type
+    weight: '1'
+    enabled: '1'
+    parent: g__material
+    bundle: bd649063d3131a245922f7718d962ec6
+    field: f19bb59b1cf639dc539f94aefe256dd4
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: wisski_entity_reference_label
+    cardinality: '-1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E57_Material'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+  g__technique:
+    id: g__technique
+    weight: '23'
+    enabled: '1'
+    parent: '0'
+    bundle: bad1642b861feb14ecad423091d4495b
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__technique__appellation:
+    id: f__technique__appellation
+    weight: '0'
+    enabled: '1'
+    parent: g__technique
+    bundle: bad1642b861feb14ecad423091d4495b
+    field: f4f9452b80cff6e2dca8e6a23071e326
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  f__technique__type:
+    id: f__technique__type
+    weight: '1'
+    enabled: '1'
+    parent: g__technique
+    bundle: bad1642b861feb14ecad423091d4495b
+    field: f7724300936afe7f841689ce8dda3519
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: wisski_entity_reference_label
+    cardinality: '-1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://erlangen-crm.org/current/E29_Design_or_Procedure'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E55_Type'
+  g__type:
+    id: g__type
+    weight: '24'
+    enabled: '1'
+    parent: '0'
+    bundle: ba115ec3f3676cbec7ba8297a94bea48
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    field_type_informative: null
+    cardinality: '-1'
+  f__type__authority_document:
+    id: f__type__authority_document
+    weight: '0'
+    enabled: '1'
+    parent: g__type
+    bundle: ba115ec3f3676cbec7ba8297a94bea48
+    field: f7e9004d4e3ca106c0a39c63c1f1386c
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    field_type_informative: list_string
+    cardinality: '1'
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+      - 'http://erlangen-crm.org/current/P71i_is_listed_in'
+      - 'http://erlangen-crm.org/current/E32_Authority_Document'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E35_Title'
+  f__type__entity_type:
+    id: f__type__entity_type
+    weight: '1'
+    enabled: '1'
+    parent: g__type
+    bundle: ba115ec3f3676cbec7ba8297a94bea48
+    field: f5fc867134b7662a70778dfb75523c7c
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '-1'
+    field_type_informative: list_string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Category'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
+  f__type__preferred_term:
+    id: f__type__preferred_term
+    weight: '2'
+    enabled: '1'
+    parent: g__type
+    bundle: ba115ec3f3676cbec7ba8297a94bea48
+    field: f86ee13d36aa1ccad56e6b250af24209
+    fieldtype: string
+    displaywidget: authority_document_autocomplete
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: '1'
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Term'
+  f__type__url:
+    id: f__type__url
+    weight: '4'
+    enabled: '1'
+    parent: g__type
+    bundle: ba115ec3f3676cbec7ba8297a94bea48
+    field: f481c15a6aeb4fad22258aa4a00064c6
+    fieldtype: link
+    displaywidget: link_default
+    formatterwidget: link
+    cardinality: '1'
+    field_type_informative: link
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/current/URL'
+  g__authority_document:
+    id: g__authority_document
+    weight: '25'
+    enabled: '1'
+    parent: '0'
+    bundle: bd0e80d09d3a2618e10a9bda2f85076b
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    field_type_informative: null
+    cardinality: '-1'
+  f__auth_doc__name:
+    id: f__auth_doc__name
+    weight: '0'
+    enabled: '1'
+    parent: g__authority_document
+    bundle: bd0e80d09d3a2618e10a9bda2f85076b
+    field: f6086615f0c43675ad484d5c999f3f75
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__auth_doc__acronym:
+    id: f__auth_doc__acronym
+    weight: '1'
+    enabled: '1'
+    parent: g__authority_document
+    bundle: ''
+    field: 1ae353e47a8aa3fc995220848780758a
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: -1
+  f__auth_doc__website:
+    id: f__auth_doc__website
+    weight: '2'
+    enabled: '1'
+    parent: g__authority_document
+    bundle: ''
+    field: 1ae353e47a8aa3fc995220848780758a
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: -1
+  g__keyword:
+    id: g__keyword
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: b6fdcccc1c6a08cb48abffecc5a31cfc
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__keyword__appellation:
+    id: f__keyword__appellation
+    weight: '0'
+    enabled: '1'
+    parent: g__keyword
+    bundle: b6fdcccc1c6a08cb48abffecc5a31cfc
+    field: f6821bd09ffdef06b0c5fefaf02df2f0
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: wisski_link_formatter
+    cardinality: '1'
+    field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Keyword'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
+  f__keyword__used_by_object:
+    id: f__keyword__used_by_object
+    weight: '1'
+    enabled: '1'
+    parent: g__keyword
+    bundle: b6fdcccc1c6a08cb48abffecc5a31cfc
+    field: f2c5fa9933fe76dd4dbf5bb90b56b136
+    fieldtype: entity_reference
+    displaywidget: entity_reference_autocomplete
+    formatterwidget: wisski_entity_reference_label
+    cardinality: '-1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Keyword'
+      - 'http://erlangen-crm.org/current/P2i_is_type_of'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  f__cult_her_item__title_ref:
+    id: f__cult_her_item__title_ref
+    weight: '0'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: f0a4220f174873b3b1dff5c4f0ab038d
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: wisski_link_formatter
+    cardinality: '-1'
+    field_type_informative: string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://erlangen-crm.org/current/E35_Title'
+  g__ressources:
+    id: g__ressources
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: be9be1c504c5df35dca1836f16d0ee73
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__info__appellation:
+    id: f__info__appellation
+    weight: '4'
+    enabled: '1'
+    parent: g__ressources
+    bundle: be9be1c504c5df35dca1836f16d0ee73
+    field: f01c7d46b9913b99909f50c098a1920a
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://erlangen-crm.org/current/E41_Appellation'
+  f__info__link:
+    id: f__info__link
+    weight: '5'
+    enabled: '1'
+    parent: g__ressources
+    bundle: be9be1c504c5df35dca1836f16d0ee73
+    field: fd9046c3faf34e0e09444744b19aad49
+    fieldtype: link
+    displaywidget: link_default
+    formatterwidget: link
+    cardinality: '-1'
+    field_type_informative: link
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/current/URL'
+  f__info__comment:
+    id: f__info__comment
+    weight: '6'
+    enabled: '1'
+    parent: g__ressources
+    bundle: be9be1c504c5df35dca1836f16d0ee73
+    field: f8dba8630367c32aeb2557097a2d0259
+    fieldtype: text_long
+    displaywidget: text_textarea
+    formatterwidget: text_default
+    cardinality: '1'
+    field_type_informative: text_long
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+      - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+      - 'http://wiss-ki.eu/ontology/current/Comment'
+  f__cult_her_item__ressoucen:
+    id: f__cult_her_item__ressoucen
+    weight: '14'
+    enabled: '1'
+    parent: g__culture_heritage_item
+    bundle: bb48a22d36f1c15cd16b143d23466812
+    field: ff49657fae8a4f553b233b221ba33f8e
+    fieldtype: entity_reference
+    displaywidget: inline_entity_form_complex
+    formatterwidget: entity_reference_entity_view
+    cardinality: '-1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+      - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
+      - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+  f__ress__type:
+    id: f__ress__type
+    weight: '3'
+    enabled: '1'
+    parent: g__ressources
+    bundle: be9be1c504c5df35dca1836f16d0ee73
+    field: f971858ff1b65215d8e24508998be0d7
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+    relativepath:
+      - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+      - 'http://erlangen-crm.org/current/P2_has_type'
+      - 'http://erlangen-crm.org/current/E99_Product_Type'
+  f__tit_ass__visibility:
+    id: f__tit_ass__visibility
+    weight: '1'
+    enabled: '1'
+    parent: g__titel_assignment
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: feb35e71b6bcf82847c5f3f6a57f6274
+    fieldtype: list_string
+    displaywidget: options_buttons
+    formatterwidget: list_default
+    cardinality: '1'
+    field_type_informative: list_string
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Visibility'
+  f__tit_ass__objekt_id:
+    id: f__tit_ass__objekt_id
+    weight: '0'
+    enabled: '1'
+    parent: g__titel_assignment
+    bundle: b7f7eceaa540597c1440f1c470bebe07
+    field: f62a3579fc0b41ba01707d58d5cef641
+    fieldtype: entity_reference
+    displaywidget: entity_reference_autocomplete
+    formatterwidget: wisski_entity_reference_eid
+    cardinality: '1'
+    field_type_informative: entity_reference
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+      - 'http://erlangen-crm.org/current/P141_assigned'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  g__custom_term:
+    id: g__custom_term
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: bc076202c79a386a55b105b7c82e252d
+    field: null
+    fieldtype: null
+    displaywidget: null
+    formatterwidget: null
+    cardinality: '-1'
+    field_type_informative: null
+  f__custom_term__preferred_name:
+    id: f__custom_term__preferred_name
+    weight: '0'
+    enabled: '1'
+    parent: g__custom_term
+    bundle: bc076202c79a386a55b105b7c82e252d
+    field: fbdb442d391782be5eede091f56a81de
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '1'
+    field_type_informative: string
+  f__custom_term__alternative_name:
+    id: f__custom_term__alternative_name
+    weight: '1'
+    enabled: '1'
+    parent: g__custom_term
+    bundle: bc076202c79a386a55b105b7c82e252d
+    field: fb1e7967174594ce391b147209a1a9a4
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+  g__place:
+    id: g__place
+    weight: '0'
+    enabled: '1'
+    parent: '0'
+    bundle: be6c0e85956559c87483917da3888e23
+    field: ''
+    fieldtype: ''
+    displaywidget: ''
+    formatterwidget: ''
+    field_type_informative: ''
+    cardinality: -1
+  f__place__preferred_name:
+    id: f__place__preferred_name
+    weight: '0'
+    enabled: '1'
+    parent: g__place
+    bundle: ''
+    field: 1ae353e47a8aa3fc995220848780758a
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: -1
+    relativepath:
+      - 'http://erlangen-crm.org/current/E53_Place'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/current/PreferredName'
+  f__place__spatial_coordinates:
+    id: f__place__spatial_coordinates
+    weight: '2'
+    enabled: '1'
+    parent: g__place
+    bundle: ''
+    field: 1ae353e47a8aa3fc995220848780758a
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: -1
+  f__place__alternative_name:
+    id: f__place__alternative_name
+    weight: '1'
+    enabled: '1'
+    parent: g__place
+    bundle: be6c0e85956559c87483917da3888e23
+    field: fe7df91c90d7aa9931e5926ac4393d00
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    cardinality: '-1'
+    field_type_informative: string
+    relativepath:
+      - 'http://erlangen-crm.org/current/E53_Place'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Alternative_Name'
+  f__data_record__media_file:
+    id: f__data_record__media_file
+    weight: '15'
+    enabled: '1'
+    parent: g__data_record
+    bundle: ''
+    field: 1ae353e47a8aa3fc995220848780758a
+    fieldtype: string
+    displaywidget: string_textfield
+    formatterwidget: string
+    field_type_informative: string
+    cardinality: -1
+  f__media_file__image:
+    id: f__media_file__image
+    weight: '0'
+    enabled: '1'
+    parent: g__media_file
+    bundle: b619446f296dfb7c22cf022aac8ce20c
+    field: feed4362addfb137b333877006505ed1
+    fieldtype: image
+    displaywidget: image_image
+    formatterwidget: colorbox
+    cardinality: '-1'
+    field_type_informative: image
+    relativepath:
+      - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/current/URL'
+  f__right__link:
+    id: f__right__link
+    weight: '0'
+    enabled: '1'
+    parent: g__right
+    bundle: b0bb97d703b09623b04167df1b5f3f49
+    field: f96f299dbbb23e6f08adf5a3818be65b
+    fieldtype: link
+    displaywidget: link_default
+    formatterwidget: link
+    cardinality: '1'
+    field_type_informative: link
+    relativepath:
+      - 'http://erlangen-crm.org/current/E30_Right'
+      - 'http://erlangen-crm.org/current/P1_is_identified_by'
+      - 'http://wiss-ki.eu/ontology/current/URL'
+path_descriptions: null
 with_solr: null

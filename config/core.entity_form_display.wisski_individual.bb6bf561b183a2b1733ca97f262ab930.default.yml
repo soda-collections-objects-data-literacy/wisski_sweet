@@ -8,6 +8,7 @@ dependencies:
     - field.field.wisski_individual.bb6bf561b183a2b1733ca97f262ab930.fdbb81d6d2bb33a8e75567aaff54bbd8
     - wisski_core.wisski_bundle.bb6bf561b183a2b1733ca97f262ab930
   module:
+    - conditional_fields
     - inline_entity_form
 id: wisski_individual.bb6bf561b183a2b1733ca97f262ab930.default
 targetEntityType: wisski_individual
@@ -15,12 +16,22 @@ bundle: bb6bf561b183a2b1733ca97f262ab930
 mode: default
 content:
   f44970b58e7b700acf846fbac6d527c3:
-    type: string_textfield
+    type: inline_entity_form_complex
     weight: 2
     region: content
     settings:
-      size: 60
-      placeholder: ''
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
     third_party_settings: {  }
   fbc6fd9d737b5047b949baa68c1c543a:
     type: inline_entity_form_complex
@@ -49,7 +60,7 @@ content:
       override_labels: false
       label_singular: ''
       label_plural: ''
-      allow_new: true
+      allow_new: false
       allow_existing: true
       match_operator: CONTAINS
       allow_duplicate: false
@@ -57,14 +68,33 @@ content:
       collapsed: false
       revision: false
       removed_reference: optional
-    third_party_settings: {  }
+    third_party_settings:
+      conditional_fields:
+        82a1ad38-b2d1-4cd6-aac0-65843099e85c:
+          entity_type: wisski_individual
+          bundle: bb6bf561b183a2b1733ca97f262ab930
+          dependee: fdbb81d6d2bb33a8e75567aaff54bbd8
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
   fdbb81d6d2bb33a8e75567aaff54bbd8:
-    type: string_textfield
+    type: options_select
     weight: 3
     region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true

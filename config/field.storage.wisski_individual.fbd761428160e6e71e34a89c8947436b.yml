@@ -21,7 +21,7 @@ settings:
       label: 'Date (text)'
     -
       value: date_detail
-      label: 'Date (detail)'
+      label: 'Date (detailed)'
   allowed_values_function: ''
 module: options
 locked: false

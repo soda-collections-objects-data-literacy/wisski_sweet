@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_record__actor
-name: 'Custodial institution'
+name: 'Custodian institution'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
   - 'http://erlangen-crm.org/current/P105_right_held_by'

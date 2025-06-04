@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b4e3bc7ca312a6c46228f35fbf7e1cee
-label: 'Death/Dissolution'
+label: 'Death/ Dissolution'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Tod/ Auflösung'
+      title: 'Death/ Dissolution'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b4e3bc7ca312a6c46228f35fbf7e1cee:
     id: b4e3bc7ca312a6c46228f35fbf7e1cee
-    display_title: 'Tod/ Auflösung'
+    display_title: 'Death/ Dissolution'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,10 @@ display:
       path: wisski_views/b4e3bc7ca312a6c46228f35fbf7e1cee
       menu:
         type: normal
-        title: 'Tod/ Auflösung'
+        title: 'Death/ Dissolution'
         description: ''
         weight: 0
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

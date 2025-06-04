@@ -2,18 +2,25 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.wisski_individual.f23878cd7568a15abab60f20fb9ac808
+    - field.storage.wisski_individual.feed4362addfb137b333877006505ed1
     - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
   module:
+    - content_translation
     - image
-id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f23878cd7568a15abab60f20fb9ac808
-field_name: f23878cd7568a15abab60f20fb9ac808
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.feed4362addfb137b333877006505ed1
+field_name: feed4362addfb137b333877006505ed1
 entity_type: wisski_individual
 bundle: b619446f296dfb7c22cf022aac8ce20c
-label: 'Link to media file'
+label: 'Media File'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

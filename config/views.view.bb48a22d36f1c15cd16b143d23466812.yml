@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.wisski_individual.f8e173631161acd62dba6f8cbd3592de
     - system.menu.navigate
     - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
   module:
@@ -21,7 +22,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Objekt
+      title: Object
       fields:
         eid:
           id: eid
@@ -73,70 +74,6 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-        preview_image:
-          id: preview_image
-          table: wisski_individual
-          field: preview_image
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: wisski_individual
-          plugin_id: field
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image_url
-          settings:
-            image_style: medium
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
         title:
           id: title
           table: wisski_individual
@@ -186,6 +123,70 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
+        wisski_path_base__f__cult_her_item__media_file:
+          id: wisski_path_base__f__cult_her_item__media_file
+          table: wisski_individual
+          field: wisski_path_base__f__cult_her_item__media_file
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: wisski_individual
+          plugin_id: wisski_entityfield
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_view
+          settings:
+            view_mode: reference
+          group_column: target_id
+          group_columns: {  }
+          group_rows: 1
+          delta_limit: '0'
+          delta_offset: '0'
+          delta_reversed: 0
+          delta_first_last: 0
+          multi_type: separator
+          separator: ', '
+          field_api_classes: 0
       pager:
         type: full
         options:
@@ -300,13 +301,15 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.wisski_individual.f8e173631161acd62dba6f8cbd3592de'
   bb48a22d36f1c15cd16b143d23466812:
     id: bb48a22d36f1c15cd16b143d23466812
-    display_title: Objekt
+    display_title: Object
     display_plugin: page
     position: 1
     display_options:
@@ -314,7 +317,7 @@ display:
       path: wisski_views/bb48a22d36f1c15cd16b143d23466812
       menu:
         type: normal
-        title: Objekt
+        title: Object
         description: ''
         weight: 9
         expanded: false
@@ -324,7 +327,9 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.wisski_individual.f8e173631161acd62dba6f8cbd3592de'

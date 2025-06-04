@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f8cada4d5f594d0b03f9a39c77492828
+    - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
+  module:
+    - content_translation
+    - file
+third_party_settings:
+  content_translation:
+    translation_sync:
+      target_id: target_id
+      display: display
+      description: description
+id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f8cada4d5f594d0b03f9a39c77492828
+field_name: f8cada4d5f594d0b03f9a39c77492828
+entity_type: wisski_individual
+bundle: b619446f296dfb7c22cf022aac8ce20c
+label: 'Link to media file'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

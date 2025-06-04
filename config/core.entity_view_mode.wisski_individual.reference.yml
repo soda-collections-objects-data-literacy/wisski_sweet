@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - wisski_core
+id: wisski_individual.reference
+label: Reference
+description: ''
+targetEntityType: wisski_individual
+cache: true

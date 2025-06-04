@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f0eee74eab34dac2e3f3042eb332d703
+    - wisski_core.wisski_bundle.b29098a2dbcbda0f61cba5ba9e686f20
+    - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
+id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.f0eee74eab34dac2e3f3042eb332d703
+field_name: f0eee74eab34dac2e3f3042eb332d703
+entity_type: wisski_individual
+bundle: b29098a2dbcbda0f61cba5ba9e686f20
+label: Media file
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      b619446f296dfb7c22cf022aac8ce20c: b619446f296dfb7c22cf022aac8ce20c
+field_type: entity_reference

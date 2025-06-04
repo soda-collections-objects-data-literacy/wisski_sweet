@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__actor__end_of_exist
-name: 'Death/ Resolution'
+name: 'Death/ dissolution'
 path_array:
   - 'http://erlangen-crm.org/current/E39_Actor'
   - 'http://erlangen-crm.org/current/P93i_was_taken_out_of_existence_by'

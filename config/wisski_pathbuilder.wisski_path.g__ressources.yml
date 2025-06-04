@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__ressources
+name: Resources
+path_array:
+  - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+datatype_property: empty
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Group
+transitive: 0
+irreflexive: 0

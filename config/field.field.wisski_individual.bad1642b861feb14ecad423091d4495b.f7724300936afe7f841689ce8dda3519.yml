@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f7724300936afe7f841689ce8dda3519
+    - wisski_core.wisski_bundle.ba115ec3f3676cbec7ba8297a94bea48
+    - wisski_core.wisski_bundle.bad1642b861feb14ecad423091d4495b
+id: wisski_individual.bad1642b861feb14ecad423091d4495b.f7724300936afe7f841689ce8dda3519
+field_name: f7724300936afe7f841689ce8dda3519
+entity_type: wisski_individual
+bundle: bad1642b861feb14ecad423091d4495b
+label: Authority data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      ba115ec3f3676cbec7ba8297a94bea48: ba115ec3f3676cbec7ba8297a94bea48
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.wisski_individual.f2b4b472cafb7f4c46a7c822794ed9dd
+    - wisski_core.wisski_bundle.b8a35d61f1bd2672835d376015222d21
     - wisski_core.wisski_bundle.bb48a22d36f1c15cd16b143d23466812
 id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f2b4b472cafb7f4c46a7c822794ed9dd
 field_name: f2b4b472cafb7f4c46a7c822794ed9dd
@@ -11,7 +12,7 @@ bundle: bb48a22d36f1c15cd16b143d23466812
 label: Dimensions
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Datum
+      title: Date
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b66dd83c2f07cd0d188b31b879775f72:
     id: b66dd83c2f07cd0d188b31b879775f72
-    display_title: Datum
+    display_title: Date
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,10 @@ display:
       path: wisski_views/b66dd83c2f07cd0d188b31b879775f72
       menu:
         type: normal
-        title: Datum
+        title: Date
         description: ''
         weight: 0
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

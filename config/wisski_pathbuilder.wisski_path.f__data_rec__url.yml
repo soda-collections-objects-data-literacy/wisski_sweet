@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_rec__url
-name: 'Link to published record'
+name: 'Link to the published data record'
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'

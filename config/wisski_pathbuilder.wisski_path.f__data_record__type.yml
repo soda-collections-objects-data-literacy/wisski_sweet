@@ -15,5 +15,5 @@ disamb: 2
 length: 5
 description: ''
 type: Path
-transitive: null
-irreflexive: null
+transitive: 0
+irreflexive: 0

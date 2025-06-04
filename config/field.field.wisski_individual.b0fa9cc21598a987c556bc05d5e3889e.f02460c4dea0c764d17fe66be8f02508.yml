@@ -12,7 +12,7 @@ bundle: b0fa9cc21598a987c556bc05d5e3889e
 label: 'Birth/ Foundation'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__info__comment
+name: Comment
+path_array:
+  - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
+  - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/current/Comment'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Path
+transitive: 0
+irreflexive: 0

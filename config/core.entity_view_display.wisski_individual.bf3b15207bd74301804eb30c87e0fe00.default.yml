@@ -7,20 +7,12 @@ dependencies:
     - field.field.wisski_individual.bf3b15207bd74301804eb30c87e0fe00.fa4020f71a81e0ebf7cc3ebd60c39017
     - wisski_core.wisski_bundle.bf3b15207bd74301804eb30c87e0fe00
   module:
-    - text
     - wisski_adapter_sparql11_pb
 id: wisski_individual.bf3b15207bd74301804eb30c87e0fe00.default
 targetEntityType: wisski_individual
 bundle: bf3b15207bd74301804eb30c87e0fe00
 mode: default
 content:
-  description:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: -5
-    region: content
   f75e5d31023925b916d99cb819c720d5:
     type: entity_reference_entity_view
     label: above
@@ -64,6 +56,7 @@ hidden:
   bundle: true
   created: true
   label: true
+  langcode: true
   name: true
   preview_image: true
   uid: true

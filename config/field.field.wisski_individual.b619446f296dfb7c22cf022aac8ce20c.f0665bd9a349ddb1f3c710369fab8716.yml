@@ -4,15 +4,19 @@ dependencies:
   config:
     - field.storage.wisski_individual.f0665bd9a349ddb1f3c710369fab8716
     - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
+  module:
+    - options
 id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.f0665bd9a349ddb1f3c710369fab8716
 field_name: f0665bd9a349ddb1f3c710369fab8716
 entity_type: wisski_individual
 bundle: b619446f296dfb7c22cf022aac8ce20c
-label: 'Media type'
+label: Media type
 description: ''
-required: false
-translatable: false
-default_value: {  }
+required: true
+translatable: true
+default_value:
+  -
+    value: image
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: list_string

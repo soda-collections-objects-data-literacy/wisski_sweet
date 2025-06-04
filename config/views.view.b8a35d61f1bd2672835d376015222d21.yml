@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Maße
+      title: Dimensions
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b8a35d61f1bd2672835d376015222d21:
     id: b8a35d61f1bd2672835d376015222d21
-    display_title: Maße
+    display_title: Dimensions
     display_plugin: page
     position: 1
     display_options:
@@ -314,7 +314,7 @@ display:
       path: wisski_views/b8a35d61f1bd2672835d376015222d21
       menu:
         type: normal
-        title: Maße
+        title: Dimensions
         description: ''
         weight: 14
         expanded: false

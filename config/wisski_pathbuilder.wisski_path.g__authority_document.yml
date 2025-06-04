@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: g__authority_document
+name: Authority document
+path_array:
+  - 'http://erlangen-crm.org/current/E32_Authority_Document'
+datatype_property: empty
+short_name: null
+disamb: 0
+length: null
+description: null
+type: Group
+transitive: 0
+irreflexive: 0

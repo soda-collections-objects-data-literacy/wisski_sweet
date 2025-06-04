@@ -11,7 +11,7 @@ bundle: b66dd83c2f07cd0d188b31b879775f72
 label: Year
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

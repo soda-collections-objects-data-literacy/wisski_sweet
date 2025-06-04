@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: bf3b15207bd74301804eb30c87e0fe00
-label: 'Birth/ Foundation'
+label: Birth/ foundation
 description: ''
 title_pattern: ''
 on_empty: 3
