@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b619446f296dfb7c22cf022aac8ce20c
-label: Media file
+label: 'Media file'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Media file
+      title: 'Media file'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b619446f296dfb7c22cf022aac8ce20c:
     id: b619446f296dfb7c22cf022aac8ce20c
-    display_title: Media file
+    display_title: 'Media file'
     display_plugin: page
     position: 1
     display_options:
@@ -314,7 +314,7 @@ display:
       path: wisski_views/b619446f296dfb7c22cf022aac8ce20c
       menu:
         type: normal
-        title: Media file
+        title: 'Media file'
         description: ''
         weight: 12
         expanded: false

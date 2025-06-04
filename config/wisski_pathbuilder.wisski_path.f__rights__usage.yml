@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__rights__usage
-name: Usage rights
+name: 'Usage rights'
 path_array:
   - 'http://erlangen-crm.org/current/E30_Right'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'

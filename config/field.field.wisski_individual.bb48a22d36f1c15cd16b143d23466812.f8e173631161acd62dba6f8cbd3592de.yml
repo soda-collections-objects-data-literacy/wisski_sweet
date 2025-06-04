@@ -9,7 +9,7 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f8e173631161acd62dba6f8cb
 field_name: f8e173631161acd62dba6f8cbd3592de
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: Media file
+label: 'Media file'
 description: ''
 required: false
 translatable: true
