@@ -42,7 +42,7 @@ content:
     type: entity_reference_entity_view
     label: above
     settings:
-      view_mode: in_datensatz
+      view_mode: in_data_record
       link: false
     third_party_settings: {  }
     weight: 4
