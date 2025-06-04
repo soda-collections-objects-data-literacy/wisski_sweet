@@ -4,7 +4,7 @@ dependencies: {  }
 id: bb48a22d36f1c15cd16b143d23466812
 label: Object
 description: null
-title_pattern: 'a:2:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:32:"base.f__cult_her_item__title_ref";s:2:"id";s:2:"p0";s:5:"label";s:5:"Title";}s:6:"max_id";i:0;}'
+title_pattern: 'a:2:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:32:"default.f__cult_her_item__title_ref";s:2:"id";s:2:"p0";s:5:"label";s:5:"Title";}s:6:"max_id";i:0;}'
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10

@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-id: base
-name: base
+id: default
+name: default
 adapter: default
 type: null
 pathtree:
