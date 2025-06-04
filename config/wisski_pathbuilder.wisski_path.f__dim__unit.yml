@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__dim__unit
-name: Einheit
+name: Unit
 path_array:
   - 'http://erlangen-crm.org/current/E54_Dimension'
   - 'http://erlangen-crm.org/current/P91_has_unit'

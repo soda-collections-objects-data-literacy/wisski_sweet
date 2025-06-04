@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__cult_her_item__technique
-name: Technik
+name: Technique
 path_array:
   - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P108i_was_produced_by'
