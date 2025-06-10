@@ -9,7 +9,7 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f8478ccaf30ed82bc2287f238
 field_name: f8478ccaf30ed82bc2287f238406cda8
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: Data record
+label: 'Data record'
 description: ''
 required: false
 translatable: true
@@ -20,4 +20,9 @@ settings:
   handler_settings:
     target_bundles:
       b29098a2dbcbda0f61cba5ba9e686f20: b29098a2dbcbda0f61cba5ba9e686f20
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

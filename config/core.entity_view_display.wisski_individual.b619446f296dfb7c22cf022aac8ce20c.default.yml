@@ -12,6 +12,7 @@ dependencies:
     - colorbox
     - file
     - options
+    - wisski_adapter_sparql11_pb
 id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.default
 targetEntityType: wisski_individual
 bundle: b619446f296dfb7c22cf022aac8ce20c
@@ -25,9 +26,10 @@ content:
     weight: 0
     region: content
   f8cada4d5f594d0b03f9a39c77492828:
-    type: file_url_plain
+    type: file_default
     label: above
-    settings: {  }
+    settings:
+      use_description_as_link_text: true
     third_party_settings: {  }
     weight: 2
     region: content
@@ -39,10 +41,9 @@ content:
     weight: 4
     region: content
   fcda28daa1b9a3542d4b50c42b3768d1:
-    type: entity_reference_entity_view
+    type: wisski_entity_reference_label
     label: above
     settings:
-      view_mode: default
       link: false
     third_party_settings: {  }
     weight: 3

@@ -7,13 +7,11 @@ path_array:
   - 'http://erlangen-crm.org/current/E63_Beginning_of_Existence'
   - 'http://erlangen-crm.org/current/P7_took_place_at'
   - 'http://erlangen-crm.org/current/E53_Place'
-  - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://erlangen-crm.org/current/E41_Appellation'
-datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+datatype_property: empty
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

@@ -15,7 +15,7 @@ third_party_settings:
       children:
         - feb35e71b6bcf82847c5f3f6a57f6274
         - f35ec1009a594afbd49536c5fc558e04
-      label: 'Title details'
+      label: 'Titel Details'
       region: content
       parent_name: ''
       weight: 0

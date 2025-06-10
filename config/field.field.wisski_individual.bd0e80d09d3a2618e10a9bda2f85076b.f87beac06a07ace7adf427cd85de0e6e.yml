@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f87beac06a07ace7adf427cd85de0e6e
+    - wisski_core.wisski_bundle.bd0e80d09d3a2618e10a9bda2f85076b
+id: wisski_individual.bd0e80d09d3a2618e10a9bda2f85076b.f87beac06a07ace7adf427cd85de0e6e
+field_name: f87beac06a07ace7adf427cd85de0e6e
+entity_type: wisski_individual
+bundle: bd0e80d09d3a2618e10a9bda2f85076b
+label: Acronym
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

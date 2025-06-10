@@ -2,16 +2,67 @@ langcode: en
 status: true
 dependencies:
   module:
+    - options
     - wisski_core
 id: wisski_individual.fd26906e13c587b8451a6b2af4c08eb4
 field_name: fd26906e13c587b8451a6b2af4c08eb4
 entity_type: wisski_individual
-type: string
+type: list_string
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
-module: core
+  allowed_values:
+    -
+      value: pdm_1_0
+      label: '<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0 Universal</a>'
+    -
+      value: inc_1_0
+      label: '<a href="http://rightsstatements.org/vocab/InC/1.0/" target="_blank">In Copyright</a>'
+    -
+      value: inc_ow_eu_1_0
+      label: '<a href="http://rightsstatements.org/vocab/InC-OW-EU/1.0/" target="_blank">In Copyright - EU Orphan Work</a>'
+    -
+      value: inc_edu_1_0
+      label: '<a href="http://rightsstatements.org/vocab/InC-EDU/1.0/" target="_blank">In Copyright - Educational Use Permitted</a>'
+    -
+      value: inc_nc_1_0
+      label: '<a href="http://rightsstatements.org/vocab/InC-NC/1.0/" target="_blank">In Copyright - Non-Commercial Use Permitted</a>'
+    -
+      value: in
+      label: '<a href="http://rightsstatements.org/vocab/In" target="_blank">In Copyright - Rights-holder(s) Unlocatable or Unidentifiable</a>'
+    -
+      value: noc_cr_1_0
+      label: '<a href="http://rightsstatements.org/vocab/NoC-CR/1.0/" target="_blank">No Copyright - Contractual Restrictions</a>'
+    -
+      value: noc_nc_1_0
+      label: '<a href="http://rightsstatements.org/vocab/NoC-NC/1.0/" target="_blank">No Copyright - Non-Commercial Use Only</a>'
+    -
+      value: nkc_1_0
+      label: '<a href="http://rightsstatements.org/vocab/NKC/1.0/" target="_blank">No Known Copyright</a>'
+    -
+      value: noc_us_1_0
+      label: '<a href="http://rightsstatements.org/vocab/NoC-US/1.0/" target="_blank">No Copyright - United States</a>'
+    -
+      value: cc0_1_0
+      label: '<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0 Universal</a>'
+    -
+      value: cc_by_4_0
+      label: '<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>'
+    -
+      value: cc_by_nc_4_0
+      label: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-ND 4.0</a>'
+    -
+      value: cc_by_nc_nd_4_0
+      label: '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+    -
+      value: cc_by_nc_sa_4_0
+      label: '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+    -
+      value: cc_by_nd_4_0
+      label: '<a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">CC BY-ND 4.0</a>'
+    -
+      value: cc_by_sa_4_0
+      label: '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true

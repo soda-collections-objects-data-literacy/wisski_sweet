@@ -22,9 +22,9 @@ content:
     label: above
     settings:
       view_mode: default
-      link: false
+      link: true
     third_party_settings: {  }
-    weight: 4
+    weight: 5
     region: content
   f04ed8c79450669ddd5e93467f2a1a51:
     type: string
@@ -32,7 +32,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   f239c64d0bd4b9138bb8fb9e79942110:
     type: string
@@ -40,7 +40,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   f295382ce36e43723aefe2fdcbb0d825:
     type: string
@@ -48,16 +48,16 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
   f81d5c928f704125c6859e38f6b20499:
     type: entity_reference_entity_view
     label: above
     settings:
       view_mode: default
-      link: false
+      link: true
     third_party_settings: {  }
-    weight: 5
+    weight: 6
     region: content
   fae0f9922ce4953c25f6b6d7643459ac:
     type: string
@@ -65,7 +65,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   ffa950f2daa5ea8b4a36265e8afc3fd9:
     type: list_default

@@ -26,7 +26,7 @@ content:
     region: content
   f8dba8630367c32aeb2557097a2d0259:
     type: text_default
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     weight: 3

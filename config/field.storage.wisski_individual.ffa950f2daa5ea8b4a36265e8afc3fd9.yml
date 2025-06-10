@@ -14,8 +14,8 @@ settings:
       value: person
       label: Person
     -
-      value: group_organisation
-      label: 'Group/ organisation'
+      value: group
+      label: 'Group or organisation'
   allowed_values_function: ''
 module: options
 locked: false

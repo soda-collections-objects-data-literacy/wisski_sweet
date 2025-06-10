@@ -4,14 +4,14 @@ dependencies: {  }
 id: f__med_file__description
 name: Description
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+  - 'http://ontologies.sammlungen.io/default/current/Media_File'
   - 'http://erlangen-crm.org/current/P129i_is_subject_of'
   - 'http://wiss-ki.eu/ontology/current/Description'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

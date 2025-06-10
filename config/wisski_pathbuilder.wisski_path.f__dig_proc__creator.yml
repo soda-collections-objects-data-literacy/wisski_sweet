@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__dig_proc__creator
-name: 'Creator of the data record'
+name: 'Creator of data record'
 path_array:
   - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
   - 'http://erlangen-crm.org/current/P14_carried_out_by'
   - 'http://erlangen-crm.org/current/E39_Actor'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://erlangen-crm.org/current/E41_Appellation'
+  - 'http://ontologies.sammlungen.io/default/current/Actor_Name'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
-disamb: 0
+disamb: 2
 length: 5
 description: ''
 type: Path

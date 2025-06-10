@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__end_of_existence
-name: 'Death/ dissolution'
+name: 'Death or dissolution'
 path_array:
   - 'http://erlangen-crm.org/current/E64_End_of_Existence'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 1
+description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

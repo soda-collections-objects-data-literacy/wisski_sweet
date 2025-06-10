@@ -316,7 +316,7 @@ display:
         type: normal
         title: Material
         description: ''
-        weight: 0
+        weight: -38
         expanded: false
         menu_name: navigate
         parent: ''

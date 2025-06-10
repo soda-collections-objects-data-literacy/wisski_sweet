@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bd0e80d09d3a2618e10a9bda2f85076b
-label: Authority document
+label: 'Authority document'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Authority document
+      title: 'Authority document'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   bd0e80d09d3a2618e10a9bda2f85076b:
     id: bd0e80d09d3a2618e10a9bda2f85076b
-    display_title: Authority document
+    display_title: 'Authority document'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,9 @@ display:
       path: wisski_views/bd0e80d09d3a2618e10a9bda2f85076b
       menu:
         type: normal
-        title: Authority document
+        title: 'Authority document'
         description: ''
-        weight: 25
+        weight: -48
         expanded: false
         menu_name: navigate
         parent: ''

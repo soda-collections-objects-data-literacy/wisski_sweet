@@ -9,7 +9,7 @@ id: wisski_individual.b0fa9cc21598a987c556bc05d5e3889e.f81d5c928f704125c6859e38f
 field_name: f81d5c928f704125c6859e38f6b20499
 entity_type: wisski_individual
 bundle: b0fa9cc21598a987c556bc05d5e3889e
-label: 'Death/ Dissolution'
+label: 'Death or dissolution'
 description: ''
 required: false
 translatable: true

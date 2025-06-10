@@ -11,8 +11,26 @@ type: list_string
 settings:
   allowed_values:
     -
+      value: change_of_legal_title
+      label: '<a href="http://terminology.lido-schema.org/lido00001" target="_blank">Change of legal title</a>'
+    -
+      value: finding_activity
+      label: '<a href="http://terminology.lido-schema.org/lido00002" target="_blank">Finding (Activity)</a>'
+    -
+      value: excavation
+      label: '<a href="http://terminology.lido-schema.org/lido00033" target="_blank">Excavation</a>'
+    -
       value: creation
-      label: Herstellung
+      label: '<a href="http://terminology.lido-schema.org/lido00012" target="_blank">Creation</a>'
+    -
+      value: production
+      label: '<a href="http://terminology.lido-schema.org/lido00007" target="_blank">Production (Activity)</a>'
+    -
+      value: exhibition_activity
+      label: '<a href="http://terminology.lido-schema.org/lido00225" target="_blank">Exhibition (Activity)</a>'
+    -
+      value: destruction_activity_or_process
+      label: '<a href="http://terminology.lido-schema.org/lido00026" target="_blank">Destruction (Activity or process)</a>'
   allowed_values_function: ''
 module: options
 locked: false

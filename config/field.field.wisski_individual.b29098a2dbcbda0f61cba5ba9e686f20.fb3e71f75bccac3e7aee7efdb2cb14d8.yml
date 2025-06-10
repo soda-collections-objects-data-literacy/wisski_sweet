@@ -8,7 +8,7 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fb3e71f75bccac3e7aee7efdb
 field_name: fb3e71f75bccac3e7aee7efdb2cb14d8
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Data record language'
+label: 'Language of data record'
 description: ''
 required: false
 translatable: true

@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b7f7eceaa540597c1440f1c470bebe07
-label: 'Object title or appellation'
+label: 'Object title or appellation assignment'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Object title or appellation'
+      title: 'Object title or appellation assignment'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b7f7eceaa540597c1440f1c470bebe07:
     id: b7f7eceaa540597c1440f1c470bebe07
-    display_title: 'Object title or appellation'
+    display_title: 'Object title or appellation assignment'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,9 @@ display:
       path: wisski_views/b7f7eceaa540597c1440f1c470bebe07
       menu:
         type: normal
-        title: 'Object title or appellation'
+        title: 'Object title or appellation assignment'
         description: ''
-        weight: 0
+        weight: -35
         enabled: false
         expanded: false
         menu_name: navigate

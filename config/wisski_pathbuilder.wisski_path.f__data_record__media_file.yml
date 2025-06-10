@@ -4,18 +4,18 @@ dependencies: {  }
 id: f__data_record__media_file
 name: 'Media file'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://ontologies.sammlungen.io/default/current/Data_Record'
   - 'http://erlangen-crm.org/current/P67_refers_to'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Media_Assignment'
+  - 'http://ontologies.sammlungen.io/default/current/Media_Assignment'
   - 'http://erlangen-crm.org/current/P141_assigned'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+  - 'http://ontologies.sammlungen.io/default/current/Media_File'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 4
-length: null
-description: null
+length: 7
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

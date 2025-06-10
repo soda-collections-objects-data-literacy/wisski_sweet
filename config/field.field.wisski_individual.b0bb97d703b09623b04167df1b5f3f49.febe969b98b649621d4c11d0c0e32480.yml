@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.febe969b98b649621d4c11d0c0e32480
+    - wisski_core.wisski_bundle.b0bb97d703b09623b04167df1b5f3f49
+  module:
+    - text
+id: wisski_individual.b0bb97d703b09623b04167df1b5f3f49.febe969b98b649621d4c11d0c0e32480
+field_name: febe969b98b649621d4c11d0c0e32480
+entity_type: wisski_individual
+bundle: b0bb97d703b09623b04167df1b5f3f49
+label: 'Rights description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

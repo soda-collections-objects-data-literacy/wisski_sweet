@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: f__rights_description
+name: 'Rights description'
+path_array:
+  - 'http://erlangen-crm.org/current/E30_Right'
+  - 'http://erlangen-crm.org/current/P129i_is_subject_of'
+  - 'http://wiss-ki.eu/ontology/current/Description'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
+short_name: ''
+disamb: 0
+length: 3
+description: ''
+type: Path
+transitive: null
+irreflexive: null

@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b29098a2dbcbda0f61cba5ba9e686f20
-label: Data record
+label: 'Data record'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Data record
+      title: 'Data record'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b29098a2dbcbda0f61cba5ba9e686f20:
     id: b29098a2dbcbda0f61cba5ba9e686f20
-    display_title: Data record
+    display_title: 'Data record'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,9 @@ display:
       path: wisski_views/b29098a2dbcbda0f61cba5ba9e686f20
       menu:
         type: normal
-        title: Data record
+        title: 'Data record'
         description: ''
-        weight: 10
+        weight: -44
         enabled: false
         expanded: false
         menu_name: navigate

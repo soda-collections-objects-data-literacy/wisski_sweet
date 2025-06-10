@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__actor__end_of_exist
-name: 'Death/ dissolution'
+name: 'Death or dissolution'
 path_array:
   - 'http://erlangen-crm.org/current/E39_Actor'
   - 'http://erlangen-crm.org/current/P93i_was_taken_out_of_existence_by'
   - 'http://erlangen-crm.org/current/E64_End_of_Existence'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

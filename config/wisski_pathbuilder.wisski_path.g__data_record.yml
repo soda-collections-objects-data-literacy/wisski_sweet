@@ -4,7 +4,7 @@ dependencies: {  }
 id: g__data_record
 name: 'Data record'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://ontologies.sammlungen.io/default/current/Data_Record'
 datatype_property: empty
 short_name: ''
 disamb: 0

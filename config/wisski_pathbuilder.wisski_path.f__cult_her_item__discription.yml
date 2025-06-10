@@ -4,7 +4,7 @@ dependencies: {  }
 id: f__cult_her_item__discription
 name: 'Object description'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P70i_is_documented_in'
   - 'http://erlangen-crm.org/current/E31_Document'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'

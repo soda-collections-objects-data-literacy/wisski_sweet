@@ -14,11 +14,11 @@ bundle: be6c0e85956559c87483917da3888e23
 mode: default
 content:
   f2b62e51766b434f435e6accb85ced1b:
-    type: geofield_default
+    type: geofield_latlon
     weight: 2
     region: content
     settings:
-      geometry_validation: false
+      html5_geolocation: false
     third_party_settings: {  }
   fb7c4c986649cff59847eaa6ba5f3c52:
     type: string_textfield
@@ -37,7 +37,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -3,11 +3,11 @@ status: true
 dependencies:
   config:
     - field.field.wisski_individual.b0bb97d703b09623b04167df1b5f3f49.f1ff3b967723f445933b8a9d7035aad2
-    - field.field.wisski_individual.b0bb97d703b09623b04167df1b5f3f49.f96f299dbbb23e6f08adf5a3818be65b
     - field.field.wisski_individual.b0bb97d703b09623b04167df1b5f3f49.fd26906e13c587b8451a6b2af4c08eb4
+    - field.field.wisski_individual.b0bb97d703b09623b04167df1b5f3f49.febe969b98b649621d4c11d0c0e32480
     - wisski_core.wisski_bundle.b0bb97d703b09623b04167df1b5f3f49
   module:
-    - link
+    - text
 id: wisski_individual.b0bb97d703b09623b04167df1b5f3f49.default
 targetEntityType: wisski_individual
 bundle: b0bb97d703b09623b04167df1b5f3f49
@@ -21,20 +21,18 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  f96f299dbbb23e6f08adf5a3818be65b:
-    type: link_default
-    weight: 0
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
   fd26906e13c587b8451a6b2af4c08eb4:
-    type: string_textfield
+    type: options_select
     weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
+  febe969b98b649621d4c11d0c0e32480:
+    type: text_textarea
+    weight: 3
+    region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   translation:

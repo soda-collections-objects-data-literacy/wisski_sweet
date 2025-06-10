@@ -20,4 +20,9 @@ settings:
   handler_settings:
     target_bundles:
       b8a35d61f1bd2672835d376015222d21: b8a35d61f1bd2672835d376015222d21
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

@@ -4,16 +4,16 @@ dependencies: {  }
 id: f__cult_her_item__title_ref
 name: Title
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+  - 'http://ontologies.sammlungen.io/default/current/Title_Assignment'
   - 'http://erlangen-crm.org/current/P141_assigned'
   - 'http://erlangen-crm.org/current/E35_Title'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 1
-length: null
-description: null
+length: 5
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

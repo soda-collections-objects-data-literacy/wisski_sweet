@@ -11,5 +11,5 @@ disamb: 0
 length: 1
 description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

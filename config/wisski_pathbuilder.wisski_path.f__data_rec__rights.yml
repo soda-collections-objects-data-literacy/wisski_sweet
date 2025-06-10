@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_rec__rights
-name: 'Usage rights metadata'
+name: 'Usage rights of data record'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://ontologies.sammlungen.io/default/current/Data_Record'
   - 'http://erlangen-crm.org/current/P104_is_subject_to'
   - 'http://erlangen-crm.org/current/E30_Right'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
@@ -12,8 +12,8 @@ path_array:
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 2
-length: 3
+length: 5
 description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

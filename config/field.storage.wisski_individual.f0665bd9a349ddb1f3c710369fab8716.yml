@@ -12,7 +12,19 @@ settings:
   allowed_values:
     -
       value: image
-      label: Bild
+      label: Image
+    -
+      value: video
+      label: Video
+    -
+      value: audio
+      label: Audio
+    -
+      value: document
+      label: Document
+    -
+      value: generic_file
+      label: 'Generic file'
   allowed_values_function: ''
 module: options
 locked: false

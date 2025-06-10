@@ -17,7 +17,7 @@ mode: default
 content:
   f07178031ead71efc4add43c67d498bf:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -33,7 +33,7 @@ content:
     region: content
   faa0cb687be0c5af723fbab86edfffd1:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -41,7 +41,7 @@ content:
     region: content
   fc26b447ad175ecae3d6eeb5f463a0e9:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -49,7 +49,7 @@ content:
     region: content
   fe6c9de47066f3468c6aa80e2fc81acd:
     type: list_default
-    label: hidden
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 1

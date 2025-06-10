@@ -30,14 +30,14 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   fc8e3f1ccd8987fbb8567b52ced21d25:
     type: entity_reference_entity_view
     label: above
     settings:
       view_mode: default
-      link: false
+      link: true
     third_party_settings: {  }
     weight: 1
     region: content
@@ -46,7 +46,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 0
     region: content
 hidden:
   bundle: true

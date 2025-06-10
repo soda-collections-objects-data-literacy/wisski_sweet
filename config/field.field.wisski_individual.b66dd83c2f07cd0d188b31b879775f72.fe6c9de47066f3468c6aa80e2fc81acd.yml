@@ -12,9 +12,11 @@ entity_type: wisski_individual
 bundle: b66dd83c2f07cd0d188b31b879775f72
 label: Operator
 description: ''
-required: false
+required: true
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: at_some_point
 default_value_callback: ''
 settings: {  }
 field_type: list_string

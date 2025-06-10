@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies: {  }
 id: g__titel_assignment
-name: 'Object title or appellation'
+name: 'Object title or appellation assignment'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+  - 'http://ontologies.sammlungen.io/default/current/Title_Assignment'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 1
+description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

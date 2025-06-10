@@ -12,10 +12,13 @@ settings:
   allowed_values:
     -
       value: literature
-      label: Literatur
+      label: Literature
     -
       value: link
       label: Links
+    -
+      value: other
+      label: Other
   allowed_values_function: ''
 module: options
 locked: false

@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__cult_her_item__type
-name: 'Object type or appellation'
+name: 'Object type or -appellation'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P2_has_type'
   - 'http://erlangen-crm.org/current/E55_Type'
 datatype_property: empty
 short_name: ''
 disamb: 2
-length: 5
+length: 3
 description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

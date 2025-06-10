@@ -4,12 +4,12 @@ dependencies: {  }
 id: g__type
 name: 'Authority data'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+  - 'http://ontologies.sammlungen.io/default/current/Authority_Data'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 1
+description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

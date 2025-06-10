@@ -316,7 +316,7 @@ display:
         type: normal
         title: Date
         description: ''
-        weight: 0
+        weight: -43
         enabled: false
         expanded: false
         menu_name: navigate

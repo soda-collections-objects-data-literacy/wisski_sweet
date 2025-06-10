@@ -4,25 +4,17 @@ dependencies:
   config:
     - field.storage.wisski_individual.fcce64514b22835881e127a12fa0262d
     - wisski_core.wisski_bundle.b29098a2dbcbda0f61cba5ba9e686f20
-    - wisski_core.wisski_bundle.bb79e2aca604c4feee0889e8979f00a6
 id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fcce64514b22835881e127a12fa0262d
 field_name: fcce64514b22835881e127a12fa0262d
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Creation data record'
+label: 'Creator of data record'
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: 'Change me'
 default_value_callback: ''
-settings:
-  handler: 'default:wisski_individual'
-  handler_settings:
-    target_bundles:
-      bb79e2aca604c4feee0889e8979f00a6: bb79e2aca604c4feee0889e8979f00a6
-    sort:
-      field: _none
-      direction: ASC
-    auto_create: false
-    auto_create_bundle: ''
-field_type: entity_reference
+settings: {  }
+field_type: string

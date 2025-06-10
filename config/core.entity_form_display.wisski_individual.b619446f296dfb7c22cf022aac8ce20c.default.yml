@@ -10,6 +10,8 @@ dependencies:
     - image.style.thumbnail
     - wisski_core.wisski_bundle.b619446f296dfb7c22cf022aac8ce20c
   module:
+    - conditional_fields
+    - file
     - image
     - inline_entity_form
 id: wisski_individual.b619446f296dfb7c22cf022aac8ce20c.default
@@ -23,9 +25,35 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  f8cada4d5f594d0b03f9a39c77492828:
+    type: file_generic
+    weight: 6
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings:
+      conditional_fields:
+        62ebd916-c7e3-4e62-88e7-33b834098dd9:
+          entity_type: wisski_individual
+          bundle: b619446f296dfb7c22cf022aac8ce20c
+          dependee: f0665bd9a349ddb1f3c710369fab8716
+          settings:
+            state: '!visible'
+            reset: false
+            condition: value
+            grouping: OR
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: image
+            effect: show
+            effect_options: {  }
+            selector: ''
   f92639d54a47119d4883a941cca24977:
     type: string_textarea
-    weight: 2
+    weight: 8
     region: content
     settings:
       rows: 5
@@ -33,7 +61,7 @@ content:
     third_party_settings: {  }
   fcda28daa1b9a3542d4b50c42b3768d1:
     type: inline_entity_form_complex
-    weight: 3
+    weight: 7
     region: content
     settings:
       form_mode: default
@@ -41,7 +69,7 @@ content:
       label_singular: ''
       label_plural: ''
       allow_new: true
-      allow_existing: false
+      allow_existing: true
       match_operator: CONTAINS
       allow_duplicate: false
       collapsible: false
@@ -51,20 +79,38 @@ content:
     third_party_settings: {  }
   feed4362addfb137b333877006505ed1:
     type: image_image
-    weight: 0
+    weight: 5
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
+    third_party_settings:
+      conditional_fields:
+        23bd5c45-8161-4f31-b967-2ec4564fd8cd:
+          entity_type: wisski_individual
+          bundle: b619446f296dfb7c22cf022aac8ce20c
+          dependee: f0665bd9a349ddb1f3c710369fab8716
+          settings:
+            state: visible
+            reset: false
+            condition: value
+            grouping: OR
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: image
+            effect: show
+            effect_options: {  }
+            selector: ''
   translation:
-    weight: 10
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   created: true
-  f8cada4d5f594d0b03f9a39c77492828: true
   label: true
   name: true
   uid: true

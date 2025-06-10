@@ -2,14 +2,16 @@ langcode: en
 status: true
 dependencies:
   module:
-    - link
     - wisski_core
-id: wisski_individual.f96f299dbbb23e6f08adf5a3818be65b
-field_name: f96f299dbbb23e6f08adf5a3818be65b
+id: wisski_individual.f87beac06a07ace7adf427cd85de0e6e
+field_name: f87beac06a07ace7adf427cd85de0e6e
 entity_type: wisski_individual
-type: link
-settings: {  }
-module: link
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

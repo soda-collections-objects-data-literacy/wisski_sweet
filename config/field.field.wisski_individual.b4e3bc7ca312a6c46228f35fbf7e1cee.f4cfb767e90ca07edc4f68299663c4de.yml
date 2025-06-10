@@ -9,7 +9,7 @@ id: wisski_individual.b4e3bc7ca312a6c46228f35fbf7e1cee.f4cfb767e90ca07edc4f68299
 field_name: f4cfb767e90ca07edc4f68299663c4de
 entity_type: wisski_individual
 bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
-label: Period
+label: Dating
 description: ''
 required: false
 translatable: true
@@ -20,4 +20,9 @@ settings:
   handler_settings:
     target_bundles:
       b29e446d50baead6233e4f0486368ed6: b29e446d50baead6233e4f0486368ed6
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

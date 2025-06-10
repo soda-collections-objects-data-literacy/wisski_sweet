@@ -8,10 +8,10 @@ path_array:
   - 'http://erlangen-crm.org/current/P2_has_type'
   - 'http://erlangen-crm.org/current/E55_Type'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

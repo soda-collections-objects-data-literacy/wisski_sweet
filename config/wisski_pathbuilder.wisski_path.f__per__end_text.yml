@@ -6,18 +6,18 @@ name: 'End (text)'
 path_array:
   - 'http://erlangen-crm.org/current/E4_Period'
   - 'http://erlangen-crm.org/current/P173_starts_before_or_with_the_end_of'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/End'
+  - 'http://ontologies.sammlungen.io/default/current/End'
   - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Date-Assignment'
+  - 'http://ontologies.sammlungen.io/default/current/Date-Assignment'
   - 'http://erlangen-crm.org/current/P141_assigned'
   - 'http://wiss-ki.eu/ontology/current/Date'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
   - 'http://erlangen-crm.org/current/E41_Appellation'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 4
-length: null
-description: null
+length: 9
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

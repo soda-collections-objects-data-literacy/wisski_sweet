@@ -30,7 +30,6 @@ third_party_settings:
         - group_medien_rendered
         - group_details_rendered
         - group_metadaten_rendered
-        - group_rechte
         - group_objektgeschichte_rendered
       label: vTabs
       parent_name: ''
@@ -44,21 +43,6 @@ third_party_settings:
         label_as_html: false
         direction: vertical
         width_breakpoint: 640
-    group_rechte:
-      children: {  }
-      label: Rechte
-      parent_name: group_vtabs
-      region: hidden
-      weight: 11
-      format_type: details
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        open: false
-        description: ''
-        required_fields: false
     group_generell_rendered:
       children: {  }
       label: Generell

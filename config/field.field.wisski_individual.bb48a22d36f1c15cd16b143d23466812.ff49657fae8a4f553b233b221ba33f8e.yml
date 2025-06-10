@@ -9,7 +9,7 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.ff49657fae8a4f553b233b221
 field_name: ff49657fae8a4f553b233b221ba33f8e
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: Ressources
+label: 'Additional resources'
 description: ''
 required: false
 translatable: true

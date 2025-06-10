@@ -44,21 +44,6 @@ third_party_settings:
         label_as_html: false
         direction: horizontal
         width_breakpoint: 640
-    group_rechte:
-      children: {  }
-      label: Rechte
-      parent_name: ''
-      region: hidden
-      weight: 9
-      format_type: details
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        open: false
-        description: ''
-        required_fields: false
     group_generell_rendered:
       children:
         - field__vf__titel
@@ -67,7 +52,7 @@ third_party_settings:
         - f65a6586daed6cba734f174af630bdcf
         - ff49657fae8a4f553b233b221ba33f8e
         - f2de9f0b2efc868a635f5adfad12a810
-      label: Generell
+      label: General
       parent_name: group_vtabs
       region: content
       weight: 1
@@ -99,7 +84,7 @@ third_party_settings:
     group_objektgeschichte_rendered:
       children:
         - fbbd0fc7866781fbe7913c284ffd6427
-      label: Objektgeschichte
+      label: 'Object history'
       parent_name: group_vtabs
       region: content
       weight: 3
@@ -114,7 +99,7 @@ third_party_settings:
     group_medien_rendered:
       children:
         - f8e173631161acd62dba6f8cbd3592de
-      label: Medien
+      label: Media
       parent_name: group_vtabs
       region: content
       weight: 4
@@ -129,9 +114,8 @@ third_party_settings:
     group_metadaten_rendered:
       children:
         - wisski_uri
-        - langcode
         - f8478ccaf30ed82bc2287f238406cda8
-      label: Datensatz
+      label: 'Data record'
       parent_name: group_vtabs
       region: content
       weight: 15
@@ -157,7 +141,6 @@ third_party_settings:
         - field__vf__titel
         - wisski_uri
         - group_generell_rendered
-        - langcode
         - ff95e2be93a5fa409f76e3d6fc338bf1
         - group_details_rendered
         - f8478ccaf30ed82bc2287f238406cda8
@@ -179,10 +162,9 @@ bundle: bb48a22d36f1c15cd16b143d23466812
 mode: default
 content:
   f2b4b472cafb7f4c46a7c822794ed9dd:
-    type: entity_reference_entity_view
+    type: wisski_entity_reference_label
     label: above
     settings:
-      view_mode: default
       link: false
     third_party_settings: {  }
     weight: 6
@@ -245,12 +227,13 @@ content:
     weight: 9
     region: content
   fbbd0fc7866781fbe7913c284ffd6427:
-    type: entity_reference_entity_view
+    type: wisski_entity_reference_label
     label: above
     settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
+      link: '1'
+    third_party_settings:
+      ds:
+        ds_limit: ''
     weight: 12
     region: content
   ff49657fae8a4f553b233b221ba33f8e:
@@ -280,15 +263,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  langcode:
-    type: language
-    label: above
-    settings:
-      link_to_entity: false
-      native_language: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
   wisski_uri:
     type: wisski_uri
     label: above
@@ -307,6 +281,7 @@ hidden:
   f0a4220f174873b3b1dff5c4f0ab038d: true
   fcbad61edd92acfbf7014e118c757c7c: true
   label: true
+  langcode: true
   name: true
   preview_image: true
   uid: true

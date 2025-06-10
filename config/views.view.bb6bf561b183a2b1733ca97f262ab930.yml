@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: bb6bf561b183a2b1733ca97f262ab930
-label: 'Event in the object history'
+label: 'Event in object history'
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Event in the object history'
+      title: 'Event in object history'
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   bb6bf561b183a2b1733ca97f262ab930:
     id: bb6bf561b183a2b1733ca97f262ab930
-    display_title: 'Event in the object history'
+    display_title: 'Event in object history'
     display_plugin: page
     position: 1
     display_options:
@@ -314,9 +314,9 @@ display:
       path: wisski_views/bb6bf561b183a2b1733ca97f262ab930
       menu:
         type: normal
-        title: 'Event in the object history'
+        title: 'Event in object history'
         description: ''
-        weight: 13
+        weight: -40
         expanded: false
         menu_name: navigate
         parent: ''

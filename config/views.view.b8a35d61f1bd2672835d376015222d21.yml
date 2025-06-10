@@ -316,7 +316,8 @@ display:
         type: normal
         title: Dimensions
         description: ''
-        weight: 14
+        weight: -41
+        enabled: false
         expanded: false
         menu_name: navigate
         parent: ''

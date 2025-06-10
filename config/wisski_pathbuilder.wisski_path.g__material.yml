@@ -6,10 +6,10 @@ name: Material
 path_array:
   - 'http://erlangen-crm.org/current/E57_Material'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 1
+description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

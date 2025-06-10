@@ -316,7 +316,7 @@ display:
         type: normal
         title: 'Media file'
         description: ''
-        weight: 12
+        weight: -37
         expanded: false
         menu_name: navigate
         parent: ''

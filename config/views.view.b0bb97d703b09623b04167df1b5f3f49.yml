@@ -8,7 +8,7 @@ dependencies:
     - user
     - wisski_core
 id: b0bb97d703b09623b04167df1b5f3f49
-label: Right
+label: Rights
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Right
+      title: Rights
       fields:
         eid:
           id: eid
@@ -306,7 +306,7 @@ display:
       tags: {  }
   b0bb97d703b09623b04167df1b5f3f49:
     id: b0bb97d703b09623b04167df1b5f3f49
-    display_title: Right
+    display_title: Rights
     display_plugin: page
     position: 1
     display_options:
@@ -314,10 +314,9 @@ display:
       path: wisski_views/b0bb97d703b09623b04167df1b5f3f49
       menu:
         type: normal
-        title: Right
+        title: Rights
         description: ''
-        weight: 15
-        enabled: false
+        weight: -31
         expanded: false
         menu_name: navigate
         parent: ''

@@ -4,14 +4,14 @@ dependencies: {  }
 id: f__cult_her_item__material
 name: Material
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P45_consists_of'
   - 'http://erlangen-crm.org/current/E57_Material'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

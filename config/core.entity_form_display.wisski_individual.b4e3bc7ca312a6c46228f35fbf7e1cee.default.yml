@@ -50,12 +50,22 @@ content:
       removed_reference: optional
     third_party_settings: {  }
   f64fbe1124b1d557590cb01c7fdef63c:
-    type: string_textfield
+    type: inline_entity_form_complex
     weight: 0
     region: content
     settings:
-      size: 60
-      placeholder: ''
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
     third_party_settings: {  }
   translation:
     weight: 10

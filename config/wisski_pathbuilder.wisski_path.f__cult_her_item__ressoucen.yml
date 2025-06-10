@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__cult_her_item__ressoucen
-name: Resources
+name: 'Additional resources'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
   - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
   - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

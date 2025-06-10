@@ -28,7 +28,7 @@ settings:
   allowed_views:
     title_reference: title_reference
     b0fa9cc21598a987c556bc05d5e3889e: '0'
-    bd0e80d09d3a2618e10a9bda2f85076b: '0'
+    bc076202c79a386a55b105b7c82e252d: '0'
     comment: '0'
     content: '0'
     block_content: '0'
@@ -42,8 +42,10 @@ settings:
     bd649063d3131a245922f7718d962ec6: '0'
     b8a35d61f1bd2672835d376015222d21: '0'
     b619446f296dfb7c22cf022aac8ce20c: '0'
+    bd0e80d09d3a2618e10a9bda2f85076b: '0'
     bb48a22d36f1c15cd16b143d23466812: '0'
     b7f7eceaa540597c1440f1c470bebe07: '0'
+    be6c0e85956559c87483917da3888e23: '0'
     user_admin_people: '0'
     comments_recent: '0'
     content_recent: '0'
@@ -52,7 +54,6 @@ settings:
     b6fdcccc1c6a08cb48abffecc5a31cfc: '0'
     taxonomy_term: '0'
     bad1642b861feb14ecad423091d4495b: '0'
-    be7ba80b8f7260b6ffe2bbc21db7241b: '0'
     test: '0'
     b4e3bc7ca312a6c46228f35fbf7e1cee: '0'
     ba115ec3f3676cbec7ba8297a94bea48: '0'

@@ -2,20 +2,20 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__period__begin
-name: Begin
+name: 'Begin (detailed)'
 path_array:
   - 'http://erlangen-crm.org/current/E4_Period'
   - 'http://erlangen-crm.org/current/P175i_starts_after_or_with_the_start_of'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Begin'
+  - 'http://ontologies.sammlungen.io/default/current/Begin'
   - 'http://erlangen-crm.org/current/P141i_was_assigned_by'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Date-Assignment'
+  - 'http://ontologies.sammlungen.io/default/current/Date-Assignment'
   - 'http://erlangen-crm.org/current/P141_assigned'
   - 'http://wiss-ki.eu/ontology/current/Date'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 4
-length: null
-description: null
+length: 7
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

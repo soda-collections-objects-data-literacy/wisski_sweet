@@ -4,14 +4,14 @@ dependencies: {  }
 id: f__type__preferred_term
 name: 'Preferred Term'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+  - 'http://ontologies.sammlungen.io/default/current/Authority_Data'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Term'
+  - 'http://ontologies.sammlungen.io/default/current/Authority_Term'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

@@ -8,10 +8,10 @@ path_array:
   - 'http://erlangen-crm.org/current/P86i_contains'
   - 'http://wiss-ki.eu/ontology/current/Day'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

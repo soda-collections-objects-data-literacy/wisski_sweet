@@ -8,7 +8,7 @@ id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fed7ddd55a3909def3c1a9c6f
 field_name: fed7ddd55a3909def3c1a9c6f60b44ab
 entity_type: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
-label: 'Custodial institution'
+label: 'Holding actor'
 description: ''
 required: false
 translatable: true

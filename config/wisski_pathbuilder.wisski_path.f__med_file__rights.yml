@@ -4,14 +4,14 @@ dependencies: {  }
 id: f__med_file__rights
 name: Rights
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Media_File'
+  - 'http://ontologies.sammlungen.io/default/current/Media_File'
   - 'http://erlangen-crm.org/current/P129i_is_subject_of'
   - 'http://erlangen-crm.org/current/E30_Right'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

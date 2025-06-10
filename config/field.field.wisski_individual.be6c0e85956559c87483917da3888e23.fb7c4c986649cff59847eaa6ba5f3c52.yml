@@ -11,7 +11,7 @@ bundle: be6c0e85956559c87483917da3888e23
 label: 'Preferred name'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

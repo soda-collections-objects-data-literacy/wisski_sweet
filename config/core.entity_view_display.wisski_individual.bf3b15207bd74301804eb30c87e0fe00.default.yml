@@ -18,7 +18,7 @@ content:
     label: above
     settings:
       view_mode: default
-      link: false
+      link: true
     third_party_settings: {  }
     weight: 2
     region: content
@@ -32,23 +32,10 @@ content:
     weight: 1
     region: content
   fa4020f71a81e0ebf7cc3ebd60c39017:
-    type: wisski_link_formatter
+    type: wisski_entity_reference_label
     label: above
     settings:
-      speed: 100
-      collapsedHeight: 75
-      heightMargin: 16
-      moreLink: '<a href="#">Read more</a>'
-      lessLink: '<a href="#">Close</a>'
-      embedCSS: 1
-      sectionCSS: 'display: block; width: 100%;'
-      startOpen: 0
-      expandedClass: readmore-js-expanded
-      collapsedClass: readmore-js-collapsed
-      imagecache_external_style: ''
-      imagecache_external_link: ''
-      use_readmore: 1
-      use_title_pattern: 1
+      link: true
     third_party_settings: {  }
     weight: 0
     region: content

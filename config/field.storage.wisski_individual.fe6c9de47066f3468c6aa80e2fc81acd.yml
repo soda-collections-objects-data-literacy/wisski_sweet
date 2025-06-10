@@ -17,8 +17,8 @@ settings:
       value: after_or_with_the_start_of
       label: 'After or with the start of'
     -
-      value: at_some_time_of
-      label: 'At some time of'
+      value: at_some_point
+      label: 'At some point'
   allowed_values_function: ''
 module: options
 locked: false

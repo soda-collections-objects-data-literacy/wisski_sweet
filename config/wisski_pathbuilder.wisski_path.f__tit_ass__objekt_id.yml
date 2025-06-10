@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__tit_ass__objekt_id
-name: 'Object ID'
+name: 'Objekt ID'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Title_Assignment'
+  - 'http://ontologies.sammlungen.io/default/current/Title_Assignment'
   - 'http://erlangen-crm.org/current/P141_assigned'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Cultural_Heritage_Item'
+  - 'http://ontologies.sammlungen.io/default/current/Cultural_Heritage_Item'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

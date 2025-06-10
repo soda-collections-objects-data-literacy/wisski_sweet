@@ -19,8 +19,8 @@ third_party_settings:
     group_actor_vtabs:
       children:
         - group_actor_appellation
-        - group_actor_birth_foundation
-        - group_actor_death_dissolution
+        - group_actor_geburt_grundung
+        - group_actor_tod_auflosung
       label: vTabs
       region: content
       parent_name: ''
@@ -40,10 +40,10 @@ third_party_settings:
         - f239c64d0bd4b9138bb8fb9e79942110
         - fae0f9922ce4953c25f6b6d7643459ac
         - f295382ce36e43723aefe2fdcbb0d825
-      label: Appellation
+      label: General
       region: content
       parent_name: group_actor_vtabs
-      weight: 11
+      weight: 1
       format_type: tab
       format_settings:
         classes: ''
@@ -56,10 +56,10 @@ third_party_settings:
     group_actor_geburt_grundung:
       children:
         - f02460c4dea0c764d17fe66be8f02508
-      label: 'Birth/ Foundation'
-      region: hidden
+      label: 'Birth or foundation'
+      region: content
       parent_name: group_actor_vtabs
-      weight: 12
+      weight: 2
       format_type: tab
       format_settings:
         classes: ''
@@ -72,10 +72,10 @@ third_party_settings:
     group_actor_tod_auflosung:
       children:
         - f81d5c928f704125c6859e38f6b20499
-      label: 'Death/ Dissolution'
-      region: hidden
+      label: 'Death or dissolution'
+      region: content
       parent_name: group_actor_vtabs
-      weight: 13
+      weight: 3
       format_type: tab
       format_settings:
         classes: ''
@@ -147,7 +147,7 @@ content:
             values: {  }
             value_form:
               -
-                value: group_organization
+                value: gruppe_organisation
             effect: show
             effect_options: {  }
             selector: ''
@@ -203,7 +203,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }

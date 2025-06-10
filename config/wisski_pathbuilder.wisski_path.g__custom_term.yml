@@ -4,12 +4,12 @@ dependencies: {  }
 id: g__custom_term
 name: 'Custom term'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Custom_Term'
+  - 'http://ontologies.sammlungen.io/default/current/Custom_Term'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 1
+description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

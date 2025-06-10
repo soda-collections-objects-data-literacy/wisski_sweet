@@ -316,7 +316,7 @@ display:
         type: normal
         title: Actor
         description: ''
-        weight: 0
+        weight: -50
         expanded: false
         menu_name: navigate
         parent: ''

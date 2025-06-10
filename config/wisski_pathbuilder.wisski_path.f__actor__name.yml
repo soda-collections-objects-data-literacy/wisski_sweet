@@ -6,12 +6,12 @@ name: Name
 path_array:
   - 'http://erlangen-crm.org/current/E39_Actor'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Actor_Name'
+  - 'http://ontologies.sammlungen.io/default/current/Actor_Name'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

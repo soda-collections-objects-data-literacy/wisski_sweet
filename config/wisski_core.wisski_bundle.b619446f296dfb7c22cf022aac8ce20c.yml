@@ -3,9 +3,11 @@ status: true
 dependencies: {  }
 id: b619446f296dfb7c22cf022aac8ce20c
 label: 'Media file'
-description: null
-title_pattern: ''
+description: ''
+title_pattern: 'a:2:{s:2:"p0";a:9:{s:8:"optional";s:1:"1";s:11:"cardinality";s:1:"1";s:9:"delimiter";s:2:", ";s:7:"parents";s:0:"";s:6:"weight";s:1:"0";s:4:"type";s:4:"path";s:4:"name";s:23:"base.f__media_file__url";s:2:"id";s:2:"p0";s:5:"label";s:18:"Link to media file";}s:6:"max_id";i:0;}'
 on_empty: 3
 fallback_title: 'WissKI Entity'
 pager_limit: 10
-menu_items: {  }
+menu_items:
+  navigate: 3
+  create: 3

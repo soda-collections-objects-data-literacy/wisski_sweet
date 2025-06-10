@@ -11,11 +11,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: single
-      label: Einzelobjekt
+      value: single_object
+      label: 'Single object'
     -
-      value: group
-      label: Objektgruppe
+      value: object_group
+      label: 'Object group'
   allowed_values_function: ''
 module: options
 locked: false

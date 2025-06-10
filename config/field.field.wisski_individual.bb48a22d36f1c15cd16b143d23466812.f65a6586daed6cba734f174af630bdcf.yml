@@ -8,7 +8,7 @@ id: wisski_individual.bb48a22d36f1c15cd16b143d23466812.f65a6586daed6cba734f174af
 field_name: f65a6586daed6cba734f174af630bdcf
 entity_type: wisski_individual
 bundle: bb48a22d36f1c15cd16b143d23466812
-label: Object description
+label: 'Object description'
 description: ''
 required: false
 translatable: true

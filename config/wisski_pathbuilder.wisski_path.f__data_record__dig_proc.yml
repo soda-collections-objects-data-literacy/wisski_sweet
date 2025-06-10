@@ -2,15 +2,19 @@ langcode: en
 status: true
 dependencies: {  }
 id: f__data_record__dig_proc
-name: 'Data record creation'
+name: 'Creator of data record'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Data_Record'
+  - 'http://ontologies.sammlungen.io/default/current/Data_Record'
   - 'http://erlangen-crm.org/current/P94i_was_created_by'
   - 'http://www.cidoc-crm.org/extensions/crmdig/D2_Digitization_Process'
-datatype_property: empty
+  - 'http://erlangen-crm.org/current/P14_carried_out_by'
+  - 'http://erlangen-crm.org/current/E39_Actor'
+  - 'http://erlangen-crm.org/current/P1_is_identified_by'
+  - 'http://ontologies.sammlungen.io/default/current/Actor_Name'
+datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
-disamb: 2
-length: 3
+disamb: 3
+length: 7
 description: ''
 type: Path
 transitive: null

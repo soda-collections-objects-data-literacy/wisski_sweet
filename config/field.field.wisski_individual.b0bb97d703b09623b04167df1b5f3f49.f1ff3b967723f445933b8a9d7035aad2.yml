@@ -8,13 +8,11 @@ id: wisski_individual.b0bb97d703b09623b04167df1b5f3f49.f1ff3b967723f445933b8a9d7
 field_name: f1ff3b967723f445933b8a9d7035aad2
 entity_type: wisski_individual
 bundle: b0bb97d703b09623b04167df1b5f3f49
-label: Rights holder
+label: 'Rights holder'
 description: ''
 required: false
 translatable: true
-default_value:
-  -
-    value: 'CC BY-NC-SA'
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string

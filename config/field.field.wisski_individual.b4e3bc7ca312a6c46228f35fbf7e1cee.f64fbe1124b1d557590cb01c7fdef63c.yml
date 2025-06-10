@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.wisski_individual.f64fbe1124b1d557590cb01c7fdef63c
     - wisski_core.wisski_bundle.b4e3bc7ca312a6c46228f35fbf7e1cee
+    - wisski_core.wisski_bundle.be6c0e85956559c87483917da3888e23
 id: wisski_individual.b4e3bc7ca312a6c46228f35fbf7e1cee.f64fbe1124b1d557590cb01c7fdef63c
 field_name: f64fbe1124b1d557590cb01c7fdef63c
 entity_type: wisski_individual
@@ -11,8 +12,12 @@ bundle: b4e3bc7ca312a6c46228f35fbf7e1cee
 label: Place
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      be6c0e85956559c87483917da3888e23: be6c0e85956559c87483917da3888e23
+field_type: entity_reference

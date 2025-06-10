@@ -4,16 +4,16 @@ dependencies: {  }
 id: f__type__authority_document
 name: 'Authority document'
 path_array:
-  - 'http://scs.sammlungen.io/ontology/base_record/current/Authority_Data'
+  - 'http://ontologies.sammlungen.io/default/current/Authority_Data'
   - 'http://erlangen-crm.org/current/P71i_is_listed_in'
   - 'http://erlangen-crm.org/current/E32_Authority_Document'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
   - 'http://erlangen-crm.org/current/E35_Title'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 5
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

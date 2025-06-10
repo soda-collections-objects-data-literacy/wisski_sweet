@@ -6,10 +6,10 @@ name: Resources
 path_array:
   - 'http://wiss-ki.eu/ontology/current/HumanMadeObjectInformation'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 0
-length: null
-description: null
+length: 1
+description: ''
 type: Group
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

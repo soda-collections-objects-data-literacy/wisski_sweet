@@ -7,38 +7,14 @@ dependencies:
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fa7cfbe46f0dfc896c7c66fbc0a011ba
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fb3e71f75bccac3e7aee7efdb2cb14d8
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fcce64514b22835881e127a12fa0262d
-    - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fd0e2dca0a4586b65e6bfd52008535da
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.fed7ddd55a3909def3c1a9c6f60b44ab
     - field.field.wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.ff967c7b141984e1d4e0982c46d02490
     - wisski_core.wisski_bundle.b29098a2dbcbda0f61cba5ba9e686f20
-  module:
-    - inline_entity_form
-    - link
 id: wisski_individual.b29098a2dbcbda0f61cba5ba9e686f20.default
 targetEntityType: wisski_individual
 bundle: b29098a2dbcbda0f61cba5ba9e686f20
 mode: default
 content:
-  f0eee74eab34dac2e3f3042eb332d703:
-    type: entity_reference_autocomplete
-    weight: 15
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  f883e31b3ad23a22cd4aa2fbd11159e2:
-    type: entity_reference_autocomplete
-    weight: 10
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   fa7cfbe46f0dfc896c7c66fbc0a011ba:
     type: options_buttons
     weight: 13
@@ -54,30 +30,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
   fcce64514b22835881e127a12fa0262d:
-    type: inline_entity_form_complex
+    type: string_textfield
     weight: 14
     region: content
     settings:
-      form_mode: default
-      override_labels: false
-      label_singular: ''
-      label_plural: ''
-      allow_new: true
-      allow_existing: false
-      match_operator: CONTAINS
-      allow_duplicate: false
-      collapsible: false
-      collapsed: false
-      revision: false
-      removed_reference: optional
-    third_party_settings: {  }
-  fd0e2dca0a4586b65e6bfd52008535da:
-    type: link_default
-    weight: 17
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   fed7ddd55a3909def3c1a9c6f60b44ab:
     type: string_textfield
@@ -96,12 +54,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   created: true
+  f0eee74eab34dac2e3f3042eb332d703: true
+  f883e31b3ad23a22cd4aa2fbd11159e2: true
   label: true
   name: true
   uid: true

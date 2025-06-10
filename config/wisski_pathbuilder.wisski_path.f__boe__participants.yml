@@ -8,10 +8,10 @@ path_array:
   - 'http://erlangen-crm.org/current/P11_had_participant'
   - 'http://erlangen-crm.org/current/E39_Actor'
 datatype_property: empty
-short_name: null
+short_name: ''
 disamb: 2
-length: null
-description: null
+length: 3
+description: ''
 type: Path
-transitive: 0
-irreflexive: 0
+transitive: null
+irreflexive: null

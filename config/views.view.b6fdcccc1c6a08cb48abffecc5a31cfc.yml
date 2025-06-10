@@ -316,7 +316,7 @@ display:
         type: normal
         title: Keyword
         description: ''
-        weight: 0
+        weight: -39
         expanded: false
         menu_name: navigate
         parent: ''

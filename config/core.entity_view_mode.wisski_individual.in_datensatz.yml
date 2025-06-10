@@ -3,7 +3,7 @@ status: true
 dependencies:
   module:
     - wisski_core
-id: wisski_individual.in_data_record
+id: wisski_individual.in_datensatz
 label: 'In data record'
 description: ''
 targetEntityType: wisski_individual
